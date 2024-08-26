@@ -66,3 +66,4 @@ $$ to $$
  $$ v_f = - \sqrt {0^2 + 2 *-9.8 * -2} $$
 
 
+*Simple as we only need one equation AND the equation was mostly solved already*
