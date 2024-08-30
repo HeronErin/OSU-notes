@@ -60,4 +60,70 @@ can apparently be used to convert coord systems.
 ________________________________________
 adding vectors = tip-to-tail  addition
 __________________________________________________
+## Unit circle
+The length S of the ARC s tje amg;e
+theta = s
+______________________________
+## Vector arithmatic
+Eqs:
+$$ \Delta \bar r = 0.5\bar at^2+\bar v_it $$
+$$ \bar v_f^2 = \bar v_i^2 + 2\bar a\Delta \bar r $$
+$$ \bar v_f = \bar v_i + \bar at $$
+Defs:
+$$ \bar r = x \hat i + y \hat j $$
+$$ \bar v = \frac {\Delta \bar r} {\Delta t} $$
+$$ \Delta \bar r = \bar r_2 - \bar r_1 $$
+Instantaneous :
+$$ \bar v = \frac {d (\Delta \bar r)} {dt} = \frac {d\bar r} {dt} $$
+Accel average
+$$ \bar a = \frac {\Delta \bar v} {\Delta t} $$
+
+$$ \bar a = \frac {d\bar v} {dt} $$
+## Eq for projectile
+$$ \Delta x = 0.5 a_x t^2 + v_{ix}t$$
+BUT KNOWING THINGS
+$$ \Delta x = v_{ix}t\ \ \ ;\ \ \ \Delta y = -0.5 gt^2 + v_{iy}t$$
+BUT delta y is **KNOWN**, it is zero!
+Since y is zero., factoring is simple:
+$$ t (-0.5gt + v_{iy}) = 0 $$
+$$ -0.5gt + v_{iy} = 0 $$
+$$ t = \frac {2v_{iy}} {g} $$
+$$ \Delta x = v_{ix} t = v_{ix}(\frac {2v_y} {g})=\frac {2v_{ix} v_{iy}}{g}$$
+
+$$ \Delta x = \frac {2v_{ix}v_{iy}} {g} = \frac {2v_i^2 sin \Theta cons \Theta} {g} $$
+WITH DOUBLE ANGLE THEOREM:
+$$ 2sin\Theta cos\Theta = sin2\Theta $$
+$$ \Delta x = \frac  {v_i^2 sin 2 \Theta} {g} $$
+\
+## Circular motion
+There is a component of acceleration directed **toward the center** of the circle. This is the **centripetal** acceleration. The magnitude of the component is **v^2 / R**, where R is the radius.
+
+If you accelerate during the curve it is known as the **tangential component** of acceleration. 
+$$ a_T = \frac {d|v|} {dt} $$
+Which implies a coordinate system...  one which rotates with the object... 
+Acceleration parallel to motion changes speed, perpendicular changes direction. 
+_______________________
+Ex:
+A satalight is 250 km above earth at 7.82 km/s. What is the centeripetal acceleration?
+$$ \frac{\left(7.83\cdot1000\right)^{2}}{\left(250+6370\right)\cdot1000} = 9.26116314199\ m/s^2 $$
+about 9.28
+
+Ex 2:
+A firefighter as d needs to aim the hose such that water enters at a windows a height h above the ground.
+a. Given theta and v_i where will it hit the building
+$$ \Delta x = 0.5 a_x t^2 + v_{iy}t $$
+$$ \Delta y = 0.5 a_y t^2 + v_{iy}t $$
+Step 1, simplify with known vars
+$$ d = \Delta x = (v_icos \Theta)t $$
+$$ h = -0.5 g t^2 = (v_i sin \Theta)t $$
+Unknowns h, t
+$$ t = \frac {d}{v_i cos \Theta} $$
+$$ h = (\frac {-0.5gd}{v_i cos \Theta})^2 + \frac {v_{iy}d}{v_i cos \Theta} $$
+$$ h = (\frac {-0.5gd}{v_i cos \Theta})^2 + \frac {d}{cos \Theta} $$
+SImplify: $$ h = dtan\Theta - \frac {gd^2sec^2\Theta} {2 v_i^2} $$
+Using Pythagorean:
+$$ \frac {cos^2 \Theta + sin^2 \Theta} {cos^2 \Theta} = \frac 1{cos^2\Theta} $$
+$$ 1 + tan^2\Theta = sec^2\Theta $$
+$$ h = d than\Theta- \frac {gd^2}{2v_i^2}(tan^2\Theta + 1) $$
+$$ \frac {gd^2}{2v_i^2}tan^2\Theta - dtan^2 \Theta  + (\frac{gd}{2v^2})
 

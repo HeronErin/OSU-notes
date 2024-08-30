@@ -54,7 +54,7 @@ $$\Delta v = at $$$$ \Delta x = v_it + 0.5 (\Delta t)(a\Delta t) = 0.5 a(\Delta 
 ### Without time
 $$ v_f^2 = v_i^2 + 2 a \Delta x $$
 ### The big three equations for constant acc
-$$  \Delta x =  0.5 (\Delta t)(a\Delta t) + v_it $$
+$$  \Delta x =  0.5a\Delta t^2 + v_it $$
 $$ v_f^2 = v_i^2 + 2 a \Delta x $$
 
 $$\Delta v = at $$
