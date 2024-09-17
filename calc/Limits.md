@@ -55,3 +55,82 @@ ______________________________
 $$ \lim_{x \to 0} \frac {x} {x^3} = \frac {1} {x^2} = indeterminate = oo $$
 $$ \lim_{x \to 0} \frac {x} {0}  = determinate = DNE $$
 
+Infinity is not a value, but a destination. 
+_____________
+$$ \lim_{x \to -2} \frac {e^x}{(x+2)^3} $$
+
+$$ \lim_{x \to -2+} \frac {e^x}{(x+2)^3} = oo $$
+$$ \lim_{x \to -2-} \frac {e^x}{(x+2)^3} = -oo $$
+SO the double sided limit does **not** EXIST.
+______________________
+$$ \lim_{x \to 3} \frac{x^{2}-9x+14}{x^{2}-5x+6} = \frac {(x-7)(x-2)}{(x-3)(x-2)} $$
+FORM
+$$ \frac{9-27+14}{9-15+6}=-\frac{4}{0} $$
+form is %/0, **form does not exist!**
+$$ \lim_{x =\to 3+} \frac {x-7}{x-3}  = -oo $$
+
+as (x - 3) for the + as approaching 0, so inf, and x-7 is -5
+_____________
+$$ \lim_{x \to 1} \frac {sin\ x} {\sqrt{2-x^2} - 1} $$
+FORM
+$$ \frac {+N}{0}$$
+________
+$$ \lim_{x \to 1} \frac {(sin\ x)(\sqrt{2-x^2} - 1)} {(\sqrt{2-x^2} - 1)(\sqrt{2-x^2} - 1)} =\lim_{x \to 1} \frac  {(sin\ x)(\sqrt{2-x^2} - 1)}{1-x^2} $$
+$$ \lim_{x \to 1^+} \frac {(sin~x)(\sqrt{2-x^2} - 1)}{(1-x)(1+x)} or \frac {+}{(0+)(+)} = +oo $$
+$$ \lim_{x \to 1^-} \frac {+}{(-0)(+)} = oo$$
+NO DOUBLE SIDED = DNE
+________________
+$$ f(x) = $$
+$$ \frac{2x-3}{x-2}~~~~;~~~~~ x < 2 $$
+$$ \frac {x^2+5x+6}{x^2-4}~~~~;~~~~~x > 2$$
+$$\lim_{x \to 2^+} f(x) $$
+form 0/0
+$$ \frac {x^2+5x+6}{x^2-4} = \frac {(x-3)(x-2)}{(x-2)(x+2)} = \frac {-1}{4} $$
+FORM N/N
+$$ \frac{2x-3}{x-2} = + / (-0) = -oo $$
+___________________
+$$ \lim_{x \to +oo} \frac {x}{x^2-4} = \frac {\frac {1}{x}}{1- \frac 4{x^2}} =0 $$
+only 1 HA, y = 0
+**divide by highest x^2**\
+___________________
+$$ \lim_{x \to oo} \frac {\sqrt{2x^2 +1}}{3x-5} $$
+Mult by 1/x
+$$ \frac{\sqrt{\frac 1{x^2}} \sqrt{2x^2+1} }{3-\frac5 x} = \frac {\sqrt{\frac1{x^2}(2x^2+1)}}{3-\frac 5x} = \frac {\sqrt2}3$$
+
+$$ \frac 1x=\sqrt{\frac 1{x^2}} $$
+_________________________________
+$$ f\left(x\right)=\frac{\sin x+7x}{2x} $$
+H.As
+$$ f\left(x\right)=\frac{\sin x}{2x}+\frac{7x}{2x} $$
+$$ f\left(x\right)=\frac{\sin x}{2x}+\frac{7}{2} $$
+$$ Know:\ -1\ \le\ \sin x\ \le\ 1 $$$$ -\frac{1}{2x}\le\frac{\sin x}{2x}\le\frac{1}{2x}$$
+$$ lim_{x \to oo} \frac {-1}{2x} = 0$$
+$$ lim_{x \to oo} \frac {1}{2x} = 0$$$$ lim_{x \to oo} f(x) = 7/2 $$
+V.A:
+**1/2** as x = 0
+_________________
+Q4
+$$ g(v) = \frac {v^3-3 v^2-3 v+2}{4 v^2+\sqrt {v^6-4 v^3+3 v^2}+2 v-3} $$
+Divide by v^3
+
+$$ g(v)=\frac{1-\frac{3}{v}-\frac{3}{v^{2}}+\frac{2}{v^{3}}}{\frac{4}{v}+\sqrt{\frac{1}{v^{3}}\left(v^{6}-4v^{3}+3v^{2}\right)}+\frac{2}{v^{2}}-\frac{3}{v^{3}}} $$
+$$ g(v)=\frac{1-\frac{3}{v}-\frac{3}{v^{2}}+\frac{2}{v^{3}}}{\frac{4}{v}+\sqrt{\left(1-\frac{4}{v^{3}}+\frac{3}{v^{4}}\right)}+\frac{2}{v^{2}}-\frac{3}{v^{3}}} $$
+Toward infinity resolves to 1/1
+______________________________________
+## Intermediate value theorm
+if f is a continuous function on \[A, b] and c is between f(a) and f(b)
+There is (at least one) x value between  the two where f(d) = c
+
+aka if f(a) goes to f(b) then it is continuous
+Show that the equation has a solution in (0, pi)
+$$ x^3 = x + sin x + 1$$
+solt $$ x^3 - x - sin  x - 1 = 0 $$
+f(x) is continuos from (0, pi)
+f(0) = -1
+f(pi) = pi^3 - pi - 0 - 1
+pi > 3
+pi(pi^2 - 1) - 1
+\> 3 (9-1) - 1
+
+0 is between f(0) and f(pi)
+**IT EXISTS**

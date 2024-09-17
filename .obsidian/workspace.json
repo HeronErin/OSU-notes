@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "064fcf529e81268e",
+        "id": "c07e559ced31c978",
         "type": "tabs",
         "children": [
           {
-            "id": "e355c186a865d034",
+            "id": "b10da08cbd749c92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics/Defs and notation WK1.md",
+                "file": "physics/Forces.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "physics/Defs and notation WK1.md",
+                "file": "physics/Forces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "physics/Defs and notation WK1.md",
+                "file": "physics/Forces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physics/Defs and notation WK1.md"
+                "file": "physics/Forces.md"
               }
             }
           }
@@ -146,14 +146,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e355c186a865d034",
+  "active": "b10da08cbd749c92",
   "lastOpenFiles": [
     "physics/Vectors and examples, WK2.md",
+    "physics/Forces.md",
+    "calc/Derivatives.md",
     "calc/Limits.md",
-    "calc/Functions.md",
-    "README.md",
     "physics/Defs and notation WK1.md",
+    "physics/Friction.md",
+    "calc/Functions.md",
+    "physics/Newton.md",
+    "physics/Centripetal Acceleration.md",
     "physics/Class info.md",
+    "README.md",
     "calc/Class info.md",
     "calc",
     "physics",

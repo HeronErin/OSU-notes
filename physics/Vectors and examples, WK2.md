@@ -79,6 +79,7 @@ Accel average
 $$ \bar a = \frac {\Delta \bar v} {\Delta t} $$
 
 $$ \bar a = \frac {d\bar v} {dt} $$
+Subing vectors is the same adding the inverse
 ## Eq for projectile
 $$ \Delta x = 0.5 a_x t^2 + v_{ix}t$$
 BUT KNOWING THINGS
@@ -125,5 +126,7 @@ Using Pythagorean:
 $$ \frac {cos^2 \Theta + sin^2 \Theta} {cos^2 \Theta} = \frac 1{cos^2\Theta} $$
 $$ 1 + tan^2\Theta = sec^2\Theta $$
 $$ h = d than\Theta- \frac {gd^2}{2v_i^2}(tan^2\Theta + 1) $$
-$$ \frac {gd^2}{2v_i^2}tan^2\Theta - dtan^2 \Theta  + (\frac{gd}{2v^2})
+$$ \frac {gd^2}{2v_i^2}tan^2\Theta - dtan^2 \Theta  + (\frac{gd}{2v^2}) $$
+_______________________
+
 
