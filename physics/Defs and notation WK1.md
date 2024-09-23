@@ -59,11 +59,3 @@ $$ v_f^2 = v_i^2 + 2 a \Delta x $$
 
 $$\Delta v = at $$
 Also: $$ \Delta x = 0.5(v_f+v_i)t $$
-Example: ball dropped 2m above ground:
-vi = 0  ; a = 9.8 ; a = -9.8; dx = -2
-$$ v_f^2 = v_i^2 + 2 a \Delta x $$
-$$ to $$
- $$ v_f = - \sqrt {0^2 + 2 *-9.8 * -2} $$
-
-
-*Simple as we only need one equation AND the equation was mostly solved already*

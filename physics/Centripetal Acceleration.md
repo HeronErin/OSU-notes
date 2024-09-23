@@ -1,7 +1,8 @@
 $$ a = v^2 / r  $$
+$$ f = \frac {mv^2}r$$
 With radians:
 $$ arclen = r \Theta $$
-
+$$ v = freq\ *\ 2\pi r $$
 Ex:
 A satalight is 250 km above earth at 7.82 km/s. What is the centeripetal acceleration?
 $$ \frac{\left(7.83\cdot1000\right)^{2}}{\left(250+6370\right)\cdot1000} = 9.26116314199\ m/s^2 $$

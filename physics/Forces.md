@@ -43,16 +43,18 @@ $$ F_{AB} = -F_{BA} $$
 The white lie: Work = Force "times" distance
 
 ## Only the displacement **parallel** to force counts toward the work
-W = F delta Y
+W = F delta R
 Otherwise 
-$$ W = f\Delta Y cos \theta$$Special cases:
+$$ W = f\Delta R\ cos \theta$$Special cases:
 * Force parallel to displacement
-	* W = F delta Y
+	* W = F delta R
 * Perpendicular
 	* zero
 * Opposite direction
-	* W = - F delta Y
-____________
-In 1d
-$$ W = a \Delta x = \frac 1 2 v^2 $$
-**This is the kinetic energy of the object**
+	* W = - F delta R
+
+
+WORK LACKS COMPONENTS
+Scalar product = Dot product
+Vector  =>  Scalar 
+$$ \bar A * \bar B =  ABcos\theta = A_xB_x + A_yB_y$$*
