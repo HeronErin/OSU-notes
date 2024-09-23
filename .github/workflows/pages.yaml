@@ -20,7 +20,7 @@ jobs:
           pip install --upgrade pip
           pip install obsidianhtml
           mkdir clone-path/.obsidian || true # this folder needs to exist so obsidianhtml can find the root of the vault
-          obsidianhtml convert -i clone-path/.publish/config.yml -v
+          obsidianhtml convert -i clone-path/config.yml -v
           touch output/html/.nojekyll
 
       - name: Publish to Github Pages
