@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+        <head>
+                <!-- Page information -->
+                <meta charset="UTF-8" />
+                <meta name="node_id" content="defs and notation wk1">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+                <link rel="shortcut icon" href="/favicon.ico" />
+
+                <!-- Set title -->
+                <title>Obsidian-Html/Notes</title>
+
+                <!-- Includes -->
+                <script src="/obs.html/static/obsidian_core.js"></script>
+<script src="/obs.html/static/encoding.js"></script>
+<link rel="stylesheet" href="/obs.html/static/master.css" />
+<script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({
+            'securityLevel': 'loose',
+            'theme': 'dark',
+            'themeVariables': {
+                    'darkMode': true,
+            }
+    });
+</script>
+<script>
+  MathJax = {
+    loader: {
+      load: [
+        '[tex]/action',
+        'output/chtml',
+        '[tex]/centernot'
+      ]
+    },
+    tex: {
+      inlineMath: [ ["\\(","\\)"] ],
+      displayMath: [ ["\\[","\\]"] ],
+      processEscapes: true,
+      processEnvironments: true,
+      packages: {'[+]': ['centernot']}
+    }
+  };
+</script>
+<script type="text/javascript" id="MathJax-script" async
+  src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+</script>
+<script src="/obs.html/static/flexsearch.bundle.js"></script>
+<script src="/obs.html/static/pako.js"></script>
+<script src="/obs.html/static/search.js"></script>
+<script src="/obs.html/static/dirtree.js"></script>
+
+
+
+
+                <!-- Onload tweaks -->
+                <script>
+                        const CURRENT_NODE = 'defs and notation wk1';
+                        const HTML_URL_PREFIX = '';
+                        const PAGE_DEPTH = 1;
+                </script>
+        </head>
+
+<body class="theme-obs-light">
+        <div id="antiflash" style="display: none;"></div>
+        <script>
+                document.getElementById('antiflash').style.display = 'block';
+        </script>
+        <div id="search-master-div">
+    <div id="search-slab" king_ramses="return the slaaab">
+            <div id="search-controls">
+                    <input id="search_string" placeholder="Type to search notes" type="text" />
+                    <div class="tooltip" style="display: none;">
+                        <input type="checkbox" id="hard_search" name="hard" />
+                        <span class="tooltiptext">Hard search (require exact match)</span>
+                    </div>
+                    <div id="search-results-box">
+                        <div id="search-results"></div>
+                    </div>
+                    <div id="search-instructions">
+                        <div class="prompt-instruction mobile">
+                            <button onclick="toggle_id('search-master-div');"><b>Close</b> Search </button>
+                        </div>
+                    </div>
+            </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById("search-master-div").addEventListener('click', e => {
+            if(e.target !== e.currentTarget){
+                    return
+            }
+            toggle_id('search-master-div');
+    })
+    document.getElementById("search_string").addEventListener("input", function(event) {
+            setTimeout( () =>run_search('search_string', 'hard_search'), 100 );
+    }); 
+    document.getElementById("hard_search").addEventListener("click", function(event) {
+            setTimeout( () =>run_search('search_string', 'hard_search'), 100 );
+    });
+
+    window.addEventListener('keydown', e => {
+        if((e.key=='Escape'||e.key=='Esc'||e.keyCode==27)){
+            toggle_id('search-master-div');
+            return false;
+        } 
+    }, true);
+
+    function click_list_link(element){
+        element.parentElement.getElementsByTagName('a')[0].click()
+    }
+</script>
+
+        <div id="page_holder" class="flex_col">
+                <div id="header" class="header">
+    <div id="header_flex" class="flex_row">
+            <a href="/index.html" id="homelink" title="Clear screen and go to homepage">Obsidian-Html/Notes</a>
+            <div id="menu_toggle_button" class="navbar-button requires_js" onclick="toggle_menu()">
+                    ≡
+            </div>
+            <div id="navbar" class="navbar requires_js">
+                    
+                    <div class="icon-tray">
+                            <div id="theme-button" class="theme-button requires_js" title="Change theme" onclick="toggle_theme_popup(this)">
+    T
+</div>
+<script>
+    function toggle_theme_popup(el){
+        // make theme button show that it's active by adding the .active class
+        toggle(el);
+
+        // show the theme selector
+        toggle_id('theme-popup')
+
+        let h2 = document.getElementById('header2')
+        if (h2){
+            let pu = document.getElementById('header2').getElementsByClassName('popup')[0];
+            toggle(pu);
+        }
+    }
+
+    function disable_theme_popup(){
+        disable_id('theme-button');
+
+        // show the theme selector
+        disable_id('theme-popup')
+
+        let h2 = document.getElementById('header2')
+        if (h2){
+            let pu = document.getElementById('header2').getElementsByClassName('popup')[0];
+            disable(pu);
+        }
+    }
+</script>
+                                    <div onclick="openSearch()" class="theme-button requires_js">
+            <img src = "/obs.html/static/search.svg" alt="Search notes" title="Search notes" style="margin: 4px;"/>
+        </div>
+        <script>
+            function openSearch(){
+                // toggle search popup and continue with extra code if it is enabled this time
+                if (toggle_id('search-master-div')){
+                    // get input field and temporarily disable it
+                    let ss = document.getElementById('search_string');
+                    ss.value = 'Seach data initializing...';
+                    ss.readOnly = true; 
+
+                    // load search data if not yet done so
+                    setTimeout(function(){
+                        LoadSearchData()
+
+                        // clear input and put focus on it so that we can start typing immediately
+                        ss.value = '';
+                        ss.readOnly = false; 
+                        ss.focus()
+                        ss.select()
+                    }, 100);
+                }
+            }
+        </script>
+                                    <div class="graph_header_div requires_js">
+            <a id="graph_link" class="system-link" href="/obs.html/graph/index.html?node=defs and notation wk1" title="Open fullpage Graph">
+                    <img class="graph_header_div_svg" src = "/obs.html/static/graph.svg" alt="Open fullpage Graph" style="margin: 2px; width: 17px;"/>
+            </a>
+        </div>
+                                    <div >
+            <a id="dirtree_link" class="system-link" href="/obs.html/dir_index.html" title="View directory tree">
+                    <img src = "/obs.html/static/dirtree.svg" style="width: 12px; padding: 4px;" alt="Directory tree link"/>
+            </a>
+        </div>
+                            <div>
+    <a href="/obs.html/tags/index.html" title="Open tag view">
+            <img src = "/obs.html/static/hashtag.svg" alt="RSS Feed link" style="width: 24px; margin-left: -2px; margin-top: -2px;"/>
+    </a>
+</div>
+                            
+                    </div>
+                    <div style="display: flex; flex-direction:column">
+                        <div id="left_pane_toggle_nav" class="left_pane_toggle_nav">Toggle Directory Tree Pane</div>
+                        <div id="right_pane_toggle_nav" class="right_pane_toggle_nav">Toggle Table of Contents Pane</div>
+                    </div>
+            </div>
+    </div>
+    <div class="popup" id="theme-popup">
+    <label for="cars">Theme </label>
+
+    <select name="theme" id="theme" onchange="set_theme(this.value)">
+      <option value="obs-light" selected="selected">obsidian-light</option>
+      <option value="obs-dark">obsidian-dark</option>
+    </select> 
+</div>
+</div>
+                <div class="flex_row">
+                        <div id="left_pane" class="left_pane active">
+    <div id="left_pane_fold_header" class="left_pane_fold_header fold_header">x</div>
+    <div id="left_pane_content" class="left_pane_content">
+            <div id="dirtree"><button id="folder-1" class="dir-button " onclick="toggle_dir(this.id)"><div class="file-icon"></div>calc</button>
+<div id="folder-container-1" class="dir-container requires_js " path="/calc">
+	<ul class="dir-list">
+		<li><div class="file-icon"></div><a class="" href="/calc/Derivatives.html"  >Derivatives</a></li>
+		<li><div class="file-icon"></div><a class="" href="/calc/Functions.html"  >Functions</a></li>
+		<li><div class="file-icon"></div><a class="" href="/calc/Limits.html"  >Limits</a></li>
+	</ul>
+</div>
+<button id="folder-2" class="dir-button active" onclick="toggle_dir(this.id)"><div class="file-icon"></div>physics</button>
+<div id="folder-container-2" class="dir-container requires_js active" path="/physics">
+	<ul class="dir-list">
+		<li><div class="file-icon"></div><a class="" href="/physics/Centripetal Acceleration.html"  >Centripetal Acceleration</a></li>
+		<li><div class="file-icon"></div><a class="" href="/physics/Class info.html"  >Class info</a></li>
+		<li><div class="file-icon"></div><a class="active current_page_dirtree" href="/physics/Defs and notation WK1.html"  >Defs and notation WK1</a></li>
+		<li><div class="file-icon"></div><a class="" href="/physics/Energy.html"  >Energy</a></li>
+		<li><div class="file-icon"></div><a class="" href="/physics/Forces.html"  >Forces</a></li>
+		<li><div class="file-icon"></div><a class="" href="/physics/Friction.html"  >Friction</a></li>
+		<li><div class="file-icon"></div><a class="" href="/physics/Newton.html"  >Newton</a></li>
+		<li><div class="file-icon"></div><a class="" href="/physics/Vectors and examples, WK2.html"  >Vectors and examples, WK2</a></li>
+	</ul>
+</div>
+<ul class="dir-list">
+	<li><div class="file-icon non-md-file"></div><a class="" href="/Pasted image 20240920140430.jpg"  class="external-link">Pasted image 20240920140430.jpg</a></li>
+	<li><div class="file-icon"></div><a class="" href="/index.html"  >index</a></li>
+</ul>
+</div>
+    </div>
+</div>
+                        <div class="container">
+                                <div class="content"><h1 id="day-1">Day 1</h1>
+<div class="toc">
+<ul>
+<li><a href="#day-1" class="anchor-link">Day 1</a><ul>
+<li><a href="#h_1-d-kinematics" class="anchor-link">1-D kinematics</a></li>
+</ul>
+</li>
+<li><a href="#day-2" class="anchor-link">Day 2</a></li>
+<li><a href="#day-3" class="anchor-link">Day 3</a><ul>
+<li><a href="#with-a-constant-acceleration-the-following-apply" class="anchor-link">With a constant acceleration the following apply:</a></li>
+</ul>
+</li>
+</ul>
+</div>
+<p>Si units: M, kg, s, K   </p>
+<h2 id="h_1-d-kinematics">1-D kinematics</h2>
+<ul>
+<li>kinematics = Description of <strong>motion</strong>   </li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Term</th>
+<th>Verbal def</th>
+<th>math def</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Particle model</strong></td>
+<td>Simplified treatment of objects. Simple view of world<br>Objects have no set side or shape.<br>Ignores rot</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Position</strong></td>
+<td>Point in space, in coord system</td>
+<td><em>x</em> (for now)</td>
+</tr>
+<tr>
+<td><strong>Displacement</strong></td>
+<td>Change in position. Matters your direction.The rate of change on position, with respect to time<br>ordered subtraction / addition.</td>
+<td>dx = x<sub>f</sub> - x<sub>i</sub></td>
+</tr>
+<tr>
+<td><strong>Velocity</strong></td>
+<td>The rate of change on position, with respect to time<br><span class="arithmatex">\(<span class="arithmatex">\(v = \lim_{t\to 0} \frac{dx}{dt}  =\frac{dx}{dt}\)</span>\)</span></td>
+<td>$$v = \frac {dx}{dt}  $$</td>
+</tr>
+<tr>
+<td><strong>Accelertation</strong></td>
+<td>The rate of change on position, with respect to time</td>
+<td><span class="arithmatex">\(<span class="arithmatex">\(a = \frac {dv}{dt}\)</span>\)</span></td>
+</tr>
+<tr>
+<td><strong>Speed</strong></td>
+<td>Magnitude of velocity</td>
+<td></td>
+</tr>
+<tr>
+<td><strong>Distance</strong></td>
+<td>The length  of a specified <strong>path</strong> between two points</td>
+<td></td>
+</tr>
+<tr>
+<td>### Prelab: Intro, 1-D Kinematics:</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>Just read the instructions</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h1 id="day-2">Day 2</h1>
+<ul>
+<li>Any coord system aslong as axiis are perpendicular.    </li>
+<li>
+<p>Displacment = diff in pos   </p>
+<div class="arithmatex">\[ P_1 - P_2 $$   
+$$ \Delta X = X_F - X_I \]</div>
+</li>
+<li>
+<p>FOR NOW NUMBER LINE   </p>
+</li>
+<li>Rate of change is with respect to something   </li>
+<li>BAR = AVERAGE   </li>
+</ul>
+<div class="arithmatex">\[ \bar v = \frac {\Delta x} {\Delta t} \]</div>
+<ul>
+<li>Tangent line = touches but does not cross   </li>
+<li>Slope = rate of change   </li>
+<li>derivative = Instant rate of change     </li>
+</ul>
+<div class="arithmatex">\[ \bar a = \frac {\Delta v} {\Delta t} $$   
+^2 = second order derivative = Jerk   
+$$ \lim_{\Delta t \to 0} \frac {\Delta v} {\Delta t} = \frac {dv} {dt} = \frac {d^2x} {dt^2} \]</div>
+<ul>
+<li><strong>SPEED</strong> != velocity   <ul>
+<li>The rate distance is traversed   </li>
+<li>Also magnitude of velocity   <ul>
+<li>Somewhat equivalent to abs in 1-D   </li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>$$gravity = 9.8 \frac {m} {s^2} $$   </p>
+<ul>
+<li>
+<p>Aceleration at constant rate   </p>
+<p><span class="arithmatex">\(<span class="arithmatex">\(\bar a = a\)</span>\)</span> <br />
+ $$ a = \frac {\Delta V} {\Delta t} \to \Delta v = at $$   </p>
+<ul>
+<li>delta v is the <strong>area</strong> of under graph   </li>
+</ul>
+</li>
+</ul>
+<div class="arithmatex">\[ \Delta v = v_f - v_i \to v_f=v_i + \Delta v $$   
+$$ v_f - v_i = at $$   
+$$ v_f = v_i + at\]</div>
+<div class="codehilite"><pre><span></span><code>    * **SLOPE OF MAX = 0 AND MIN = 0**
+</code></pre></div>
+
+<h1 id="day-3">Day 3</h1>
+<ul>
+<li><strong>Express gravity as G downwards</strong> so g = 9.8   <ul>
+<li>Can't assign a sign when lacking a coordinate system   </li>
+</ul>
+</li>
+</ul>
+<h2 id="with-a-constant-acceleration-the-following-apply">With a constant acceleration the following apply:</h2>
+<div class="arithmatex">\[\Delta v = at $$$$ \Delta x = v_it + 0.5 (\Delta t)(a\Delta t) = 0.5 a(\Delta t)^2 +v_i\Delta t$$   
+### Without time   
+$$ v_f^2 = v_i^2 + 2 a \Delta x $$   
+### The big three equations for constant acc   
+$$  \Delta x =  0.5a\Delta t^2 + v_it $$   
+$$ v_f^2 = v_i^2 + 2 a \Delta x \]</div>
+<div class="arithmatex">\[\Delta v = at $$   
+Also: $$ \Delta x = 0.5(v_f+v_i)t \]</div></div>
+<div class="note-footer">
+<div class="backlinks" style="display:none"></div>
+
+<div class="tags">
+
+</div>
+
+</div>
+<div class="graph requires_js ">
+    <div id="A11201024786148261424214896486880677238{level}" class="graph_div"></div>
+
+    <div class="graph-instructions" id="D11201024786148261424214896486880677238{level}">
+        Left-click: follow link, Right-click: select node, Scroll: zoom
+    </div>
+    
+    <div class="graph-button-row" style="display:flex;">
+        <button class="graph_button graph_show_button" id="B11201024786148261424214896486880677238{level}" level="{level}" note_temp_id="11201024786148261424214896486880677238" onclick="window.ObsHtmlGraph.run(this, '11201024786148261424214896486880677238', 'defs and notation wk1');">
+            Show Graph
+        </button>
+        <button class="graph_button graph_type_button" id="C11201024786148261424214896486880677238{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+            2D
+        </button>
+    </div>
+</div>
+
+<script type="module">
+    if (window.ObsHtmlGraph == undefined){
+        import('/obs.html/static/graph.js').then((Module) => {
+            window.ObsHtmlGraph = Module;
+            window.ObsHtmlGraph.arm_page(document.getElementById('page_holder'))
+        })
+    }
+</script>
+
+
+
+
+                                <!-- end content -->
+                        </div>
+                        <div class="container_filler">
+                        </div>
+                        <div id="right_pane" class="right_pane active">
+    <div id="right_pane_fold_header" class="right_pane_fold_header fold_header">x</div>
+    <div id="right_pane_content" class="right_pane_content">
+            
+    </div>
+</div>
+                </div>
+        </div>
+
+        <script>
+                function handle_toggle_side_bar(e){
+                        let header;
+                        let pane; 
+                        let target = e.target
+
+                        // switch out the navbar button click for a header click
+                        if (target.id == 'left_pane_toggle_nav'){
+                                target = document.getElementById('left_pane_fold_header')
+                        }
+                        else if (target.id == 'right_pane_toggle_nav'){
+                                target = document.getElementById('right_pane_fold_header')
+                        }
+
+                        // get header and pane
+                        if (target.classList.contains('fold_header')) {
+                                header = target;
+                                pane = target.parentElement;
+                        }
+                        else {
+                                pane = target;
+                                header = target.getElementsByClassName('fold_header')[0];
+                        }
+                        toggle_side_bar(pane, header, true)
+                        e.stopPropagation();
+                }
+                function handle_toggle_side_bar_button(e){
+                        document.getElementById('menu_toggle_button').click()
+                        handle_toggle_side_bar(e);
+                }
+
+                function toggle_side_bar(pane, header, save) {
+                        let active = (pane.classList.contains('active'))
+                        if (active){
+                                disable_side_bar(pane, header, save);
+                        }
+                        else {
+                                enable_side_bar(pane, header, save);
+                        }
+                }
+                function enable_side_bar(pane, header, save){
+                        pane.classList.add('active');
+                        pane.removeEventListener('click', handle_toggle_side_bar);
+                        header.addEventListener('click', handle_toggle_side_bar);
+                        set_correct_header_symbol(header);
+                        if (save){ save_panel_folding_state(header, true) }
+                }
+                function disable_side_bar(pane, header, save){
+                        pane.classList.remove('active');
+                        pane.addEventListener('click', handle_toggle_side_bar);
+                        header.removeEventListener('click', handle_toggle_side_bar);
+                        set_correct_header_symbol(header);
+                        if (save){ save_panel_folding_state(header, false) }
+                }
+                function set_correct_header_symbol(header){
+                        let pane = header.parentElement;
+                        let symbol = [['>', '<'],['<', '>']]
+                        symbol = symbol[Number(header.classList.contains('right_pane_fold_header'))][Number(pane.classList.contains('active'))];
+                        console.log(symbol);
+                        header.innerHTML = symbol
+                        return header;
+                }
+                function panel_folding_get_panel_name(header){
+                        return ['left', 'right'][Number(header.classList.contains('right_pane_fold_header'))]
+                }
+                function save_panel_folding_state(header, active){
+                        ls_set('pane_folding_state_'+panel_folding_get_panel_name(header), Number(active));
+                }
+                function load_panel_folding_state(panel_name){
+                        val = ls_get('pane_folding_state_'+panel_name)
+                        if (!val){ return {'exists': false, 'value': null}}
+                        return {'exists': true, 'value': Boolean(Number(val))}
+                }
+                function set_pane_folding_start(left_header, right_header){
+                        // small screen = closed
+                        let right_pane_enabled = true;
+                        let left_pane_enabled = true;
+                        let w = window.visualViewport.width
+                        if (w < 1000){
+                                left_pane_enabled = false
+                        }
+                        if (w < 800){
+                                right_pane_enabled = false
+                        }
+
+                        // get saved values if present
+                        let rval = load_panel_folding_state('right')
+                        if (rval['exists']){
+                                right_pane_enabled = rval['value']
+                        }
+                        let lval = load_panel_folding_state('left')
+                        if (lval['exists']){
+                                left_pane_enabled = lval['value']
+                        }
+
+                        // default = enabled, so we only need to disable
+                        if (!left_pane_enabled){
+                                disable_side_bar(document.getElementById('left_pane'), document.getElementById('left_pane_fold_header'))
+                        }
+                        if (!right_pane_enabled){
+                                disable_side_bar(document.getElementById('right_pane'), document.getElementById('right_pane_fold_header'))
+                        }
+                }
+
+                function init_pane_folding(header){
+                        set_correct_header_symbol(header);
+                        header.addEventListener('click', handle_toggle_side_bar);
+                }
+                
+                
+                set_pane_folding_start()
+                init_pane_folding(document.getElementById('left_pane_fold_header'));
+                init_pane_folding(document.getElementById('right_pane_fold_header'));
+
+                document.getElementById('left_pane_toggle_nav').addEventListener('click', handle_toggle_side_bar_button);
+                document.getElementById('right_pane_toggle_nav').addEventListener('click', handle_toggle_side_bar_button);
+        </script>
+
+        <script src="/obs.html/static/load_dirtree_footer.js" type="text/javascript"></script>
+
+        
+
+
+
+
+</body>
+</html>
