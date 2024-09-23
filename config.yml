@@ -1,0 +1,12 @@
+obsidian_entrypoint_path_str: "clone-path/README.md"
+exclude_glob:
+  - "/.obsidian"
+  - "/.trash"
+  - "/.DS_Store"
+  - "/.git"
+  - "/config.yml"
+toggles:
+  process_all: True
+  features:
+    table_of_contents:
+      add_toc_when_missing: True
