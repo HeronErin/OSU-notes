@@ -57,4 +57,4 @@ $$ W = f\Delta R\ cos \theta$$Special cases:
 WORK LACKS COMPONENTS
 Scalar product = Dot product
 Vector  =>  Scalar 
-$$ \bar A * \bar B =  ABcos\theta = A_xB_x + A_yB_y$$*
+$$ \bar A * \bar B =  ABcos\theta = A_xB_x + A_yB_y$$

@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "a9be7f779cf68c36",
+        "id": "543a9986a692688e",
         "type": "tabs",
         "children": [
           {
-            "id": "e3e0d693fa69ce18",
+            "id": "96a4376f039da53a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calc/Derivatives.md",
+                "file": "physics/Energy.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ea181db6822fe320",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physics/Collisions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -69,7 +82,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 394.5
   },
   "right": {
     "id": "31a7dab4560a2f4b",
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "calc/Derivatives.md",
+                "file": "physics/Collisions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "calc/Derivatives.md",
+                "file": "physics/Collisions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "calc/Derivatives.md"
+                "file": "physics/Collisions.md"
               }
             }
           }
@@ -146,21 +159,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e3e0d693fa69ce18",
+  "active": "ea181db6822fe320",
   "lastOpenFiles": [
-    "Pasted image 20240920140430.jpg",
-    "calc/Limits.md",
     "physics/Energy.md",
-    "physics/Defs and notation WK1.md",
-    "physics/Centripetal Acceleration.md",
+    "physics/Collisions.md",
     "physics/Forces.md",
-    "physics/Friction.md",
+    "physics/Center of Mass.md",
     "calc/Derivatives.md",
+    "physics/Defs and notation WK1.md",
+    "calc/Functions.md",
+    "physics/Friction.md",
+    "calc/Limits.md",
+    "README.md",
+    "physics/Centripetal Acceleration.md",
+    "physics/Class info.md",
+    "Pasted image 20240920140430.jpg",
+    "\"Potential energy\".md",
+    "config.yml",
     "physics/Newton.md",
     "physics/Vectors and examples, WK2.md",
-    "calc/Functions.md",
-    "physics/Class info.md",
-    "README.md",
     "calc/Class info.md",
     "calc",
     "physics",

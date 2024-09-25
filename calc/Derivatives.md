@@ -27,3 +27,7 @@ $$ \frac d{dx} f(g(x)) = f'(g(x))g'(x) $$
 ## Trig function derivatives
 
 ![[Pasted image 20240920140430.jpg]]
+
+______________
+# Higher Order  Derivatives
+Get the derivative of the derivative

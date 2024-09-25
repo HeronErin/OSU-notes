@@ -1,4 +1,5 @@
 obsidian_entrypoint_path_str: "clone-path/README.md"
+html_url_prefix: '/OSU-notes'
 exclude_glob:
   - "/.obsidian"
   - "/.trash"
