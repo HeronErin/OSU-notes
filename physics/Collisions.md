@@ -11,4 +11,8 @@ Kinds of collisions
 		- **Energy BUT NOT momentum!**
 	- Equal final velocities: $$ m_1v_{i1} + m_2v_{i2} = (m_1+m_2)v_f $$
 	- Assert no total momentum change
-	- 
+- Perfectly Elastic
+	- Kinetic energy is conserved
+		- K<sub>i</sub> = K<sub>f</sub> $$ \frac 1 2 m_1v_{i1}^2 + \frac 1 2 m_2v_{i2}^2 = 1 2 m_1v_{f1}^2 + \frac 1 2 m_2v_{f2}^2 $$
+		- Momentum is conserved (as always)
+		- 
