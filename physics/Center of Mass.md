@@ -8,3 +8,7 @@ Typical
 $$ Mean = \frac {Add'em\ up}{\#\ of\ elements} $$
 Weighted
 $$ x_{cm} = \frac {\Sigma x_im_i}{\Sigma m_i} $$
+
+
+Ex:
+
