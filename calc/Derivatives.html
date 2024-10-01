@@ -222,6 +222,8 @@
 		<li><div class="file-icon"></div><a class="active current_page_dirtree" href="/OSU-notes/calc/Derivatives.html"  >Derivatives</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Functions.html"  >Functions</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Limits.html"  >Limits</a></li>
+		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Logs.html"  >Logs</a></li>
+		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Problem 2.html"  >Problem 2</a></li>
 	</ul>
 </div>
 <button id="folder-2" class="dir-button " onclick="toggle_dir(this.id)"><div class="file-icon"></div>physics</button>
@@ -241,6 +243,7 @@
 </div>
 <ul class="dir-list">
 	<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/Pasted image 20240920140430.jpg"  class="external-link">Pasted image 20240920140430.jpg</a></li>
+	<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/Screenshot_20241001_135116.png"  class="external-link">Screenshot_20241001_135116.png</a></li>
 	<li><div class="file-icon"></div><a class="" href="/OSU-notes/index.html"  >index</a></li>
 </ul>
 </div>
@@ -252,12 +255,13 @@
 <ul>
 <li><a href="#derivatives" class="anchor-link">Derivatives</a><ul>
 <li><a href="#product-rule" class="anchor-link">Product rule</a></li>
-<li><a href="#quotient-rule" class="anchor-link">Quotient Rule</a></li>
-<li><a href="#chain-rule" class="anchor-link">Chain rule</a></li>
 <li><a href="#trig-function-derivatives" class="anchor-link">Trig function derivatives</a></li>
+<li><a href="#higher-order-derivatives" class="anchor-link">Higher Order  Derivatives</a></li>
+<li><a href="#implicit-differentiation" class="anchor-link">Implicit Differentiation</a></li>
+<li><a href="#high-order-implicit" class="anchor-link">High order implicit</a></li>
+<li><a href="#logarithmic-differentiation" class="anchor-link">Logarithmic differentiation</a></li>
 </ul>
 </li>
-<li><a href="#higher-order-derivatives" class="anchor-link">Higher Order  Derivatives</a></li>
 </ul>
 </div>
 <p>Differentiable == continuous  <br />
@@ -277,17 +281,64 @@ $$ \lim_{h \to 0} f(a+h) = \lim_{h \to 0}(f(a+h) - f(a) + f(a)) $$ <br />
 $$ \lim_{h \to 0} f(a+h) = f(a) $$   </p>
 <hr />
 <h2 id="product-rule">Product rule</h2>
-<div class="arithmatex">\[ \frac d{dx}(f(x)f(x)) = f'(x)f(x) + f(x)g'(x) \]</div>
-<h2 id="quotient-rule">Quotient Rule</h2>
-<div class="arithmatex">\[ \frac d{dx} \frac {f(x)}{g(x)} = \frac {f'(x)g(x) - f(x)g'(x)}{g(x)^2}\]</div>
-<h2 id="chain-rule">Chain rule</h2>
-<p>Composition MAGIC <br />
-$$ \frac d{dx} f(g(x)) = f'(g(x))g'(x) $$   </p>
+<div class="arithmatex">\[ \frac d{dx}(f(x)f(x)) = f'(x)g(x) + f(x)g'(x) $$   
+## Quotient Rule   
+$$ \frac d{dx} \frac {f(x)}{g(x)} = \frac {f'(x)g(x) - f(x)g'(x)}{g(x)^2}$$   
+## Chain rule   
+Composition MAGIC   
+$$ \frac d{dx} f(g(x)) = f'(g(x))g'(x) $$   
+## Ln   
+ $$ \frac d{dx} ln(x) = 1/x $$   
+ $$ \frac d{dx} (log_bx) = \frac 1{ln b} * \frac 1x$$   
+ See: [Logs](/OSU-notes/calc/Logs.html)   
+## Tangent line   
+At know point   
+$$ y−y_0​=m(x−x_0​) $$   
+$$ y=m(x−x_0​) + y_0​ $$   
+$$ y=f'(x_0)(x−x_0​) + f(x_0) \]</div>
 <h2 id="trig-function-derivatives">Trig function derivatives</h2>
-<p><img alt="" src="/OSU-notes/Pasted%20image%2020240920140430.jpg" />   </p>
+<p><img alt="" src="/OSU-notes/Pasted%20image%2020240920140430.jpg" /> <br />
+<img alt="" src="/OSU-notes/Screenshot_20241001_135116.png" />   </p>
 <hr />
-<h1 id="higher-order-derivatives">Higher Order  Derivatives</h1>
-<p>Get the derivative of the derivative   </p></div>
+<h2 id="higher-order-derivatives">Higher Order  Derivatives</h2>
+<p>Get the derivative of the derivative   </p>
+<h2 id="implicit-differentiation">Implicit Differentiation</h2>
+<p>Classic Example: $$ x^2 + y^2 = 1 $$ <br />
+Circle of rad 1 <br />
+$$ y^2 = 1-x^2 $$ <br />
+$$ y = \pm \sqrt{1-x^2} $$ $$ y' = ...$$ <br />
+BUT THIS SUCKS   </p>
+<p>Instead find dy/dx: (Remember y depends on x, need dy/dx) <br />
+$$ \frac d{dx} (x^2) + \frac d{dx} (y^2)  = \frac d{dx}(1) $$ <br />
+$$ 2x + 2y \frac d{dx} = 0 $$ <br />
+$$ 2y\frac d{dx} = -2x $$ <br />
+$$ \frac d{dx} = \frac {2x}{-2y} = \frac  {-x}y $$ <br />
+WE PUT dy/dx AFTER y as it is the DEPENDENT VARIABLE!   </p>
+<p>Solving for ln(x)' <br />
+$$ x = e^{ln(x)}$$ <br />
+$$ 1 = e^{ln(x)}ln'(x)$$ <br />
+$$ 1 = xln'(x)$$ <br />
+$$ ln'(x) = 1/x$$   </p>
+<h2 id="high-order-implicit">High order implicit</h2>
+<div class="arithmatex">\[ x^2 + y^2 = 1$$   
+find $$ \frac {d^2y}{d^2x} $$   
+$$...$$$$ \frac {dy}{dx} = -\frac xy $$   
+$$ \frac {d^2y}{d^2x} = -\frac {1y-x\frac {dy}{dx}}{y^2} $$   
+$$ \frac {d^2y}{d^2x} = -\frac {y-x\frac {-x}{y}}{y^2} $$   
+$$ \frac {d^2y}{d^2x} = -\frac {y+\frac {x^2}{y}}{y^2} $$   
+$$ \frac {d^2y}{d^2x} = -\frac {y^2+x^2}{y^3} $$   
+Knowing: $$ x^2 + y^2 = 1$$   
+We can do:   
+$$ \frac {d^2y}{d^2x} = -\frac {1}{y^3} \]</div>
+<h2 id="logarithmic-differentiation">Logarithmic differentiation</h2>
+<p>Example, find the derivative of x<sup>x</sub> <br />
+1. ln(f(x)) = ln(x<sup>x</sup>) <br />
+2. ln(f(x))  = x ln(x) <br />
+3. d/dx ln(f(x)) = d/dx( x ln(x) ) <br />
+$$ \frac 1 {f(x)} f'(x) = 1 * ln(x) + x *1/x $$ <br />
+$$ \frac 1 {f(x)} f'(x) = ln(x) + 1 $$ <br />
+$$ f'(x) = f(x)ln(x) + f(x) $$ <br />
+$$ f'(x) = x^xln(x) + x^x $$   </p></div>
 <div class="note-footer">
 <div class="backlinks" style="display:none"></div>
 
@@ -297,17 +348,17 @@ $$ \frac d{dx} f(g(x)) = f'(g(x))g'(x) $$   </p>
 
 </div>
 <div class="graph requires_js ">
-    <div id="A189101555139205669149520352594027098303{level}" class="graph_div"></div>
+    <div id="A137039948081755224284552821528945128852{level}" class="graph_div"></div>
 
-    <div class="graph-instructions" id="D189101555139205669149520352594027098303{level}">
+    <div class="graph-instructions" id="D137039948081755224284552821528945128852{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B189101555139205669149520352594027098303{level}" level="{level}" note_temp_id="189101555139205669149520352594027098303" onclick="window.ObsHtmlGraph.run(this, '189101555139205669149520352594027098303', 'derivatives');">
+        <button class="graph_button graph_show_button" id="B137039948081755224284552821528945128852{level}" level="{level}" note_temp_id="137039948081755224284552821528945128852" onclick="window.ObsHtmlGraph.run(this, '137039948081755224284552821528945128852', 'derivatives');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C189101555139205669149520352594027098303{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C137039948081755224284552821528945128852{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>
