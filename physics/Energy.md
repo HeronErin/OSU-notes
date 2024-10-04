@@ -66,7 +66,9 @@ $$ d\bar p = \Sigma \bar f dt\ -> constant\ force\ -> \Delta \bar p = \Sigma \ba
 Impulse = force over time
 $$ \Delta \bar p = \bar F \Delta t $$
 
-
+But also:
+$$ F = VM $$
+Where the force is COMPLETELY OPPOSING THE MOMENTUM!
 _____________________
 $$ m\bar v = \Sigma \bar F \Delta t $$
 ____________________

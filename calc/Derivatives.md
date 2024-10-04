@@ -82,3 +82,7 @@ $$ \frac 1 {f(x)} f'(x) = 1 * ln(x) + x *1/x $$
 $$ \frac 1 {f(x)} f'(x) = ln(x) + 1 $$
 $$ f'(x) = f(x)ln(x) + f(x) $$
 $$ f'(x) = x^xln(x) + x^x $$
+
+## Derivatives of inverse
+You might need to restrict the original domain (inverse range) to make one to one
+$$ \frac d{dx} (f^{-1}(x)) = \frac 1 {f'(f^{-1}(x))} $$

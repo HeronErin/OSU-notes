@@ -15,7 +15,16 @@ Kinds of collisions
 	- Kinetic energy is conserved
 		- K<sub>i</sub> = K<sub>f</sub> $$ \frac 1 2 m_1v_{i1}^2 + \frac 1 2 m_2v_{i2}^2 = \frac 1 2 m_1v_{f1}^2 + \frac 1 2 m_2v_{f2}^2 $$
 		- Momentum is conserved (as always)
-		- 
+		$$  m_1v_{i1} + m_2v_{i2} = m_1v_{1f} +m_2v_{2f}  $$
+Solve for vf1:
+
+$$ v_{f1} = v_{i1} + a v_{i2} - a v_{f2} $$
+Quadratic for vf2:
+$$(a^2 - 2a^2)v_{2f}^2 - (2a v_{i1} + 2a^2 v_{i2})v_{2f} + 2a v_{i1} v_{i2} = 0$$
+$$ v_{2f} = \frac{-(2a v_{i1} + 2a^2 v_{i2}) \pm \sqrt{(2a v_{i1} + 2a^2 v_{i2})^2 - 4(a^2 - 2a^2)(2a v_{i1} v_{i2})}}{2(a^2 - 2a^2)}$$
+
+
+
 __________________________
 Ex:
 
