@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics/Collisions.md",
+                "file": "calc/Derivatives.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "physics/Collisions.md",
+                "file": "calc/Derivatives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "physics/Collisions.md",
+                "file": "calc/Derivatives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "physics/Collisions.md"
+                "file": "calc/Derivatives.md"
               }
             }
           }
@@ -148,15 +148,17 @@
   },
   "active": "52dc62feaac7121c",
   "lastOpenFiles": [
-    "physics/Energy.md",
-    "calc/Derivatives.md",
     "physics/Centripetal Acceleration.md",
+    "physics/Angular math.md",
+    "ext.png",
+    "torque.png",
+    "calc/Derivatives.md",
     "physics/Defs and notation WK1.md",
-    "physics/Forces.md",
     "physics/Collisions.md",
+    "physics/Energy.md",
+    "physics/Forces.md",
     "physics/Class info.md",
     "physics/Center of Mass.md",
-    "physics/Angular math.md",
     "physics/Vectors and examples, WK2.md",
     "physics/Newton.md",
     "calc/Functions.md",

@@ -86,3 +86,27 @@ $$ f'(x) = x^xln(x) + x^x $$
 ## Derivatives of inverse
 You might need to restrict the original domain (inverse range) to make one to one
 $$ \frac d{dx} (f^{-1}(x)) = \frac 1 {f'(f^{-1}(x))} $$
+## Related Rates of change
+Suppose we know
+1) A relation between x at y
+2) The rate of change of x with respect to t
+From this we can find the rate of change at y with t
+
+Ex x<sup>2</sub> + y<sup>2</sup> = 25
+We know (3, 4) exists at t=2
+And that dx/dt = -7
+Problem Find dy/dt at t=2
+$$ 2x\frac{dx}{dt}  + 2y\frac{dy}{dt} = 0 $$
+Plug in x=3, y=4, and dx/dt = -7
+
+$$ 2(3)(-7)  + 2(4)\frac{dy}{dt} = 0 $$
+$$\frac{dy}{dt} = \frac{-2(3)(-7)}{2(4)} = 5.25 $$
+
+Ex2:
+The radius of a circle is increasing at a rate of 2 in/sec. That is the rate the at which the area is increasing at 12 in?
+
+So we know $$ \frac {dr}{dt} = 2 $$
+and
+$$ a = \pi r^2 $$
+$$ \frac{da}{dt} = \pi 2r\frac {dr}{dt} $$
+$$ \frac{da}{dt} = 48\pi $$

@@ -2,6 +2,8 @@ See [[Centripetal Acceleration]], [[Center of Mass]]
 
 Direction defined with right hand rule: Take your right hand, curl your fingers, thumb = direction facing
 ## Torque
+![[torque.png]]
+Action of force in a rotational context
 $$ \tau = r F_t = rFsin\Theta$$
 $$ \bar \tau = \bar r * \bar F$$
 **NOTE THE BAR!**
@@ -14,5 +16,72 @@ $$ (\bar B * \bar A) = -(\bar A * \bar B) $$
 
 Morse distance = more torque
 
-Recall work
-$$ w = \bar F * \Delta \bar r cos\Theta$$
+## All kinematic equations apply!
+
+Angular position = theta
+Angular velocity:
+$$ \omega = \frac {d\theta}{dt}$$
+Angular acceleration:
+$$ \alpha = \frac {d\omega}{dt}$$
+SO:
+$$ \Delta\Theta = 1/2\alpha t^2 + \omega_it$$
+$$ \omega_t = \omega_i + \alpha t$$
+$$ \omega_f^2=\omega_i^2 + 2\alpha\Delta\Theta$$
+
+| Translational (linear) kinematics | Angular (rotational) kinematics |
+| --------------------------------- | ------------------------------- |
+| One point to another              | One rotation to another         |
+
+
+
+
+
+
+
+_________________________
+Ex: A grinding wheel accelerates from rest to 390 s<sup>-1</sup> at a constant rate of 125 s<sup>-2</sup>. How many revolutions does it take during this process?
+
+Given:
+omega<sub>i</sub> =V<sub>i</sub> = 0
+omega<sub>f</sub> =V<sub>f</sub> = 390
+alpha = 125
+Unknown:  delta theta
+$$ \Delta\theta = \frac{\omega_f^2}{2\alpha} = 208 $$
+208 RAD
+So the amount of revelations =  208 / 2pi = 96.7662053999
+_______________________
+Ex: The applied force F is 18N, the torque about point P is 8.5N, and the angle phi is 67*, the distance from point P to point Q is about?
+
+$$ \tau = rFsin\phi $$
+$$ r = \frac \tau {Fsin\phi} = \frac {8.5}{18sin67} = .51m$$
+
+______________________
+A firce of (7i-k)N is applied at position (9i + 3k) m.  Considering the origin to the the axis of rotation, determine the torque corresponding to this force.
+![[ext.png]]
+$$ \bar \tau = \bar r * \bar F = (9\hat i + 3 \hat k) * (7 \hat i - \hat k) $$
+FOIL THIS BITCH
+
+$$  \bar \tau = 9\hat i * 7\hat i + 9\hat i * (-\hat h) + 3\hat k *7 \hat i  +3 \hat k * (-\hat k)    $$
+$$ = -9(\hat i * \hat k) + 21 (\hat k * \hat i) $$
+$$ = 9\hat J + 21 \hat J = 30 \hat J $$
+
+_______________
+## Cross product ext
+Recall work:
+$$ w = \bar F\Delta\bar R$$
+### Dot product:
+$$ \bar A \bar B = ABcos\phi = A_xB_x + A_yB_y + ...$$
+$$ \hat i \cdot \hat i = (1)(1)cos0 = 1 = 1*1 $$
+$$ \hat i \cdot \hat J = (1)(1)cos\frac \pi2 = 0 = \hat J \cdot \hat k$$
+Torque:
+$$ \bar\tau = \bar r * \bar F = rFsin\phi$$ 
+ RH-Rule
+### Cross product (VECTOR!!!!): 
+$$ \bar A * \bar B = ABsin\theta $$
+
+
+$$ \hat i * \hat i = (1)(1)sin0 = 0 $$
+$$ \hat i * \hat J = (1)(1)sin\frac \pi2 = 1$$
+$$ \hat i * \hat J = \hat k $$
+$$ \hat k * \hat i = \hat j $$
+
