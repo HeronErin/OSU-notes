@@ -245,7 +245,9 @@
 <ul class="dir-list">
 	<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/Pasted image 20240920140430.jpg"  class="external-link">Pasted image 20240920140430.jpg</a></li>
 	<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/Screenshot_20241001_135116.png"  class="external-link">Screenshot_20241001_135116.png</a></li>
+	<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/ext.png"  class="external-link">ext.png</a></li>
 	<li><div class="file-icon"></div><a class="" href="/OSU-notes/index.html"  >index</a></li>
+	<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/torque.png"  class="external-link">torque.png</a></li>
 </ul>
 </div>
     </div>
@@ -256,6 +258,11 @@
 <ul>
 <li><a href="#angular-math" class="anchor-link">Angular math</a><ul>
 <li><a href="#torque" class="anchor-link">Torque</a></li>
+<li><a href="#all-kinematic-equations-apply" class="anchor-link">All kinematic equations apply!</a></li>
+<li><a href="#cross-product-ext" class="anchor-link">Cross product ext</a><ul>
+<li><a href="#dot-product" class="anchor-link">Dot product:</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -263,16 +270,79 @@
 <p>See <a href="/OSU-notes/physics/Centripetal%20Acceleration.html">Centripetal Acceleration</a>, <a href="/OSU-notes/physics/Center%20of%20Mass.html">Center of Mass</a>   </p>
 <p>Direction defined with right hand rule: Take your right hand, curl your fingers, thumb = direction facing   </p>
 <h2 id="torque">Torque</h2>
-<div class="arithmatex">\[ \tau = r F_t = rFsin\Theta$$   
-$$ \bar \tau = \bar r * \bar F$$   
-**NOTE THE BAR!**   
-two vectors into one vector - "Cross product".    
-$$ \bar A * \bar B = ABsin\phi$$   
-$$ (\bar B * \bar A) \ne (\bar A * \bar B) $$   
-$$ (\bar B * \bar A) = -(\bar A * \bar B) \]</div>
+<p><img alt="" src="/OSU-notes/torque.png" /> <br />
+Action of force in a rotational context <br />
+$$ \tau = r F_t = rFsin\Theta$$ <br />
+$$ \bar \tau = \bar r * \bar F$$ <br />
+<strong>NOTE THE BAR!</strong> <br />
+two vectors into one vector - "Cross product".  <br />
+$$ \bar A * \bar B = ABsin\phi$$ <br />
+$$ (\bar B * \bar A) \ne (\bar A * \bar B) $$ <br />
+$$ (\bar B * \bar A) = -(\bar A * \bar B) $$   </p>
 <p>Morse distance = more torque   </p>
-<p>Recall work <br />
-$$ w = \bar F * \Delta \bar r cos\Theta$$</p></div>
+<h2 id="all-kinematic-equations-apply">All kinematic equations apply!</h2>
+<p>Angular position = theta <br />
+Angular velocity: <br />
+$$ \omega = \frac {d\theta}{dt}$$ <br />
+Angular acceleration: <br />
+$$ \alpha = \frac {d\omega}{dt}$$ <br />
+SO: <br />
+$$ \Delta\Theta = 1/2\alpha t^2 + \omega_it$$ <br />
+$$ \omega_t = \omega_i + \alpha t$$ <br />
+$$ \omega_f^2=\omega_i^2 + 2\alpha\Delta\Theta$$   </p>
+<table>
+<thead>
+<tr>
+<th>Translational (linear) kinematics</th>
+<th>Angular (rotational) kinematics</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>One point to another</td>
+<td>One rotation to another</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p>Ex: A grinding wheel accelerates from rest to 390 s<sup>-1</sup> at a constant rate of 125 s<sup>-2</sup>. How many revolutions does it take during this process?   </p>
+<p>Given: <br />
+omega<sub>i</sub> =V<sub>i</sub> = 0 <br />
+omega<sub>f</sub> =V<sub>f</sub> = 390 <br />
+alpha = 125 <br />
+Unknown:  delta theta <br />
+$$ \Delta\theta = \frac{\omega_f^2}{2\alpha} = 208 $$ <br />
+208 RAD <br />
+So the amount of revelations =  208 / 2pi = 96.7662053999   </p>
+<hr />
+<p>Ex: The applied force F is 18N, the torque about point P is 8.5N, and the angle phi is 67*, the distance from point P to point Q is about?   </p>
+<div class="arithmatex">\[ \tau = rFsin\phi $$   
+$$ r = \frac \tau {Fsin\phi} = \frac {8.5}{18sin67} = .51m\]</div>
+<hr />
+<p>A firce of (7i-k)N is applied at position (9i + 3k) m.  Considering the origin to the the axis of rotation, determine the torque corresponding to this force. <br />
+<img alt="" src="/OSU-notes/ext.png" /> <br />
+$$ \bar \tau = \bar r * \bar F = (9\hat i + 3 \hat k) * (7 \hat i - \hat k) $$ <br />
+FOIL THIS BITCH   </p>
+<div class="arithmatex">\[  \bar \tau = 9\hat i * 7\hat i + 9\hat i * (-\hat h) + 3\hat k *7 \hat i  +3 \hat k * (-\hat k)    $$   
+$$ = -9(\hat i * \hat k) + 21 (\hat k * \hat i) $$   
+$$ = 9\hat J + 21 \hat J = 30 \hat J \]</div>
+<hr />
+<h2 id="cross-product-ext">Cross product ext</h2>
+<p>Recall work: <br />
+$$ w = \bar F\Delta\bar R$$   </p>
+<h3 id="dot-product">Dot product:</h3>
+<div class="arithmatex">\[ \bar A \bar B = ABcos\phi = A_xB_x + A_yB_y + ...$$   
+$$ \hat i \cdot \hat i = (1)(1)cos0 = 1 = 1*1 $$   
+$$ \hat i \cdot \hat J = (1)(1)cos\frac \pi2 = 0 = \hat J \cdot \hat k$$   
+Torque:   
+$$ \bar\tau = \bar r * \bar F = rFsin\phi$$    
+ RH-Rule   
+### Cross product (VECTOR!!!!):    
+$$ \bar A * \bar B = ABsin\theta \]</div>
+<div class="arithmatex">\[ \hat i * \hat i = (1)(1)sin0 = 0 $$   
+$$ \hat i * \hat J = (1)(1)sin\frac \pi2 = 1$$   
+$$ \hat i * \hat J = \hat k $$   
+$$ \hat k * \hat i = \hat j \]</div></div>
 <div class="note-footer">
 <div class="backlinks" style="display:none"></div>
 
@@ -282,17 +352,17 @@ $$ w = \bar F * \Delta \bar r cos\Theta$$</p></div>
 
 </div>
 <div class="graph requires_js ">
-    <div id="A86853531968784699282400189834435188592{level}" class="graph_div"></div>
+    <div id="A192220083033449467964024862454464481096{level}" class="graph_div"></div>
 
-    <div class="graph-instructions" id="D86853531968784699282400189834435188592{level}">
+    <div class="graph-instructions" id="D192220083033449467964024862454464481096{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B86853531968784699282400189834435188592{level}" level="{level}" note_temp_id="86853531968784699282400189834435188592" onclick="window.ObsHtmlGraph.run(this, '86853531968784699282400189834435188592', 'angular math');">
+        <button class="graph_button graph_show_button" id="B192220083033449467964024862454464481096{level}" level="{level}" note_temp_id="192220083033449467964024862454464481096" onclick="window.ObsHtmlGraph.run(this, '192220083033449467964024862454464481096', 'angular math');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C86853531968784699282400189834435188592{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C192220083033449467964024862454464481096{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>
