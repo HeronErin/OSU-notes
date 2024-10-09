@@ -85,3 +85,33 @@ $$ \hat i * \hat J = (1)(1)sin\frac \pi2 = 1$$
 $$ \hat i * \hat J = \hat k $$
 $$ \hat k * \hat i = \hat j $$
 
+
+## Kinetic Energy
+$$ I = mR^2 $$
+$$ k = \frac 1 2mv^2  $$
+Stick them together
+$$ m = \frac I {R^2} $$
+$$ k = \frac 1 2 (\frac I R) ^2 = \frac 1 2 I w ^2 $$
+### Rolling spheres(Solid) are different:
+Moments of inertia ARE CONSTANT (\*Asterix):
+
+ $$ K = K_T + K_R $$
+ $$ = \frac 1 2 m v^2 + \frac 1 2 I\omega^2 $$
+ Subsitute in with:
+ $$ I = \frac 2 5 m R^2 $$
+  AND:
+ $$ \omega = \frac V R $$$$ = \frac 1 2 m v^2 + \frac 1 2 (\frac 2 5 m R^2)\omega^2 $$
+
+ $$ = \frac 1 2 m v^2 + \frac 2 {10} m R^2(\frac V R)^2 $$
+ $$ k = \frac 7 {10} m v^2 $$
+ <h3>The asterix</h3>
+ The axis matters with moment of inertia. And some object that are complex have multiple moments of inertia. 
+ ![[rotlolly.png]]
+ $$ I = I_{cm} + mD^2$$
+
+ mD^2 is known as the "point mass" term
+ D is the axis to center of mas
+ One object exists you can easily calc the moment of inertial. A RING
+ ![[ring.png]]
+ All the points are of r
+ $$ I = \int R^2dm = R^2 \int dm =R^2m $$
