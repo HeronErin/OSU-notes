@@ -223,11 +223,24 @@
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Functions.html"  >Functions</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Limits.html"  >Limits</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Logs.html"  >Logs</a></li>
+		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Minima And Maxima.html"  >Minima And Maxima</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Problem 2.html"  >Problem 2</a></li>
 	</ul>
 </div>
-<button id="folder-2" class="dir-button active" onclick="toggle_dir(this.id)"><div class="file-icon"></div>physics</button>
-<div id="folder-container-2" class="dir-container requires_js active" path="/OSU-notes/physics">
+<button id="folder-2" class="dir-button " onclick="toggle_dir(this.id)"><div class="file-icon"></div>imgs</button>
+<div id="folder-container-2" class="dir-container requires_js " path="/OSU-notes/imgs">
+	<ul class="dir-list">
+		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/Pasted image 20240920140430.jpg"  class="external-link">Pasted image 20240920140430.jpg</a></li>
+		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/Screenshot_20241001_135116.png"  class="external-link">Screenshot_20241001_135116.png</a></li>
+		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/cmROT.png"  class="external-link">cmROT.png</a></li>
+		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/ext.png"  class="external-link">ext.png</a></li>
+		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/ring.png"  class="external-link">ring.png</a></li>
+		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/rotlolly.png"  class="external-link">rotlolly.png</a></li>
+		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/torque.png"  class="external-link">torque.png</a></li>
+	</ul>
+</div>
+<button id="folder-3" class="dir-button active" onclick="toggle_dir(this.id)"><div class="file-icon"></div>physics</button>
+<div id="folder-container-3" class="dir-container requires_js active" path="/OSU-notes/physics">
 	<ul class="dir-list">
 		<li><div class="file-icon"></div><a class="active current_page_dirtree" href="/OSU-notes/physics/Angular math.html"  >Angular math</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Center of Mass.html"  >Center of Mass</a></li>
@@ -238,16 +251,13 @@
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Energy.html"  >Energy</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Forces.html"  >Forces</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Friction.html"  >Friction</a></li>
+		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Intertia.html"  >Intertia</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Newton.html"  >Newton</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Vectors and examples, WK2.html"  >Vectors and examples, WK2</a></li>
 	</ul>
 </div>
 <ul class="dir-list">
-	<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/Pasted image 20240920140430.jpg"  class="external-link">Pasted image 20240920140430.jpg</a></li>
-	<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/Screenshot_20241001_135116.png"  class="external-link">Screenshot_20241001_135116.png</a></li>
-	<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/ext.png"  class="external-link">ext.png</a></li>
 	<li><div class="file-icon"></div><a class="" href="/OSU-notes/index.html"  >index</a></li>
-	<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/torque.png"  class="external-link">torque.png</a></li>
 </ul>
 </div>
     </div>
@@ -263,6 +273,10 @@
 <li><a href="#dot-product" class="anchor-link">Dot product:</a></li>
 </ul>
 </li>
+<li><a href="#kinetic-energy" class="anchor-link">Kinetic Energy</a><ul>
+<li><a href="#rolling-spheres-solid-are-different" class="anchor-link">Rolling spheres(Solid) are different:</a></li>
+</ul>
+</li>
 </ul>
 </li>
 </ul>
@@ -270,7 +284,7 @@
 <p>See <a href="/OSU-notes/physics/Centripetal%20Acceleration.html">Centripetal Acceleration</a>, <a href="/OSU-notes/physics/Center%20of%20Mass.html">Center of Mass</a>   </p>
 <p>Direction defined with right hand rule: Take your right hand, curl your fingers, thumb = direction facing   </p>
 <h2 id="torque">Torque</h2>
-<p><img alt="" src="/OSU-notes/torque.png" /> <br />
+<p><img alt="" src="/OSU-notes/imgs/torque.png" /> <br />
 Action of force in a rotational context <br />
 $$ \tau = r F_t = rFsin\Theta$$ <br />
 $$ \bar \tau = \bar r * \bar F$$ <br />
@@ -320,7 +334,7 @@ So the amount of revelations =  208 / 2pi = 96.7662053999   </p>
 $$ r = \frac \tau {Fsin\phi} = \frac {8.5}{18sin67} = .51m\]</div>
 <hr />
 <p>A firce of (7i-k)N is applied at position (9i + 3k) m.  Considering the origin to the the axis of rotation, determine the torque corresponding to this force. <br />
-<img alt="" src="/OSU-notes/ext.png" /> <br />
+<img alt="" src="/OSU-notes/imgs/ext.png" /> <br />
 $$ \bar \tau = \bar r * \bar F = (9\hat i + 3 \hat k) * (7 \hat i - \hat k) $$ <br />
 FOIL THIS BITCH   </p>
 <div class="arithmatex">\[  \bar \tau = 9\hat i * 7\hat i + 9\hat i * (-\hat h) + 3\hat k *7 \hat i  +3 \hat k * (-\hat k)    $$   
@@ -342,7 +356,34 @@ $$ \bar A * \bar B = ABsin\theta \]</div>
 <div class="arithmatex">\[ \hat i * \hat i = (1)(1)sin0 = 0 $$   
 $$ \hat i * \hat J = (1)(1)sin\frac \pi2 = 1$$   
 $$ \hat i * \hat J = \hat k $$   
-$$ \hat k * \hat i = \hat j \]</div></div>
+$$ \hat k * \hat i = \hat j \]</div>
+<h2 id="kinetic-energy">Kinetic Energy</h2>
+<div class="arithmatex">\[ I = mR^2 $$   
+$$ k = \frac 1 2mv^2  $$   
+Stick them together   
+$$ m = \frac I {R^2} $$   
+$$ k = \frac 1 2 (\frac I R) ^2 = \frac 1 2 I w ^2 \]</div>
+<h3 id="rolling-spheres-solid-are-different">Rolling spheres(Solid) are different:</h3>
+<p>Moments of inertia ARE CONSTANT (*Asterix):   </p>
+<p>$$ K = K_T + K_R $$ <br />
+ $$ = \frac 1 2 m v^2 + \frac 1 2 I\omega^2 $$ <br />
+ Subsitute in with: <br />
+ $$ I = \frac 2 5 m R^2 $$ <br />
+  AND: <br />
+ $$ \omega = \frac V R $$$$ = \frac 1 2 m v^2 + \frac 1 2 (\frac 2 5 m R^2)\omega^2 $$   </p>
+<p>$$ = \frac 1 2 m v^2 + \frac 2 {10} m R^2(\frac V R)^2 $$ <br />
+ $$ k = \frac 7 {10} m v^2 $$ <br />
+ 
+<h3>The asterix</h3></p>
+<p>The axis matters with moment of inertia. And some object that are complex have multiple moments of inertia.  <br />
+<img alt="" src="/OSU-notes/imgs/rotlolly.png" /> <br />
+ $$ I = I_{cm} + mD^2$$   </p>
+<p>mD^2 is known as the "point mass" term <br />
+ D is the axis to center of mas <br />
+ One object exists you can easily calc the moment of inertial. A RING <br />
+<img alt="" src="/OSU-notes/imgs/ring.png" /> <br />
+ All the points are of r <br />
+ $$ I = \int R^2dm = R^2 \int dm =R^2m $$</p></div>
 <div class="note-footer">
 <div class="backlinks" style="display:none"></div>
 
@@ -352,17 +393,17 @@ $$ \hat k * \hat i = \hat j \]</div></div>
 
 </div>
 <div class="graph requires_js ">
-    <div id="A192220083033449467964024862454464481096{level}" class="graph_div"></div>
+    <div id="A305535065222372483924365521333291456564{level}" class="graph_div"></div>
 
-    <div class="graph-instructions" id="D192220083033449467964024862454464481096{level}">
+    <div class="graph-instructions" id="D305535065222372483924365521333291456564{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B192220083033449467964024862454464481096{level}" level="{level}" note_temp_id="192220083033449467964024862454464481096" onclick="window.ObsHtmlGraph.run(this, '192220083033449467964024862454464481096', 'angular math');">
+        <button class="graph_button graph_show_button" id="B305535065222372483924365521333291456564{level}" level="{level}" note_temp_id="305535065222372483924365521333291456564" onclick="window.ObsHtmlGraph.run(this, '305535065222372483924365521333291456564', 'angular math');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C192220083033449467964024862454464481096{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C305535065222372483924365521333291456564{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>
