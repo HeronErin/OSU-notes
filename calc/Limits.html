@@ -284,244 +284,247 @@
 </li>
 </ul>
 </div>
-<div class="arithmatex">\[
- \lim_{x\to x}f(x) = L
-\]</div>
+<p>$$</p>
+<p>\lim_{x\to x}f(x) = L</p>
+<p>$$   </p>
 <p>If the values of f can be made as close as <em>you like</em> to L for all x sufficiently close to but not equal to, a ("Two-sided" limit)   </p>
 <hr />
-<div class="arithmatex">\[
- \lim_{x\to 3+}f(x) = L
-\]</div>
+<p>$$</p>
+<p>\lim_{x\to 3+}f(x) = L</p>
+<p>$$   </p>
 <p>One sided limit, approaching for the positive towards the negative.    </p>
 <h1 id="limit-laws">Limit Laws</h1>
 <ol>
 <li>Arithmatic   </li>
-<li>
-<p>Composition:  if f is continuous as m and g is continuous as m  <br />
-$$
- \lim_{x \to a} f(g(x)) = \lim_{x -&gt; \to a} f(\lim_{x \to a} g(x)) = f(m) 
-$$   </p>
-</li>
-<li>
-<p>Squeezing  <br />
-$$
- \lim_{x \to 2} ln(sin(x-2) + e^x<em>sin(\frac {\pi x}{4})) = ln(\lim_{x \to 2} (sin(x-2) + e^x</em>sin(\frac {\pi x}{4}))) \ \ ;\ etc 
-$$   </p>
-</li>
-<li>
-<p>All famous functions are continuous on their domain.   </p>
-</li>
+<li>Composition: <br />
+  if f is continuous as m and g is continuous as m    </li>
+</ol>
+<p>$$</p>
+<p>\lim_{x \to a} f(g(x)) = \lim_{x -&gt; \to a} f(\lim_{x \to a} g(x)) = f(m) </p>
+<p>$$   </p>
+<ol>
+<li>Squeezing    </li>
+</ol>
+<p>$$</p>
+<p>\lim_{x \to 2} ln(sin(x-2) + e^x<em>sin(\frac {\pi x}{4})) = ln(\lim_{x \to 2} (sin(x-2) + e^x</em>sin(\frac {\pi x}{4}))) \ \ ;\ etc </p>
+<p>$$   </p>
+<ol>
+<li>All famous functions are continuous on their domain.   </li>
 </ol>
 <h2 id="squeeze-theorem">Squeeze Theorem</h2>
-<p>If the only thing we know about a function is its bounds. Ex: <br />
-g(x) &lt;= f(x) &lt;= h(x)    </p>
-<div class="arithmatex">\[
- \lim_{x \to a} g(x) = \lim_{x \to a} h(x) = L 
-\]</div>
+<p>If the only thing we know about a function is its bounds. Ex:   </p>
+<p>g(x) &lt;= f(x) &lt;= h(x)    </p>
+<p>$$</p>
+<p>\lim_{x \to a} g(x) = \lim_{x \to a} h(x) = L </p>
+<p>$$   </p>
 <p>THEN   </p>
-<div class="arithmatex">\[
- \lim_{x \to a} f(x) = L 
-\]</div>
-<p>ex: <br />
-find:   </p>
-<div class="arithmatex">\[
- \lim_{x \to 0} x^2cos(1/x) 
-\]</div>
+<p>$$</p>
+<p>\lim_{x \to a} f(x) = L </p>
+<p>$$   </p>
+<p>ex:   </p>
+<p>find:   </p>
+<p>$$</p>
+<p>\lim_{x \to 0} x^2cos(1/x) </p>
+<p>$$   </p>
 <p>The problem is that:   </p>
-<p>$$
- \lim_{x \to 0} cos(1/x) 
-$$ <br />
- DOES NOT EXIST: <br />
-SOLUTION, squeeze it: <br />
--1 &lt;= cos(1/x) &lt;= 1 <br />
+<p>$$</p>
+<p>\lim_{x \to 0} cos(1/x) </p>
+<p>$$   </p>
+<p>DOES NOT EXIST:   </p>
+<p>SOLUTION, squeeze it:   </p>
+<p>-1 &lt;= cos(1/x) &lt;= 1 <br />
 MULT by x^2   </p>
-<div class="arithmatex">\[
- -x^2 &lt;= x^2 cos(1/x) &lt;= x^2 
-\]</div>
-<div class="arithmatex">\[
- \lim_{x \to 0} -x^2 =\lim_{x \to 0} x^2 = 0 
-\]</div>
+<p>$$</p>
+<p>-x^2 &lt;= x^2 cos(1/x) &lt;= x^2 </p>
+<p>$$   </p>
+<p>$$</p>
+<p>\lim_{x \to 0} -x^2 =\lim_{x \to 0} x^2 = 0 </p>
+<p>$$   </p>
 <p>SO:   </p>
-<div class="arithmatex">\[
- \lim_{x \to 0} x^2cos(1/x) = 0 
-\]</div>
+<p>$$</p>
+<p>\lim_{x \to 0} x^2cos(1/x) = 0 </p>
+<p>$$   </p>
 <hr />
 <h3 id="indeterminate-for-0-0">INDETERMINATE FOR = 0/0</h3>
-<div class="arithmatex">\[
- \lim_{x \to 1} \frac{\frac{1}{x+1} - \frac{3}{x+5} }{x-1} 
-\]</div>
-<p>Mult to and bottom by: (x+1)(x+5)   </p>
-<div class="arithmatex">\[
- \lim_{x \to 1} \frac {x+5 - 3(x+1)}{(x-1)(x+1)(x+5)} = \frac {x+5 - 3x -3} {(x-1)(x+1)(x+5) } =  = \frac{-2(x-1)}{(x-1)(x+1)(x+5)} = \frac {-2}{(x+1)(x+5)} 
-\]</div>
-<div class="arithmatex">\[
- = -\frac {1}{6} 
-\]</div>
+<p>$$</p>
+<p>\lim_{x \to 1} \frac{\frac{1}{x+1} - \frac{3}{x+5} }{x-1} </p>
+<p>$$   </p>
+<p>Mult to and bottom by: <br />
+ (x+1)(x+5)   </p>
+<p>$$</p>
+<p>\lim_{x \to 1} \frac {x+5 - 3(x+1)}{(x-1)(x+1)(x+5)} = \frac {x+5 - 3x -3} {(x-1)(x+1)(x+5) } =  = \frac{-2(x-1)}{(x-1)(x+1)(x+5)} = \frac {-2}{(x+1)(x+5)} </p>
+<p>$$   </p>
+<p>$$</p>
+<p>= -\frac {1}{6} </p>
+<p>$$   </p>
 <p><center>indeterminate -&gt; determinate</center>   </p>
 <hr />
-<div class="arithmatex">\[
- \lim_{x \to -5} \frac{\sqrt {4-n} - 3} {n+5} 
-\]</div>
-<p>Strategy: top and bottom by "conjugate quantity" <br />
-Reason: (a-b)(a+b) = aa - bb <br />
+<p>$$</p>
+<p>\lim_{x \to -5} \frac{\sqrt {4-n} - 3} {n+5} </p>
+<p>$$   </p>
+<p>Strategy: <br />
+ top and bottom by "conjugate quantity" <br />
+Reason: <br />
+ (a-b)(a+b) = aa - bb <br />
 Get rid of sq root!   </p>
-<div class="arithmatex">\[
-lim_{x \to -5} \frac {(\sqrt {4-n} - 3)(\sqrt {4-n} - 3)} {(n+5)(\sqrt {4-n} - 3)} = \frac {4-n-9}{ {(n+5)(\sqrt {4-n} - 3)} } = \frac {-1(n+5)}{(n+5)(\sqrt{4-n}+3)} = \frac {-1}{\sqrt{4-n} + 3} 
-\]</div>
-<div class="arithmatex">\[
- = \frac {-1}{6} 
-\]</div>
+<p>$$</p>
+<p>lim_{x \to -5} \frac {(\sqrt {4-n} - 3)(\sqrt {4-n} - 3)} {(n+5)(\sqrt {4-n} - 3)} = \frac {4-n-9}{ {(n+5)(\sqrt {4-n} - 3)} } = \frac {-1(n+5)}{(n+5)(\sqrt{4-n}+3)} = \frac {-1}{\sqrt{4-n} + 3} </p>
+<p>$$   </p>
+<p>$$</p>
+<p>= \frac {-1}{6} </p>
+<p>$$   </p>
 <hr />
-<div class="arithmatex">\[
- \frac{z-1}{\sqrt{2-z}-1} 
-\]</div>
-<div class="arithmatex">\[
- \frac{\left(z-1\right)\left(\sqrt{2-z}+1\right)}{\left(\sqrt{2-z}-1\right)\left(\sqrt{2-z}+1\right)} 
-\]</div>
-<div class="arithmatex">\[
- \frac{\left(z-1\right)\left(\sqrt{2-z}+1\right)}{2-z-1} 
-\]</div>
-<div class="arithmatex">\[
- \frac{\left(z-1\right)\left(\sqrt{2-z}+1\right)}{-1\left(z-1\right)} 
-\]</div>
-<div class="arithmatex">\[
- \frac{\sqrt{2-z}+1}{-1} 
-\]</div>
+<p>$$</p>
+<p>\frac{z-1}{\sqrt{2-z}-1} </p>
+<p>$$   </p>
+<p>$$</p>
+<p>\frac{\left(z-1\right)\left(\sqrt{2-z}+1\right)}{\left(\sqrt{2-z}-1\right)\left(\sqrt{2-z}+1\right)} </p>
+<p>$$   </p>
+<p>$$</p>
+<p>\frac{\left(z-1\right)\left(\sqrt{2-z}+1\right)}{2-z-1} </p>
+<p>$$   </p>
+<p>$$</p>
+<p>\frac{\left(z-1\right)\left(\sqrt{2-z}+1\right)}{-1\left(z-1\right)} </p>
+<p>$$   </p>
+<p>$$</p>
+<p>\frac{\sqrt{2-z}+1}{-1} </p>
+<p>$$   </p>
 <p>FIll in where z = 1 <br />
-and  <br />
-$$
- -2 
-$$   </p>
+and    </p>
+<p>$$</p>
+<p>-2 </p>
+<p>$$   </p>
 <hr />
 <h2 id="infinite-limits">Infinite Limits</h2>
-<div class="arithmatex">\[
- \lim_{x \to 0} \frac {x} {x^3} = \frac {1} {x^2} = indeterminate = oo 
-\]</div>
-<div class="arithmatex">\[
- \lim_{x \to 0} \frac {x} {0}  = determinate = DNE 
-\]</div>
+<p>$$</p>
+<p>\lim_{x \to 0} \frac {x} {x^3} = \frac {1} {x^2} = indeterminate = oo </p>
+<p>$$   </p>
+<p>$$</p>
+<p>\lim_{x \to 0} \frac {x} {0}  = determinate = DNE </p>
+<p>$$   </p>
 <p>Infinity is not a value, but a destination.    </p>
 <hr />
-<div class="arithmatex">\[
- \lim_{x \to -2} \frac {e^x}{(x+2)^3} 
-\]</div>
-<div class="arithmatex">\[
- \lim_{x \to -2+} \frac {e^x}{(x+2)^3} = oo 
-\]</div>
-<div class="arithmatex">\[
- \lim_{x \to -2-} \frac {e^x}{(x+2)^3} = -oo 
-\]</div>
+<p>$$</p>
+<p>\lim_{x \to -2} \frac {e^x}{(x+2)^3} </p>
+<p>$$   </p>
+<p>$$</p>
+<p>\lim_{x \to -2+} \frac {e^x}{(x+2)^3} = oo </p>
+<p>$$   </p>
+<p>$$</p>
+<p>\lim_{x \to -2-} \frac {e^x}{(x+2)^3} = -oo </p>
+<p>$$   </p>
 <p>SO the double sided limit does <strong>not</strong> EXIST.   </p>
 <hr />
-<div class="arithmatex">\[
- \lim_{x \to 3} \frac{x^{2}-9x+14}{x^{2}-5x+6} = \frac {(x-7)(x-2)}{(x-3)(x-2)} 
-\]</div>
+<p>$$</p>
+<p>\lim_{x \to 3} \frac{x^{2}-9x+14}{x^{2}-5x+6} = \frac {(x-7)(x-2)}{(x-3)(x-2)} </p>
+<p>$$   </p>
 <p>FORM   </p>
-<div class="arithmatex">\[
- \frac{9-27+14}{9-15+6}=-\frac{4}{0} 
-\]</div>
+<p>$$</p>
+<p>\frac{9-27+14}{9-15+6}=-\frac{4}{0} </p>
+<p>$$   </p>
 <p>form is %/0, <strong>form does not exist!</strong>   </p>
-<div class="arithmatex">\[
- \lim_{x =\to 3+} \frac {x-7}{x-3}  = -oo 
-\]</div>
+<p>$$</p>
+<p>\lim_{x =\to 3+} \frac {x-7}{x-3}  = -oo </p>
+<p>$$   </p>
 <p>as (x - 3) for the + as approaching 0, so inf, and x-7 is -5   </p>
 <hr />
-<div class="arithmatex">\[
- \lim_{x \to 1} \frac {sin\ x} {\sqrt{2-x^2} - 1} 
-\]</div>
+<p>$$</p>
+<p>\lim_{x \to 1} \frac {sin\ x} {\sqrt{2-x^2} - 1} </p>
+<p>$$   </p>
 <p>FORM   </p>
-<div class="arithmatex">\[
- \frac {+N}{0}
-\]</div>
+<p>$$</p>
+<p>\frac {+N}{0}</p>
+<p>$$   </p>
 <hr />
-<div class="arithmatex">\[
- \lim_{x \to 1} \frac {(sin\ x)(\sqrt{2-x^2} - 1)} {(\sqrt{2-x^2} - 1)(\sqrt{2-x^2} - 1)} =\lim_{x \to 1} \frac  {(sin\ x)(\sqrt{2-x^2} - 1)}{1-x^2} 
-\]</div>
-<div class="arithmatex">\[
- \lim_{x \to 1^+} \frac {(sin~x)(\sqrt{2-x^2} - 1)}{(1-x)(1+x)} or \frac {+}{(0+)(+)} = +oo 
-\]</div>
-<div class="arithmatex">\[
- \lim_{x \to 1^-} \frac {+}{(-0)(+)} = oo
-\]</div>
+<p>$$</p>
+<p>\lim_{x \to 1} \frac {(sin\ x)(\sqrt{2-x^2} - 1)} {(\sqrt{2-x^2} - 1)(\sqrt{2-x^2} - 1)} =\lim_{x \to 1} \frac  {(sin\ x)(\sqrt{2-x^2} - 1)}{1-x^2} </p>
+<p>$$   </p>
+<p>$$</p>
+<p>\lim_{x \to 1^+} \frac {(sin~x)(\sqrt{2-x^2} - 1)}{(1-x)(1+x)} or \frac {+}{(0+)(+)} = +oo </p>
+<p>$$   </p>
+<p>$$</p>
+<p>\lim_{x \to 1^-} \frac {+}{(-0)(+)} = oo</p>
+<p>$$   </p>
 <p>NO DOUBLE SIDED = DNE   </p>
 <hr />
-<div class="arithmatex">\[
- f(x) = 
-\]</div>
-<div class="arithmatex">\[
- \frac{2x-3}{x-2}~~~~;~~~~~ x &lt; 2 
-\]</div>
-<div class="arithmatex">\[
- \frac {x^2+5x+6}{x^2-4}~~~~;~~~~~x &gt; 2
-\]</div>
-<div class="arithmatex">\[
-\lim_{x \to 2^+} f(x) 
-\]</div>
+<p>$$</p>
+<p>f(x) = </p>
+<p>$$   </p>
+<p>$$</p>
+<p>\frac{2x-3}{x-2}<span class="formatting_strikethrough"></span>;<span class="formatting_strikethrough"></span>~ x &lt; 2 </p>
+<p>$$   </p>
+<p>$$</p>
+<p>\frac {x^2+5x+6}{x^2-4}<span class="formatting_strikethrough"></span>;<span class="formatting_strikethrough"></span>~x &gt; 2</p>
+<p>$$   </p>
+<p>$$</p>
+<p>\lim_{x \to 2^+} f(x) </p>
+<p>$$   </p>
 <p>form 0/0   </p>
-<div class="arithmatex">\[
- \frac {x^2+5x+6}{x^2-4} = \frac {(x-3)(x-2)}{(x-2)(x+2)} = \frac {-1}{4} 
-\]</div>
+<p>$$</p>
+<p>\frac {x^2+5x+6}{x^2-4} = \frac {(x-3)(x-2)}{(x-2)(x+2)} = \frac {-1}{4} </p>
+<p>$$   </p>
 <p>FORM N/N   </p>
-<div class="arithmatex">\[
- \frac{2x-3}{x-2} = + / (-0) = -oo 
-\]</div>
+<p>$$</p>
+<p>\frac{2x-3}{x-2} = + / (-0) = -oo </p>
+<p>$$   </p>
 <hr />
-<div class="arithmatex">\[
- \lim_{x \to +oo} \frac {x}{x^2-4} = \frac {\frac {1}{x}}{1- \frac 4{x^2}} =0 
-\]</div>
+<p>$$</p>
+<p>\lim_{x \to +oo} \frac {x}{x^2-4} = \frac {\frac {1}{x}}{1- \frac 4{x^2}} =0 </p>
+<p>$$   </p>
 <p>only 1 HA, y = 0 <br />
 <strong>divide by highest x^2</strong>\   </p>
 <hr />
-<div class="arithmatex">\[
- \lim_{x \to oo} \frac {\sqrt{2x^2 +1}}{3x-5} 
-\]</div>
+<p>$$</p>
+<p>\lim_{x \to oo} \frac {\sqrt{2x^2 +1}}{3x-5} </p>
+<p>$$   </p>
 <p>Mult by 1/x   </p>
-<div class="arithmatex">\[
- \frac{\sqrt{\frac 1{x^2}} \sqrt{2x^2+1} }{3-\frac5 x} = \frac {\sqrt{\frac1{x^2}(2x^2+1)}}{3-\frac 5x} = \frac {\sqrt2}3
-\]</div>
-<div class="arithmatex">\[
- \frac 1x=\sqrt{\frac 1{x^2}} 
-\]</div>
+<p>$$</p>
+<p>\frac{\sqrt{\frac 1{x^2}} \sqrt{2x^2+1} }{3-\frac5 x} = \frac {\sqrt{\frac1{x^2}(2x^2+1)}}{3-\frac 5x} = \frac {\sqrt2}3</p>
+<p>$$   </p>
+<p>$$</p>
+<p>\frac 1x=\sqrt{\frac 1{x^2}} </p>
+<p>$$   </p>
 <hr />
-<div class="arithmatex">\[
- f\left(x\right)=\frac{\sin x+7x}{2x} 
-\]</div>
+<p>$$</p>
+<p>f\left(x\right)=\frac{\sin x+7x}{2x} </p>
+<p>$$   </p>
 <p>H.As   </p>
-<div class="arithmatex">\[
- f\left(x\right)=\frac{\sin x}{2x}+\frac{7x}{2x} 
-\]</div>
-<div class="arithmatex">\[
- f\left(x\right)=\frac{\sin x}{2x}+\frac{7}{2} 
-\]</div>
-<div class="arithmatex">\[
- Know:\ -1\ \le\ \sin x\ \le\ 1 
-\]</div>
-<div class="arithmatex">\[
- -\frac{1}{2x}\le\frac{\sin x}{2x}\le\frac{1}{2x}
-\]</div>
-<div class="arithmatex">\[
- lim_{x \to oo} \frac {-1}{2x} = 0
-\]</div>
-<div class="arithmatex">\[
- lim_{x \to oo} \frac {1}{2x} = 0
-\]</div>
-<div class="arithmatex">\[
- lim_{x \to oo} f(x) = 7/2 
-\]</div>
-<p>V.A: <br />
-<strong>1/2</strong> as x = 0   </p>
+<p>$$</p>
+<p>f\left(x\right)=\frac{\sin x}{2x}+\frac{7x}{2x} </p>
+<p>$$   </p>
+<p>$$</p>
+<p>f\left(x\right)=\frac{\sin x}{2x}+\frac{7}{2} </p>
+<p>$$   </p>
+<p>$$</p>
+<p>Know:
+\ -1\ \le\ \sin x\ \le\ 1 </p>
+<p>$$   </p>
+<p>$$</p>
+<p>-\frac{1}{2x}\le\frac{\sin x}{2x}\le\frac{1}{2x}</p>
+<p>$$   </p>
+<p>$$</p>
+<p>lim_{x \to oo} \frac {-1}{2x} = 0</p>
+<p>$$   </p>
+<p>$$</p>
+<p>lim_{x \to oo} \frac {1}{2x} = 0</p>
+<p>$$   </p>
+<p>$$</p>
+<p>lim_{x \to oo} f(x) = 7/2 </p>
+<p>$$   </p>
+<p>V.A:   </p>
+<p><strong>1/2</strong> as x = 0   </p>
 <hr />
 <p>Q4   </p>
-<div class="arithmatex">\[
- g(v) = \frac {v^3-3 v^2-3 v+2}{4 v^2+\sqrt {v^6-4 v^3+3 v^2}+2 v-3} 
-\]</div>
+<p>$$</p>
+<p>g(v) = \frac {v^3-3 v^2-3 v+2}{4 v^2+\sqrt {v^6-4 v^3+3 v^2}+2 v-3} </p>
+<p>$$   </p>
 <p>Divide by v^3   </p>
-<div class="arithmatex">\[
- g(v)=\frac{1-\frac{3}{v}-\frac{3}{v^{2}}+\frac{2}{v^{3}}}{\frac{4}{v}+\sqrt{\frac{1}{v^{3}}\left(v^{6}-4v^{3}+3v^{2}\right)}+\frac{2}{v^{2}}-\frac{3}{v^{3}}} 
-\]</div>
-<div class="arithmatex">\[
- g(v)=\frac{1-\frac{3}{v}-\frac{3}{v^{2}}+\frac{2}{v^{3}}}{\frac{4}{v}+\sqrt{\left(1-\frac{4}{v^{3}}+\frac{3}{v^{4}}\right)}+\frac{2}{v^{2}}-\frac{3}{v^{3}}} 
-\]</div>
+<p>$$</p>
+<p>g(v)=\frac{1-\frac{3}{v}-\frac{3}{v^{2}}+\frac{2}{v^{3}}}{\frac{4}{v}+\sqrt{\frac{1}{v^{3}}\left(v^{6}-4v^{3}+3v^{2}\right)}+\frac{2}{v^{2}}-\frac{3}{v^{3}}} </p>
+<p>$$   </p>
+<p>$$</p>
+<p>g(v)=\frac{1-\frac{3}{v}-\frac{3}{v^{2}}+\frac{2}{v^{3}}}{\frac{4}{v}+\sqrt{\left(1-\frac{4}{v^{3}}+\frac{3}{v^{4}}\right)}+\frac{2}{v^{2}}-\frac{3}{v^{3}}} </p>
+<p>$$   </p>
 <p>Toward infinity resolves to 1/1   </p>
 <hr />
 <h2 id="intermediate-value-theorm">Intermediate value theorm</h2>
@@ -529,13 +532,13 @@ $$   </p>
 There is (at least one) x value between  the two where f(d) = c   </p>
 <p>aka if f(a) goes to f(b) then it is continuous <br />
 Show that the equation has a solution in (0, pi)   </p>
-<div class="arithmatex">\[
- x^3 = x + sin x + 1
-\]</div>
-<p>solt  <br />
-$$
- x^3 - x - sin  x - 1 = 0 
-$$   </p>
+<p>$$</p>
+<p>x^3 = x + sin x + 1</p>
+<p>$$   </p>
+<p>solt    </p>
+<p>$$</p>
+<p>x^3 - x - sin  x - 1 = 0 </p>
+<p>$$   </p>
 <p>f(x) is continuos from (0, pi) <br />
 f(0) = -1 <br />
 f(pi) = pi^3 - pi - 0 - 1 <br />
@@ -553,17 +556,17 @@ pi(pi^2 - 1) - 1 <br />
 
 </div>
 <div class="graph requires_js ">
-    <div id="A21250270327620289776220353693766239800{level}" class="graph_div"></div>
+    <div id="A291453958046271779883656299685328969841{level}" class="graph_div"></div>
 
-    <div class="graph-instructions" id="D21250270327620289776220353693766239800{level}">
+    <div class="graph-instructions" id="D291453958046271779883656299685328969841{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B21250270327620289776220353693766239800{level}" level="{level}" note_temp_id="21250270327620289776220353693766239800" onclick="window.ObsHtmlGraph.run(this, '21250270327620289776220353693766239800', 'limits');">
+        <button class="graph_button graph_show_button" id="B291453958046271779883656299685328969841{level}" level="{level}" note_temp_id="291453958046271779883656299685328969841" onclick="window.ObsHtmlGraph.run(this, '291453958046271779883656299685328969841', 'limits');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C21250270327620289776220353693766239800{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C291453958046271779883656299685328969841{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>
