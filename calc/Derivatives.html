@@ -231,10 +231,12 @@
 	<ul class="dir-list">
 		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/10-p-016.gif"  class="external-link">10-p-016.gif</a></li>
 		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/10-p-054.gif"  class="external-link">10-p-054.gif</a></li>
+		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/10-table-02.gif"  class="external-link">10-table-02.gif</a></li>
 		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/Pasted image 20240920140430.jpg"  class="external-link">Pasted image 20240920140430.jpg</a></li>
 		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/Pasted image 20241014094623.png"  class="external-link">Pasted image 20241014094623.png</a></li>
 		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/Pasted image 20241014102932.jpg"  class="external-link">Pasted image 20241014102932.jpg</a></li>
 		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/Pasted image 20241014103610.jpg"  class="external-link">Pasted image 20241014103610.jpg</a></li>
+		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/Pasted image 20241014104345.jpg"  class="external-link">Pasted image 20241014104345.jpg</a></li>
 		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/Screenshot_20241001_135116.png"  class="external-link">Screenshot_20241001_135116.png</a></li>
 		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/cmROT.png"  class="external-link">cmROT.png</a></li>
 		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/ext.png"  class="external-link">ext.png</a></li>
@@ -261,8 +263,6 @@
 	</ul>
 </div>
 <ul class="dir-list">
-	<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/10-table-02.gif"  class="external-link">10-table-02.gif</a></li>
-	<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/Pasted image 20241014104345.jpg"  class="external-link">Pasted image 20241014104345.jpg</a></li>
 	<li><div class="file-icon"></div><a class="" href="/OSU-notes/index.html"  >index</a></li>
 </ul>
 </div>
@@ -294,62 +294,62 @@ BUT <br />
 Continuous != differentiable   </p>
 <p>Reasoning:   </p>
 <p>If f'(a) exists   </p>
-<p>$$</p>
-<p>\lim_{h \to 0} \frac {f(a+h) - f(a)}h</p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ \lim_{h \to 0} \frac {f(a+h) - f(a)}h
+\]</div>
 <p>Need to show f is continous at a MEANING:   </p>
-<p>$$</p>
-<p>\lim_{x \to a} f(x)=f(a) </p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ \lim_{x \to a} f(x)=f(a) 
+\]</div>
 <p>Step 1:   </p>
-<p>$$</p>
-<p>\lim_{h \to 0} (f(a+h)-f(a)) = 0 </p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ \lim_{h \to 0} (f(a+h)-f(a)) = 0 
+\]</div>
 <p>As   </p>
-<p>$$</p>
-<p>\lim_{h \to 0}h = 0 </p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ \lim_{h \to 0}h = 0 
+\]</div>
 <p>Step 2:   </p>
-<p>$$</p>
-<p>\lim_{h \to 0} f(a+h) = \lim_{h \to 0}(f(a+h) - f(a) + f(a)) </p>
-<p>$$   </p>
-<p>$$</p>
-<p>\lim_{h \to 0} f(a+h) = f(a) </p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ \lim_{h \to 0} f(a+h) = \lim_{h \to 0}(f(a+h) - f(a) + f(a)) 
+\]</div>
+<div class="arithmatex">\[
+ \lim_{h \to 0} f(a+h) = f(a) 
+\]</div>
 <hr />
 <h2 id="product-rule">Product rule</h2>
-<p>$$</p>
-<p>\frac d{dx}(f(x)f(x)) = f'(x)g(x) + f(x)g'(x) </p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ \frac d{dx}(f(x)f(x)) = f'(x)g(x) + f(x)g'(x) 
+\]</div>
 <h2 id="quotient-rule">Quotient Rule</h2>
-<p>$$</p>
-<p>\frac d{dx} \frac {f(x)}{g(x)} = \frac {f'(x)g(x) - f(x)g'(x)}{g(x)^2}</p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ \frac d{dx} \frac {f(x)}{g(x)} = \frac {f'(x)g(x) - f(x)g'(x)}{g(x)^2}
+\]</div>
 <h2 id="chain-rule">Chain rule</h2>
 <p>Composition MAGIC   </p>
-<p>$$</p>
-<p>\frac d{dx} f(g(x)) = f'(g(x))g'(x) </p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ \frac d{dx} f(g(x)) = f'(g(x))g'(x) 
+\]</div>
 <h2 id="ln">Ln</h2>
-<p>$$</p>
-<p>\frac d{dx} ln(x) = 1/x </p>
-<p>$$   </p>
-<p>$$</p>
-<p>\frac d{dx} (log_bx) = \frac 1{ln b} * \frac 1x</p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ \frac d{dx} ln(x) = 1/x 
+\]</div>
+<div class="arithmatex">\[
+ \frac d{dx} (log_bx) = \frac 1{ln b} * \frac 1x
+\]</div>
 <p>See: <br />
 <a href="/OSU-notes/calc/Logs.html">Logs</a>   </p>
 <h2 id="tangent-line">Tangent line</h2>
 <p>At know point   </p>
-<p>$$</p>
-<p>y−y_0​=m(x−x_0​) </p>
-<p>$$   </p>
-<p>$$</p>
-<p>y=m(x−x_0​) + y_0​ </p>
-<p>$$   </p>
-<p>$$</p>
-<p>y=f'(x_0)(x−x_0​) + f(x_0) </p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ y−y_0​=m(x−x_0​) 
+\]</div>
+<div class="arithmatex">\[
+ y=m(x−x_0​) + y_0​ 
+\]</div>
+<div class="arithmatex">\[
+ y=f'(x_0)(x−x_0​) + f(x_0) 
+\]</div>
 <h2 id="trig-function-derivatives">Trig function derivatives</h2>
 <p><img alt="" src="/OSU-notes/imgs/Pasted%20image%2020240920140430.jpg" /> <br />
 <img alt="" src="/OSU-notes/imgs/Screenshot_20241001_135116.png" />   </p>
@@ -358,104 +358,104 @@ Continuous != differentiable   </p>
 <p>Get the derivative of the derivative   </p>
 <h2 id="implicit-differentiation">Implicit Differentiation</h2>
 <p>Classic Example:   </p>
-<p>$$</p>
-<p>x^2 + y^2 = 1 </p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ x^2 + y^2 = 1 
+\]</div>
 <p>Circle of rad 1   </p>
-<p>$$</p>
-<p>y^2 = 1-x^2 </p>
-<p>$$   </p>
-<p>$$</p>
-<p>y = \pm \sqrt{1-x^2} </p>
-<p>$$   </p>
-<p>$$</p>
-<p>y' = ...</p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ y^2 = 1-x^2 
+\]</div>
+<div class="arithmatex">\[
+ y = \pm \sqrt{1-x^2} 
+\]</div>
+<div class="arithmatex">\[
+ y' = ...
+\]</div>
 <p>BUT THIS SUCKS   </p>
 <p>Instead find dy/dx: <br />
  (Remember y depends on x, need dy/dx)   </p>
-<p>$$</p>
-<p>\frac d{dx} (x^2) + \frac d{dx} (y^2)  = \frac d{dx}(1) </p>
-<p>$$   </p>
-<p>$$</p>
-<p>2x + 2y \frac d{dx} = 0 </p>
-<p>$$   </p>
-<p>$$</p>
-<p>2y\frac d{dx} = -2x </p>
-<p>$$   </p>
-<p>$$</p>
-<p>\frac d{dx} = \frac {2x}{-2y} = \frac  {-x}y </p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ \frac d{dx} (x^2) + \frac d{dx} (y^2)  = \frac d{dx}(1) 
+\]</div>
+<div class="arithmatex">\[
+ 2x + 2y \frac d{dx} = 0 
+\]</div>
+<div class="arithmatex">\[
+ 2y\frac d{dx} = -2x 
+\]</div>
+<div class="arithmatex">\[
+ \frac d{dx} = \frac {2x}{-2y} = \frac  {-x}y 
+\]</div>
 <p>WE PUT dy/dx AFTER y as it is the DEPENDENT VARIABLE!   </p>
 <p>Solving for ln(x)'   </p>
-<p>$$</p>
-<p>x = e^{ln(x)}</p>
-<p>$$   </p>
-<p>$$</p>
-<p>1 = e^{ln(x)}ln'(x)</p>
-<p>$$   </p>
-<p>$$</p>
-<p>1 = xln'(x)</p>
-<p>$$   </p>
-<p>$$</p>
-<p>ln'(x) = 1/x</p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ x = e^{ln(x)}
+\]</div>
+<div class="arithmatex">\[
+ 1 = e^{ln(x)}ln'(x)
+\]</div>
+<div class="arithmatex">\[
+ 1 = xln'(x)
+\]</div>
+<div class="arithmatex">\[
+ ln'(x) = 1/x
+\]</div>
 <h2 id="high-order-implicit">High order implicit</h2>
-<p>$$</p>
-<p>x^2 + y^2 = 1</p>
-<p>$$   </p>
-<p>find    </p>
-<p>$$</p>
-<p>\frac {d^2y}{d^2x} </p>
-<p>$$   </p>
-<p>$$</p>
-<p>...</p>
-<p>$$   </p>
-<p>$$</p>
-<p>\frac {dy}{dx} = -\frac xy </p>
-<p>$$   </p>
-<p>$$</p>
-<p>\frac {d^2y}{d^2x} = -\frac {1y-x\frac {dy}{dx}}{y^2} </p>
-<p>$$   </p>
-<p>$$</p>
-<p>\frac {d^2y}{d^2x} = -\frac {y-x\frac {-x}{y}}{y^2} </p>
-<p>$$   </p>
-<p>$$</p>
-<p>\frac {d^2y}{d^2x} = -\frac {y+\frac {x^2}{y}}{y^2} </p>
-<p>$$   </p>
-<p>$$</p>
-<p>\frac {d^2y}{d^2x} = -\frac {y^2+x^2}{y^3} </p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ x^2 + y^2 = 1
+\]</div>
+<p>find  <br />
+$$
+ \frac {d^2y}{d^2x} 
+$$   </p>
+<div class="arithmatex">\[
+...
+\]</div>
+<div class="arithmatex">\[
+ \frac {dy}{dx} = -\frac xy 
+\]</div>
+<div class="arithmatex">\[
+ \frac {d^2y}{d^2x} = -\frac {1y-x\frac {dy}{dx}}{y^2} 
+\]</div>
+<div class="arithmatex">\[
+ \frac {d^2y}{d^2x} = -\frac {y-x\frac {-x}{y}}{y^2} 
+\]</div>
+<div class="arithmatex">\[
+ \frac {d^2y}{d^2x} = -\frac {y+\frac {x^2}{y}}{y^2} 
+\]</div>
+<div class="arithmatex">\[
+ \frac {d^2y}{d^2x} = -\frac {y^2+x^2}{y^3} 
+\]</div>
 <p>Knowing:   </p>
-<p>$$</p>
-<p>x^2 + y^2 = 1</p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ x^2 + y^2 = 1
+\]</div>
 <p>We can do:   </p>
-<p>$$</p>
-<p>\frac {d^2y}{d^2x} = -\frac {1}{y^3} </p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ \frac {d^2y}{d^2x} = -\frac {1}{y^3} 
+\]</div>
 <h2 id="logarithmic-differentiation">Logarithmic differentiation</h2>
 <p>Example, find the derivative of x<sup>x</sub> <br />
 1. ln(f(x)) = ln(x<sup>x</sup>) <br />
 2. ln(f(x))  = x ln(x) <br />
 3. d/dx ln(f(x)) = d/dx( x ln(x) )   </p>
-<p>$$</p>
-<p>\frac 1 {f(x)} f'(x) = 1 * ln(x) + x *1/x </p>
-<p>$$   </p>
-<p>$$</p>
-<p>\frac 1 {f(x)} f'(x) = ln(x) + 1 </p>
-<p>$$   </p>
-<p>$$</p>
-<p>f'(x) = f(x)ln(x) + f(x) </p>
-<p>$$   </p>
-<p>$$</p>
-<p>f'(x) = x^xln(x) + x^x </p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ \frac 1 {f(x)} f'(x) = 1 * ln(x) + x *1/x 
+\]</div>
+<div class="arithmatex">\[
+ \frac 1 {f(x)} f'(x) = ln(x) + 1 
+\]</div>
+<div class="arithmatex">\[
+ f'(x) = f(x)ln(x) + f(x) 
+\]</div>
+<div class="arithmatex">\[
+ f'(x) = x^xln(x) + x^x 
+\]</div>
 <h2 id="derivatives-of-inverse">Derivatives of inverse</h2>
 <p>You might need to restrict the original domain (inverse range) to make one to one   </p>
-<p>$$</p>
-<p>\frac d{dx} (f^{-1}(x)) = \frac 1 {f'(f^{-1}(x))} </p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ \frac d{dx} (f^{-1}(x)) = \frac 1 {f'(f^{-1}(x))} 
+\]</div>
 <h2 id="related-rates-of-change">Related Rates of change</h2>
 <p>Suppose we know <br />
 1) A relation between x at y <br />
@@ -465,32 +465,32 @@ From this we can find the rate of change at y with t   </p>
 We know (3, 4) exists at t=2 <br />
 And that dx/dt = -7 <br />
 Problem Find dy/dt at t=2   </p>
-<p>$$</p>
-<p>2x\frac{dx}{dt}  + 2y\frac{dy}{dt} = 0 </p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ 2x\frac{dx}{dt}  + 2y\frac{dy}{dt} = 0 
+\]</div>
 <p>Plug in x=3, y=4, and dx/dt = -7   </p>
-<p>$$</p>
-<p>2(3)(-7)  + 2(4)\frac{dy}{dt} = 0 </p>
-<p>$$   </p>
-<p>$$</p>
-<p>\frac{dy}{dt} = \frac{-2(3)(-7)}{2(4)} = 5.25 </p>
-<p>$$   </p>
+<div class="arithmatex">\[
+ 2(3)(-7)  + 2(4)\frac{dy}{dt} = 0 
+\]</div>
+<div class="arithmatex">\[
+\frac{dy}{dt} = \frac{-2(3)(-7)}{2(4)} = 5.25 
+\]</div>
 <p>Ex2:   </p>
 <p>The radius of a circle is increasing at a rate of 2 in/sec. That is the rate the at which the area is increasing at 12 in?   </p>
-<p>So we know    </p>
-<p>$$</p>
-<p>\frac {dr}{dt} = 2 </p>
-<p>$$   </p>
+<p>So we know  <br />
+$$
+ \frac {dr}{dt} = 2 
+$$   </p>
 <p>and   </p>
-<p>$$</p>
-<p>a = \pi r^2 </p>
-<p>$$   </p>
-<p>$$</p>
-<p>\frac{da}{dt} = \pi 2r\frac {dr}{dt} </p>
-<p>$$   </p>
-<p>$$</p>
-<p>\frac{da}{dt} = 48\pi </p>
-<p>$$   </p></div>
+<div class="arithmatex">\[
+ a = \pi r^2 
+\]</div>
+<div class="arithmatex">\[
+ \frac{da}{dt} = \pi 2r\frac {dr}{dt} 
+\]</div>
+<div class="arithmatex">\[
+ \frac{da}{dt} = 48\pi 
+\]</div></div>
 <div class="note-footer">
 <div class="backlinks" style="display:none"></div>
 
@@ -500,17 +500,17 @@ Problem Find dy/dt at t=2   </p>
 
 </div>
 <div class="graph requires_js ">
-    <div id="A5479235410909956303820634720593097132{level}" class="graph_div"></div>
+    <div id="A222701296202480658609920874579467211132{level}" class="graph_div"></div>
 
-    <div class="graph-instructions" id="D5479235410909956303820634720593097132{level}">
+    <div class="graph-instructions" id="D222701296202480658609920874579467211132{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B5479235410909956303820634720593097132{level}" level="{level}" note_temp_id="5479235410909956303820634720593097132" onclick="window.ObsHtmlGraph.run(this, '5479235410909956303820634720593097132', 'derivatives');">
+        <button class="graph_button graph_show_button" id="B222701296202480658609920874579467211132{level}" level="{level}" note_temp_id="222701296202480658609920874579467211132" onclick="window.ObsHtmlGraph.run(this, '222701296202480658609920874579467211132', 'derivatives');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C5479235410909956303820634720593097132{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C222701296202480658609920874579467211132{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>
