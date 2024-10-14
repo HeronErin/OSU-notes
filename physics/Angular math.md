@@ -1,5 +1,9 @@
 See [[Centripetal Acceleration]], [[Center of Mass]]
 
+$$ v = R \omega $$
+
+
+
 Direction defined with right hand rule: Take your right hand, curl your fingers, thumb = direction facing
 ## Torque
 ![[torque.png]]
@@ -115,3 +119,59 @@ Moments of inertia ARE CONSTANT (\*Asterix):
  ![[ring.png]]
  All the points are of r
  $$ I = \int R^2dm = R^2 \int dm =R^2m $$
+ _________________
+ ## Examples
+ 
+ You have just bought a new bicycle. On your first riding trip, it seems that the bike comes to rest relatively quickly after you stop pedaling and let the bicycle coast on flat ground. You call the bicycle shop from which you purchased the vehicle and describe the problem. The technician says that they will replace the bearings in the wheels or do whatever else is necessary if you can prove that the frictional torque in the axle of the wheels is worse than  −0.02 N · m.At first, you are discouraged by the technical sound of what you have been told and by the absence of any tool to measure torque in your garage. But then you remember that you are taking a physics class! You take your bike into the garage, turn it upside down and start spinning the wheel while you think about how to determine the frictional torque. The driveway outside the garage had a small puddle, so you notice that droplets of water are flying off the edge of one point on the tire tangentially, including drops that are projected straight upward, as shown in the figure below.
+
+Ah-ha! Here is your torque-measuring method! The upward-projected drops leave the rim of the wheel at the same level as the axle. You measure the height to which a drop rises from the level of the axle: h1 = 48.0 cm.
+The wet spot on the tire makes one revolution and another drop is projected upward. You measure its highest point:  h2 = 42.0 cm. You measure the radius of the wheel:  r = 0.292 m.
+Finally, you take the wheel off the bike and find its mass: m = 0.900 kg.
+ Because most of the mass of the wheel is at the tire, you model the wheel as a hoop. What do you tell the technician when you call back? (Enter the frictional torque, in N · m, that you tell to the technician. Assume the positive direction is clockwise. Indicate the direction with the sign of your answer.)
+
+We know $$ v = R\omega $$
+AND
+$$ v=\sqrt{2gh} $$
+AND
+$$ \omega_f^2=\omega_i^2 + 2\alpha\Delta\Theta $$
+AND
+$$ \tau = I\alpha$$
+
+Modeling the wheel as a hoop:
+ $$ I = mR^2 $$
+
+Measure the h twice, in between 2 pi rads pass.
+![[Pasted image 20241014094623.png]]
+
+
+SO:
+$$  \frac{\omega_f^2- \omega_i^2}{2\Delta\Theta} =  \alpha  $$
+$$ \tau =  I\frac{2gh_f- 2gh_i}{4 \pi}$$
+_______________________
+The figure below shows the drive train of a bicycle that has wheels 67.3 cm in diameter and pedal cranks 17.5 cm long. The cyclist pedals at a steady cadence of 82.0 rev/min. The chain engages with a front sprocket 15.2 cm in diameter and a rear sprocket 6.00 cm in diameter.
+![[10-p-016.gif]]
+(a) Calculate the speed of a link of the chain relative to the bicycle frame.
+$$ v = R_f\omega_f $$
+(b) Calculate the angular speed of the bicycle wheels.
+$$ v = R_r\omega_r$$
+Since the rear sprocket is on the wheel 
+$$ \omega_R = \omega_W $$
+$$ \omega_R = \frac {R_f}{R_R}{\omega_F} = \omega_W$$
+
+(c) Calculate the speed of the bicycle relative to the road.
+Wheels are rolling objects SO:
+$$ v_B = R_w \omega $$
+____________________________
+A weed trimmer for landscaping has a rotating head which consists of a spool of monofilament line, with a strand of line that extends out from the edge. The spool has an inner diameter of 3.00 cm and an outer diameter of 18.0 cm, and a mass of 100 g. The strand has a length of 16.0 cm. The monofilament line has a linear density of 10.0 g/m.
+![[10-p-054.gif]]
+(a) When switched on, the trimmer speeds up from 0 to 2,250 rev/min in 0.175 s. What average power (in W) is delivered to the head by the trimmer motor while it is accelerating? (Round your answer to at least one decimal place.)
+
+Power is the rate of work (work per time)
+$$ P = \frac W {\Delta t} $$
+$$ W = \Delta K = \frac 1 2 I \omega ^2 $$
+Objective: Moment of inertia 
+$$ I = I_{SPOOL} + I_{STRAND} $$
+LOOK UP THE SPOOL
+$$ I_{SPOOL} = \frac 1 2 M(R_{tot}^2 + M_{HOLE}^2) $$
+$$ I_{STRAND} = I_{CM} + MD^2 $$
+[[Intertia#Parallel Axis theorem]]
