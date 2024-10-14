@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3ecdb5901e55c1a2",
+        "id": "7fa396b8735b08a5",
         "type": "tabs",
         "children": [
           {
-            "id": "3fe688909dabc7bb",
+            "id": "36ebd230757e860c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "calc/Logs.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "calc/Logs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "calc/Logs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "calc/Logs.md"
               }
             }
           }
@@ -146,38 +146,38 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3fe688909dabc7bb",
+  "active": "36ebd230757e860c",
   "lastOpenFiles": [
+    "calc/Minima And Maxima.md",
+    "calc/Derivatives.md",
+    "calc/Problem 2.md",
+    "calc/Functions.md",
     "physics/Intertia.md",
+    "10-table-02.gif",
     "physics/Angular math.md",
+    "physics/Center of Mass.md",
+    "physics/Defs and notation WK1.md",
+    "README.md",
+    "Pasted image 20241014104345.jpg",
+    "imgs/Pasted image 20241014103610.jpg",
+    "imgs/Pasted image 20241014102932.jpg",
+    "Pasted image 20241014102030.jpg",
     "imgs/10-p-054.gif",
     "imgs/10-p-016.gif",
     "imgs/Pasted image 20241014094623.png",
-    "physics/Defs and notation WK1.md",
-    "calc/Derivatives.md",
-    "calc/Functions.md",
-    "calc/Minima And Maxima.md",
-    "physics/Center of Mass.md",
     "imgs",
     "imgs/cmROT.png",
     "imgs/ring.png",
-    "imgs/rotlolly.png",
     "physics/Centripetal Acceleration.md",
-    "imgs/ext.png",
-    "imgs/torque.png",
     "physics/Collisions.md",
     "physics/Energy.md",
     "physics/Forces.md",
     "physics/Class info.md",
     "physics/Vectors and examples, WK2.md",
     "physics/Newton.md",
-    "imgs/Screenshot_20241001_135116.png",
-    "calc/Problem 2.md",
     "calc/Logs.md",
     "physics/Friction.md",
     "calc/Limits.md",
-    "README.md",
-    "imgs/Pasted image 20240920140430.jpg",
     "\"Potential energy\".md",
     "config.yml",
     "calc/Class info.md",

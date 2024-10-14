@@ -12,6 +12,8 @@ $$ I = I_cm  + mD^2 $$
 D goes from axis to center of mass
 
 ## Examples
+![[10-table-02.gif]]
+
 
 Ex:
 Sphere: $$ I_{cm} = \frac 3 5 m R ^2 $$
@@ -91,3 +93,8 @@ $$
   $$
 
 Thus, the moment of inertia of the rolling wheel is approximately **165.4 kg·m²**.
+
+
+
+
+

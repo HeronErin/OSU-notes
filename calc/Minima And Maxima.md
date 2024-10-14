@@ -21,3 +21,7 @@ If f is differentiable at a and f has a local extreme at x = a THEN the derivati
 If f has a local exteme at x = a, then either f'(a) = 0 or f'(a) = DNE
 
 derivative MUST CHANGE SIGN
+
+## Derivative tests
+1. f'(x) goes from pos to neg. Local max at x
+2. f'(x) goes from neg to pos, Local min

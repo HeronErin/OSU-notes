@@ -1,8 +1,13 @@
 See [[Centripetal Acceleration]], [[Center of Mass]]
 
+
+TLDR:
 $$ v = R \omega $$
-
-
+$$ \tau = rFsin\phi $$
+$$ d \omega = \bar \tau \cdot d\bar\theta$$
+![[Pasted image 20241014102932.jpg]]
+![[Pasted image 20241014103610.jpg]]
+![[Pasted image 20241014104345.jpg]]
 
 Direction defined with right hand rule: Take your right hand, curl your fingers, thumb = direction facing
 ## Torque
@@ -146,7 +151,7 @@ Measure the h twice, in between 2 pi rads pass.
 
 SO:
 $$  \frac{\omega_f^2- \omega_i^2}{2\Delta\Theta} =  \alpha  $$
-$$ \tau =  I\frac{2gh_f- 2gh_i}{4 \pi}$$
+
 _______________________
 The figure below shows the drive train of a bicycle that has wheels 67.3 cm in diameter and pedal cranks 17.5 cm long. The cyclist pedals at a steady cadence of 82.0 rev/min. The chain engages with a front sprocket 15.2 cm in diameter and a rear sprocket 6.00 cm in diameter.
 ![[10-p-016.gif]]
