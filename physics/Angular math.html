@@ -230,7 +230,10 @@
 <button id="folder-2" class="dir-button " onclick="toggle_dir(this.id)"><div class="file-icon"></div>imgs</button>
 <div id="folder-container-2" class="dir-container requires_js " path="/OSU-notes/imgs">
 	<ul class="dir-list">
+		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/10-p-016.gif"  class="external-link">10-p-016.gif</a></li>
+		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/10-p-054.gif"  class="external-link">10-p-054.gif</a></li>
 		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/Pasted image 20240920140430.jpg"  class="external-link">Pasted image 20240920140430.jpg</a></li>
+		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/Pasted image 20241014094623.png"  class="external-link">Pasted image 20241014094623.png</a></li>
 		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/Screenshot_20241001_135116.png"  class="external-link">Screenshot_20241001_135116.png</a></li>
 		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/cmROT.png"  class="external-link">cmROT.png</a></li>
 		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/ext.png"  class="external-link">ext.png</a></li>
@@ -277,11 +280,13 @@
 <li><a href="#rolling-spheres-solid-are-different" class="anchor-link">Rolling spheres(Solid) are different:</a></li>
 </ul>
 </li>
+<li><a href="#examples" class="anchor-link">Examples</a></li>
 </ul>
 </li>
 </ul>
 </div>
 <p>See <a href="/OSU-notes/physics/Centripetal%20Acceleration.html">Centripetal Acceleration</a>, <a href="/OSU-notes/physics/Center%20of%20Mass.html">Center of Mass</a>   </p>
+<div class="arithmatex">\[ v = R \omega \]</div>
 <p>Direction defined with right hand rule: Take your right hand, curl your fingers, thumb = direction facing   </p>
 <h2 id="torque">Torque</h2>
 <p><img alt="" src="/OSU-notes/imgs/torque.png" /> <br />
@@ -383,7 +388,54 @@ $$ k = \frac 1 2 (\frac I R) ^2 = \frac 1 2 I w ^2 \]</div>
  One object exists you can easily calc the moment of inertial. A RING <br />
 <img alt="" src="/OSU-notes/imgs/ring.png" /> <br />
  All the points are of r <br />
- $$ I = \int R^2dm = R^2 \int dm =R^2m $$</p></div>
+ $$ I = \int R^2dm = R^2 \int dm =R^2m $$   </p>
+<hr />
+<h2 id="examples">Examples</h2>
+<p>You have just bought a new bicycle. On your first riding trip, it seems that the bike comes to rest relatively quickly after you stop pedaling and let the bicycle coast on flat ground. You call the bicycle shop from which you purchased the vehicle and describe the problem. The technician says that they will replace the bearings in the wheels or do whatever else is necessary if you can prove that the frictional torque in the axle of the wheels is worse than  −0.02 N · m.At first, you are discouraged by the technical sound of what you have been told and by the absence of any tool to measure torque in your garage. But then you remember that you are taking a physics class! You take your bike into the garage, turn it upside down and start spinning the wheel while you think about how to determine the frictional torque. The driveway outside the garage had a small puddle, so you notice that droplets of water are flying off the edge of one point on the tire tangentially, including drops that are projected straight upward, as shown in the figure below.   </p>
+<p>Ah-ha! Here is your torque-measuring method! The upward-projected drops leave the rim of the wheel at the same level as the axle. You measure the height to which a drop rises from the level of the axle: h1 = 48.0 cm. <br />
+The wet spot on the tire makes one revolution and another drop is projected upward. You measure its highest point:  h2 = 42.0 cm. You measure the radius of the wheel:  r = 0.292 m. <br />
+Finally, you take the wheel off the bike and find its mass: m = 0.900 kg. <br />
+ Because most of the mass of the wheel is at the tire, you model the wheel as a hoop. What do you tell the technician when you call back? (Enter the frictional torque, in N · m, that you tell to the technician. Assume the positive direction is clockwise. Indicate the direction with the sign of your answer.)   </p>
+<p>We know $$ v = R\omega $$ <br />
+AND <br />
+$$ v=\sqrt{2gh} $$ <br />
+AND <br />
+$$ \omega_f^2=\omega_i^2 + 2\alpha\Delta\Theta $$ <br />
+AND <br />
+$$ \tau = I\alpha$$   </p>
+<p>Modeling the wheel as a hoop: <br />
+ $$ I = mR^2 $$   </p>
+<p>Measure the h twice, in between 2 pi rads pass. <br />
+<img alt="" src="/OSU-notes/imgs/Pasted%20image%2020241014094623.png" />   </p>
+<p>SO: <br />
+$$  \frac{\omega_f^2- \omega_i^2}{2\Delta\Theta} =  \alpha  $$ <br />
+$$ \tau =  I\frac{2gh_f- 2gh_i}{4 \pi}$$   </p>
+<hr />
+<p>The figure below shows the drive train of a bicycle that has wheels 67.3 cm in diameter and pedal cranks 17.5 cm long. The cyclist pedals at a steady cadence of 82.0 rev/min. The chain engages with a front sprocket 15.2 cm in diameter and a rear sprocket 6.00 cm in diameter. <br />
+<img alt="" src="/OSU-notes/imgs/10-p-016.gif" /> <br />
+(a) Calculate the speed of a link of the chain relative to the bicycle frame. <br />
+$$ v = R_f\omega_f $$ <br />
+(b) Calculate the angular speed of the bicycle wheels. <br />
+$$ v = R_r\omega_r$$ <br />
+Since the rear sprocket is on the wheel  <br />
+$$ \omega_R = \omega_W $$ <br />
+$$ \omega_R = \frac {R_f}{R_R}{\omega_F} = \omega_W$$   </p>
+<p>(c) Calculate the speed of the bicycle relative to the road. <br />
+Wheels are rolling objects SO: <br />
+$$ v_B = R_w \omega $$   </p>
+<hr />
+<p>A weed trimmer for landscaping has a rotating head which consists of a spool of monofilament line, with a strand of line that extends out from the edge. The spool has an inner diameter of 3.00 cm and an outer diameter of 18.0 cm, and a mass of 100 g. The strand has a length of 16.0 cm. The monofilament line has a linear density of 10.0 g/m. <br />
+<img alt="" src="/OSU-notes/imgs/10-p-054.gif" /> <br />
+(a) When switched on, the trimmer speeds up from 0 to 2,250 rev/min in 0.175 s. What average power (in W) is delivered to the head by the trimmer motor while it is accelerating? (Round your answer to at least one decimal place.)   </p>
+<p>Power is the rate of work (work per time) <br />
+$$ P = \frac W {\Delta t} $$ <br />
+$$ W = \Delta K = \frac 1 2 I \omega ^2 $$ <br />
+Objective: Moment of inertia  <br />
+$$ I = I_{SPOOL} + I_{STRAND} $$ <br />
+LOOK UP THE SPOOL <br />
+$$ I_{SPOOL} = \frac 1 2 M(R_{tot}^2 + M_{HOLE}^2) $$ <br />
+$$ I_{STRAND} = I_{CM} + MD^2 $$ <br />
+<a href="/OSU-notes/physics/Intertia.html#parallel-axis-theorem">Intertia</a>   </p></div>
 <div class="note-footer">
 <div class="backlinks" style="display:none"></div>
 
@@ -393,17 +445,17 @@ $$ k = \frac 1 2 (\frac I R) ^2 = \frac 1 2 I w ^2 \]</div>
 
 </div>
 <div class="graph requires_js ">
-    <div id="A305535065222372483924365521333291456564{level}" class="graph_div"></div>
+    <div id="A75466338839214788777969396849467950543{level}" class="graph_div"></div>
 
-    <div class="graph-instructions" id="D305535065222372483924365521333291456564{level}">
+    <div class="graph-instructions" id="D75466338839214788777969396849467950543{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B305535065222372483924365521333291456564{level}" level="{level}" note_temp_id="305535065222372483924365521333291456564" onclick="window.ObsHtmlGraph.run(this, '305535065222372483924365521333291456564', 'angular math');">
+        <button class="graph_button graph_show_button" id="B75466338839214788777969396849467950543{level}" level="{level}" note_temp_id="75466338839214788777969396849467950543" onclick="window.ObsHtmlGraph.run(this, '75466338839214788777969396849467950543', 'angular math');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C305535065222372483924365521333291456564{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C75466338839214788777969396849467950543{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>
