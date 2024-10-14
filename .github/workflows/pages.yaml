@@ -18,12 +18,12 @@ jobs:
       - name: Install dependencies and run build
         run: |
           cd ${{ github.workspace }}
+          curl https://raw.githubusercontent.com/HeronErin/obsidian-html-fix/refs/heads/main/fix.py | python
           pip install --upgrade pip
           pip install obsidianhtml
           mkdir clone-path/.obsidian || true # this folder needs to exist so obsidianhtml can find the root of the vault
           obsidianhtml convert -i clone-path/config.yml -v
           touch output/html/.nojekyll
-          curl https://raw.githubusercontent.com/HeronErin/obsidian-html-fix/refs/heads/main/fix.py | python
 
       - name: Publish to Github Pages
         uses: s0/git-publish-subdir-action@develop
