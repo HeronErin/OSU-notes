@@ -281,104 +281,149 @@
 </ul>
 </div>
 <p>Depends on the mass of the object AND its size and shape. <br />
-Point masses: <br />
-$$ I = mR^2 $$ <br />
-With many points: <br />
-$$ I = \int R^2dm $$ <br />
-But this is hard, and we need to look it up in a book.  <br />
+Point masses:   </p>
+<div class="arithmatex">\[
+ I = mR^2 
+\]</div>
+<p>With many points:   </p>
+<div class="arithmatex">\[
+ I = \int R^2dm 
+\]</div>
+<p>But this is hard, and we need to look it up in a book.  <br />
 However these axis are through the center of mass. <br />
 <strong>So be careful to look up the right one</strong> <br />
 But rotation does not need to be through the center of mass   </p>
 <h2 id="parallel-axis-theorem">Parallel Axis theorem</h2>
-<p>$$ I = I_cm  + mD^2 $$ <br />
-D goes from axis to center of mass   </p>
+<div class="arithmatex">\[
+ I = I_cm  + mD^2 
+\]</div>
+<p>D goes from axis to center of mass   </p>
 <h2 id="examples">Examples</h2>
 <p><img alt="" src="/OSU-notes/10-table-02.gif" />   </p>
 <p>Ex: <br />
-Sphere: $$ I_{cm} = \frac 3 5 m R ^2 $$ <br />
-<img alt="" src="/OSU-notes/imgs/cmROT.png" />   </p>
+Sphere:  <br />
+$$
+ I_{cm} = \frac 3 5 m R ^2 
+$$   </p>
+<p><img alt="" src="/OSU-notes/imgs/cmROT.png" />   </p>
 <p>Ex: rod <br />
-AXIS-=-=-=-=-=-=-=-=-=cm-=-=-=-=-=-=-=-=-=- <br />
-$$ I_{cm}= \frac 1 {12} ml^2$$ <br />
-$$ I = \frac 1 {12} ml^2 + m (\frac l 2)^2 = \frac 1 {12} ml^2 + \frac 1 4 ml^2 = \frac 1 3 ml^2$$ <br />
-Ex: lolly with massive stick (moment around end) <br />
-$$ I = I_cm  + mD^2 $$ <br />
-$$ I_{tot} = I_{ROD} + I_{sph} $$ <br />
-USING FROM LAST PROBLEM: <br />
-$$ I_{ROD} = \frac 1 3 ml^2 $$ <br />
-m_1 = rod len <br />
+AXIS-=-=-=-=-=-=-=-=-=cm-=-=-=-=-=-=-=-=-=-   </p>
+<div class="arithmatex">\[
+ I_{cm}= \frac 1 {12} ml^2
+\]</div>
+<div class="arithmatex">\[
+ I = \frac 1 {12} ml^2 + m (\frac l 2)^2 = \frac 1 {12} ml^2 + \frac 1 4 ml^2 = \frac 1 3 ml^2
+\]</div>
+<p>Ex: lolly with massive stick (moment around end)   </p>
+<div class="arithmatex">\[
+ I = I_cm  + mD^2 
+\]</div>
+<div class="arithmatex">\[
+ I_{tot} = I_{ROD} + I_{sph} 
+\]</div>
+<p>USING FROM LAST PROBLEM:   </p>
+<div class="arithmatex">\[
+ I_{ROD} = \frac 1 3 ml^2 
+\]</div>
+<p>m_1 = rod len <br />
 l = rod len <br />
 M = sphere len <br />
-R = sphere rad <br />
-$$ I_{sph} = \frac 2 5 MR^2 + M(R + l)^2 $$ <br />
-$$ I_{tot} = \frac 1 3 ml^2 + \frac 2 5 MR^2 + M(l + R)^2 $$   </p>
+R = sphere rad   </p>
+<div class="arithmatex">\[
+ I_{sph} = \frac 2 5 MR^2 + M(R + l)^2 
+\]</div>
+<div class="arithmatex">\[
+ I_{tot} = \frac 1 3 ml^2 + \frac 2 5 MR^2 + M(l + R)^2 
+\]</div>
 <h2 id="newton">Newton</h2>
-<p>Transactional: <br />
-$$ \Sigma \bar F = M\bar a $$ <br />
-$$ \Sigma \bar F = m \frac {d\bar v}{dt} = \frac d{dt}(m\bar V) $$ <br />
-$$ \Sigma\bar F = \frac{d\bar p}{dt} $$$$ \bar p = m\bar v $$ <br />
-$$ KE = \frac 1 2 I W^2 $$   </p>
+<p>Transactional:   </p>
+<div class="arithmatex">\[
+ \Sigma \bar F = M\bar a 
+\]</div>
+<div class="arithmatex">\[
+ \Sigma \bar F = m \frac {d\bar v}{dt} = \frac d{dt}(m\bar V) 
+\]</div>
+<div class="arithmatex">\[
+ \Sigma\bar F = \frac{d\bar p}{dt} 
+\]</div>
+<div class="arithmatex">\[
+ \bar p = m\bar v 
+\]</div>
+<div class="arithmatex">\[
+ KE = \frac 1 2 I W^2 
+\]</div>
 <ul>
 <li>Momentum is concerved   </li>
 </ul>
-<p>Rotational: <br />
-$$ \Sigma \bar \tau  = I\bar\alpha$$ <br />
-$$ \bar\alpha = \frac {d\bar \omega}{dt} $$ <br />
-$$ \Sigma \bar \tau  = I\frac {d\bar \omega}{dt} = \frac{d}{dt}(I\bar \omega) $$ <br />
-$$ \Sigma \bar \tau = \frac {d\bar L}{dt}$$   </p>
+<p>Rotational:   </p>
+<div class="arithmatex">\[
+ \Sigma \bar \tau  = I\bar\alpha
+\]</div>
+<div class="arithmatex">\[
+ \bar\alpha = \frac {d\bar \omega}{dt} 
+\]</div>
+<div class="arithmatex">\[
+ \Sigma \bar \tau  = I\frac {d\bar \omega}{dt} = \frac{d}{dt}(I\bar \omega) 
+\]</div>
+<div class="arithmatex">\[
+ \Sigma \bar \tau = \frac {d\bar L}{dt}
+\]</div>
 <ul>
-<li>
-<p>WITH:   </p>
-<p>$$ \bar L = I\bar\omega $$- Only way to change angular momenturm is to apply torque, <br />
-As such it is concerved   </p>
+<li>WITH:   </li>
+</ul>
+<div class="arithmatex">\[
+ \bar L = I\bar\omega 
+\]</div>
+<ul>
+<li>Only way to change angular momenturm is to apply torque,   </li>
+</ul>
+<p>As such it is concerved   </p>
 <hr />
 <p>To find the moment of inertia of the rolling wheel, we can use the relationship between the rotational kinetic energy, moment of inertia, and angular velocity. The total kinetic energy of the rolling wheel consists of both translational and rotational kinetic energy.    </p>
-</li>
-<li>
-<p><strong>Translational Kinetic Energy (TKE)</strong>: <br />
-   $$ <br />
-   \text{TKE} = \frac{1}{2} m v^2 <br />
-   $$ <br />
-   where <span class="arithmatex">\(m\)</span> is the mass of the wheel and <span class="arithmatex">\(v\)</span> is the center of mass speed (0.13 m/s).   </p>
-</li>
-<li>
-<p><strong>Rotational Kinetic Energy (RKE)</strong>: <br />
-   $$ <br />
-   \text{RKE} = \frac{1}{2} I \omega^2 <br />
- $$ <br />
-   where <span class="arithmatex">\(I\)</span> is the moment of inertia and <span class="arithmatex">\(\omega\)</span> is the angular velocity.   </p>
-</li>
-<li>
-<p><strong>Relation between Linear and Angular Velocity</strong>: <br />
-   The angular velocity <span class="arithmatex">\(\omega\)</span> can be expressed in terms of the linear speed <span class="arithmatex">\(v\)</span> and the radius <span class="arithmatex">\(r\)</span>: <br />
-  $$ <br />
-   \omega = \frac{v}{r} <br />
-   $$ <br />
-   Substituting <span class="arithmatex">\(v = 0.13\)</span> m/s and <span class="arithmatex">\(r = 0.2\)</span> m: <br />
-   $$ <br />
-   \omega = \frac{0.13 \, \text{m/s}}{0.2 \, \text{m}} = 0.65 \, \text{rad/s} <br />
-   $$   </p>
-</li>
-<li>
-<p><strong>Substituting <span class="arithmatex">\(\omega\)</span> into the RKE equation</strong>: <br />
-   The rotational kinetic energy is given as 35 J: <br />
-   $$ <br />
-   35 = \frac{1}{2} I (0.65)^2 <br />
- $$ <br />
-$$
-   35 = \frac{1}{2} I (0.4225)
-  $$ <br />
-   $$ <br />
-   35 = 0.21125 I <br />
-$$</p>
-</li>
-<li>
-<p><strong>Solving for <span class="arithmatex">\(I\)</span></strong>:
-$$ <br />
-   I = \frac{35}{0.21125} \approx 165.4 \, \text{kg} \cdot \text{m}^2 <br />
-  $$   </p>
-</li>
-</ul>
+<ol>
+<li><strong>Translational Kinetic Energy (TKE)</strong>:   </li>
+</ol>
+<p>$$</p>
+<p>\text{TKE} = \frac{1}{2} m v^2</p>
+<p>$$   </p>
+<p>where <span class="arithmatex">\(m\)</span> is the mass of the wheel and <span class="arithmatex">\(v\)</span> is the center of mass speed (0.13 m/s).   </p>
+<ol>
+<li><strong>Rotational Kinetic Energy (RKE)</strong>:   </li>
+</ol>
+<p>$$</p>
+<p>\text{RKE} = \frac{1}{2} I \omega^2</p>
+<p>$$   </p>
+<p>where <span class="arithmatex">\(I\)</span> is the moment of inertia and <span class="arithmatex">\(\omega\)</span> is the angular velocity.   </p>
+<ol>
+<li><strong>Relation between Linear and Angular Velocity</strong>: <br />
+   The angular velocity <span class="arithmatex">\(\omega\)</span> can be expressed in terms of the linear speed <span class="arithmatex">\(v\)</span> and the radius <span class="arithmatex">\(r\)</span>:   </li>
+</ol>
+<p>$$</p>
+<p>\omega = \frac{v}{r}</p>
+<p>$$   </p>
+<p>Substituting <span class="arithmatex">\(v = 0.13\)</span> m/s and <span class="arithmatex">\(r = 0.2\)</span> m:   </p>
+<p>$$</p>
+<p>\omega = \frac{0.13 \, \text{m/s}}{0.2 \, \text{m}} = 0.65 \, \text{rad/s}</p>
+<p>$$   </p>
+<ol>
+<li><strong>Substituting <span class="arithmatex">\(\omega\)</span> into the RKE equation</strong>: <br />
+   The rotational kinetic energy is given as 35 J:   </li>
+</ol>
+<p>$$</p>
+<p>35 = \frac{1}{2} I (0.65)^2</p>
+<p>$$   </p>
+<p>$$</p>
+<p>35 = \frac{1}{2} I (0.4225)</p>
+<p>$$   </p>
+<p>$$</p>
+<p>35 = 0.21125 I</p>
+<p>$$   </p>
+<ol>
+<li><strong>Solving for <span class="arithmatex">\(I\)</span></strong>:   </li>
+</ol>
+<p>$$</p>
+<p>I = \frac{35}{0.21125} \approx 165.4 \, \text{kg} \cdot \text{m}^2</p>
+<p>$$   </p>
 <p>Thus, the moment of inertia of the rolling wheel is approximately <strong>165.4 kg·m²</strong>.   </p></div>
 <div class="note-footer">
 <div class="backlinks">
@@ -394,17 +439,17 @@ $$ <br />
 
 </div>
 <div class="graph requires_js ">
-    <div id="A166742907345727271553561657241410008776{level}" class="graph_div"></div>
+    <div id="A94250332856756458282945050677647336403{level}" class="graph_div"></div>
 
-    <div class="graph-instructions" id="D166742907345727271553561657241410008776{level}">
+    <div class="graph-instructions" id="D94250332856756458282945050677647336403{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B166742907345727271553561657241410008776{level}" level="{level}" note_temp_id="166742907345727271553561657241410008776" onclick="window.ObsHtmlGraph.run(this, '166742907345727271553561657241410008776', 'intertia');">
+        <button class="graph_button graph_show_button" id="B94250332856756458282945050677647336403{level}" level="{level}" note_temp_id="94250332856756458282945050677647336403" onclick="window.ObsHtmlGraph.run(this, '94250332856756458282945050677647336403', 'intertia');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C166742907345727271553561657241410008776{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C94250332856756458282945050677647336403{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>

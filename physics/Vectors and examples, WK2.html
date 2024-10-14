@@ -276,64 +276,112 @@
 <li><a href="#vectors" class="anchor-link">Vectors</a></li>
 <li><a href="#unit-circle" class="anchor-link">Unit circle</a></li>
 <li><a href="#vector-arithmatic" class="anchor-link">Vector arithmatic</a></li>
+<li><a href="#eq-for-projectile" class="anchor-link">Eq for projectile</a></li>
 <li><a href="#circular-motion" class="anchor-link">Circular motion</a></li>
 </ul>
 </li>
 </ul>
 </div>
 <p>An airplane flies straight for 640 km/hr. Then changes to 700 km /hr for 50 min. If the average speed is 680 km /hr. What is the duration of the entire trip?    </p>
-<p>Treat as two seperate equations. The only useful equations in <br />
-$$ \Delta x = 0.5 at^2 + v_it $$ <br />
-With a = 0 <br />
-$$ \Delta_1 = v_1t_1 $$ <br />
-$$ \Delta_2 = v_2t_2 $$ <br />
-Unknowns: d1, t1, d2: <br />
-Average vel = dx / dt <br />
-$$
- \bar v = \frac {\Delta_1 + \Delta_2} {t_1 + t_2} $$ <br />
- THE PHYSICS IS DONE! <br />
- $$\bar v = \frac {v_1t_1 + v_2t_2} {t_1 + t_2} $$ <br />
- Mult by denominator: <br />
- $$\bar v(t_1 + t_2) - v_1t_1 - = v_2t_2 $$ <br />
- ETC   </p>
+<p>Treat as two seperate equations. The only useful equations in   </p>
+<div class="arithmatex">\[
+ \Delta x = 0.5 at^2 + v_it 
+\]</div>
+<p>With a = 0   </p>
+<div class="arithmatex">\[
+ \Delta_1 = v_1t_1 
+\]</div>
+<div class="arithmatex">\[
+ \Delta_2 = v_2t_2 
+\]</div>
+<p>Unknowns: d1, t1, d2: <br />
+Average vel = dx / dt   </p>
+<p>$$</p>
+<p>\bar v = \frac {\Delta_1 + \Delta_2} {t_1 + t_2} 
+$$   </p>
+<p>THE PHYSICS IS DONE!   </p>
+<div class="arithmatex">\[
+\bar v = \frac {v_1t_1 + v_2t_2} {t_1 + t_2} 
+\]</div>
+<p>Mult by denominator:   </p>
+<div class="arithmatex">\[
+\bar v(t_1 + t_2) - v_1t_1 - = v_2t_2 
+\]</div>
+<p>ETC   </p>
 <hr />
 <p>L starts at rest. Accel is 3.4 m/s^2 <br />
 S starts from rest 140m ahead of L and accel 2.9 m/s^2 <br />
-1. Write an equation for L's pos as a func of time <br />
-$$ x_f - x_i = \Delta x = 0.5 at^2 $$ <br />
-$$ x_f  = 0.5 at^2 + x_i  $$ <br />
-$$ x_f  = 0.5 at^2  $$ <br />
-2. Write eq for S as a function of time <br />
-$$ x_f  = 0.5 at^2 + x_i  $$ <br />
-3. Combine <br />
-$$  0.5a_st^2 + x_{is} = 0.5 a_Lt^2 $$   </p>
+1. Write an equation for L's pos as a func of time   </p>
+<div class="arithmatex">\[
+ x_f - x_i = \Delta x = 0.5 at^2 
+\]</div>
+<div class="arithmatex">\[
+ x_f  = 0.5 at^2 + x_i  
+\]</div>
+<div class="arithmatex">\[
+ x_f  = 0.5 at^2  
+\]</div>
+<ol>
+<li>Write eq for S as a function of time   </li>
+</ol>
+<div class="arithmatex">\[
+ x_f  = 0.5 at^2 + x_i  
+\]</div>
+<ol>
+<li>Combine   </li>
+</ol>
+<div class="arithmatex">\[
+  0.5a_st^2 + x_{is} = 0.5 a_Lt^2 
+\]</div>
 <hr />
-<p>A cubic foot of osmium is the densest metal, is 1410 pounds. Calculate the maxx of a cubic inch in kilograms (1 pound = 0.454 kg, 1ft = 12 in) <br />
-$$ p = (\frac {1410 lb} {1ft^3}) (\frac {1 ft} {12in}) ^3 \frac {.454kg} {1 lb} = .37 kg $$   </p>
+<p>A cubic foot of osmium is the densest metal, is 1410 pounds. Calculate the maxx of a cubic inch in kilograms (1 pound = 0.454 kg, 1ft = 12 in)   </p>
+<div class="arithmatex">\[
+ p = (\frac {1410 lb} {1ft^3}) (\frac {1 ft} {12in}) ^3 \frac {.454kg} {1 lb} = .37 kg 
+\]</div>
 <hr />
 <h2 id="vectors">Vectors</h2>
 <p>ordered pairs <br />
-Components = Components <br />
-$$ magnitude = \sqrt {x^2 + y^2} $$ <br />
-(in 2d) <br />
-$$ \frac {a_y}{a_x} = tan \Theta $$ <br />
-<em>you do </em><em>not</em><em> need a coord system for angles and to normalize</em> <br />
+Components = Components   </p>
+<div class="arithmatex">\[
+ magnitude = \sqrt {x^2 + y^2} 
+\]</div>
+<p>(in 2d)   </p>
+<div class="arithmatex">\[
+ \frac {a_y}{a_x} = tan \Theta 
+\]</div>
+<p><em>you do </em><em>not</em><em> need a coord system for angles and to normalize</em> <br />
 A vector is an array of numbers. With component-wise addition and scalar multiplication (multi one number with each element)   </p>
-<p>$$ a_x = a cos\Theta $$ <br />
-$$ a_y = a sin\Theta $$ <br />
-$$ a = \sqrt {a_x^2 + a_y^2} $$ <br />
-Rectangular to polar coordinates; (a, theta) <strong>ARE NOT COMPONENTS</strong> <br />
-$$ a = \sqrt {a_x^2 + a_y^2 + a_z^2} $$ <br />
-3d TRIG is messy and too complicated for this course.   </p>
+<div class="arithmatex">\[
+ a_x = a cos\Theta 
+\]</div>
+<div class="arithmatex">\[
+ a_y = a sin\Theta 
+\]</div>
+<div class="arithmatex">\[
+ a = \sqrt {a_x^2 + a_y^2} 
+\]</div>
+<p>Rectangular to polar coordinates; (a, theta) <strong>ARE NOT COMPONENTS</strong>   </p>
+<div class="arithmatex">\[
+ a = \sqrt {a_x^2 + a_y^2 + a_z^2} 
+\]</div>
+<p>3d TRIG is messy and too complicated for this course.   </p>
 <hr />
 <p>A <strong>unit vector</strong> is a vector of magnitude 1; aka normalized vectors.    </p>
-<p>$$ \hat V  = Unit\ Vector$$ <br />
-$$ \hat I = (1, 0),\ \hat J = (0, 1) $$ <br />
-$$ \hat I = (1, 0),\ \hat J = (0, 1) $$ <br />
-k for 3d as well   </p>
-<p>Mult-ing vecs <br />
-$$ (2, 3) = 2\hat I = 3\hat J $$ <br />
-This becomes a collection of terms... great <br />
+<div class="arithmatex">\[
+ \hat V  = Unit\ Vector
+\]</div>
+<div class="arithmatex">\[
+ \hat I = (1, 0),\ \hat J = (0, 1) 
+\]</div>
+<div class="arithmatex">\[
+ \hat I = (1, 0),\ \hat J = (0, 1) 
+\]</div>
+<p>k for 3d as well   </p>
+<p>Mult-ing vecs   </p>
+<div class="arithmatex">\[
+ (2, 3) = 2\hat I = 3\hat J 
+\]</div>
+<p>This becomes a collection of terms... great <br />
 can apparently be used to convert coord systems.   </p>
 <hr />
 <p>adding vectors = tip-to-tail  addition   </p>
@@ -343,64 +391,129 @@ can apparently be used to convert coord systems.   </p>
 theta = s   </p>
 <hr />
 <h2 id="vector-arithmatic">Vector arithmatic</h2>
-<p>Eqs: <br />
-$$ \Delta \bar r = 0.5\bar at^2+\bar v_it $$ <br />
-$$ \bar v_f^2 = \bar v_i^2 + 2\bar a\Delta \bar r $$ <br />
-$$ \bar v_f = \bar v_i + \bar at $$ <br />
-Defs: <br />
-$$ \bar r = x \hat i + y \hat j $$ <br />
-$$ \bar v = \frac {\Delta \bar r} {\Delta t} $$ <br />
-$$ \Delta \bar r = \bar r_2 - \bar r_1 $$ <br />
-Instantaneous : <br />
-$$ \bar v = \frac {d (\Delta \bar r)} {dt} = \frac {d\bar r} {dt} $$ <br />
-Accel average <br />
-$$ \bar a = \frac {\Delta \bar v} {\Delta t} $$   </p>
-<div class="arithmatex">\[ \bar a = \frac {d\bar v} {dt} $$   
-Subing vectors is the same adding the inverse   
-## Eq for projectile   
-$$ \Delta x = 0.5 a_x t^2 + v_{ix}t$$   
-BUT KNOWING THINGS   
-$$ \Delta x = v_{ix}t\ \ \ ;\ \ \ \Delta y = -0.5 gt^2 + v_{iy}t$$   
-BUT delta y is **KNOWN**, it is zero!   
-Since y is zero., factoring is simple:   
-$$ t (-0.5gt + v_{iy}) = 0 $$   
-$$ -0.5gt + v_{iy} = 0 $$   
-$$ t = \frac {2v_{iy}} {g} $$   
-$$ \Delta x = v_{ix} t = v_{ix}(\frac {2v_y} {g})=\frac {2v_{ix} v_{iy}}{g}\]</div>
-<p>$$ \Delta x = \frac {2v_{ix}v_{iy}} {g} = \frac {2v_i^2 sin \Theta cons \Theta} {g} $$ <br />
-WITH DOUBLE ANGLE THEOREM: <br />
-$$ 2sin\Theta cos\Theta = sin2\Theta $$ <br />
-$$ \Delta x = \frac  {v_i^2 sin 2 \Theta} {g} $$ <br />
-\   </p>
+<p>Eqs:   </p>
+<div class="arithmatex">\[
+ \Delta \bar r = 0.5\bar at^2+\bar v_it 
+\]</div>
+<div class="arithmatex">\[
+ \bar v_f^2 = \bar v_i^2 + 2\bar a\Delta \bar r 
+\]</div>
+<div class="arithmatex">\[
+ \bar v_f = \bar v_i + \bar at 
+\]</div>
+<p>Defs:   </p>
+<div class="arithmatex">\[
+ \bar r = x \hat i + y \hat j 
+\]</div>
+<div class="arithmatex">\[
+ \bar v = \frac {\Delta \bar r} {\Delta t} 
+\]</div>
+<div class="arithmatex">\[
+ \Delta \bar r = \bar r_2 - \bar r_1 
+\]</div>
+<p>Instantaneous :   </p>
+<div class="arithmatex">\[
+ \bar v = \frac {d (\Delta \bar r)} {dt} = \frac {d\bar r} {dt} 
+\]</div>
+<p>Accel average   </p>
+<div class="arithmatex">\[
+ \bar a = \frac {\Delta \bar v} {\Delta t} 
+\]</div>
+<div class="arithmatex">\[
+ \bar a = \frac {d\bar v} {dt} 
+\]</div>
+<p>Subing vectors is the same adding the inverse   </p>
+<h2 id="eq-for-projectile">Eq for projectile</h2>
+<div class="arithmatex">\[
+ \Delta x = 0.5 a_x t^2 + v_{ix}t
+\]</div>
+<p>BUT KNOWING THINGS   </p>
+<div class="arithmatex">\[
+ \Delta x = v_{ix}t\ \ \ ;\ \ \ \Delta y = -0.5 gt^2 + v_{iy}t
+\]</div>
+<p>BUT delta y is <strong>KNOWN</strong>, it is zero! <br />
+Since y is zero., factoring is simple:   </p>
+<div class="arithmatex">\[
+ t (-0.5gt + v_{iy}) = 0 
+\]</div>
+<div class="arithmatex">\[
+ -0.5gt + v_{iy} = 0 
+\]</div>
+<div class="arithmatex">\[
+ t = \frac {2v_{iy}} {g} 
+\]</div>
+<div class="arithmatex">\[
+ \Delta x = v_{ix} t = v_{ix}(\frac {2v_y} {g})=\frac {2v_{ix} v_{iy}}{g}
+\]</div>
+<div class="arithmatex">\[
+ \Delta x = \frac {2v_{ix}v_{iy}} {g} = \frac {2v_i^2 sin \Theta cons \Theta} {g} 
+\]</div>
+<p>WITH DOUBLE ANGLE THEOREM:   </p>
+<div class="arithmatex">\[
+ 2sin\Theta cos\Theta = sin2\Theta 
+\]</div>
+<div class="arithmatex">\[
+ \Delta x = \frac  {v_i^2 sin 2 \Theta} {g} 
+\]</div>
+<p>\   </p>
 <h2 id="circular-motion">Circular motion</h2>
 <p>There is a component of acceleration directed <strong>toward the center</strong> of the circle. This is the <strong>centripetal</strong> acceleration. The magnitude of the component is <strong>v^2 / R</strong>, where R is the radius.   </p>
-<p>If you accelerate during the curve it is known as the <strong>tangential component</strong> of acceleration.  <br />
-$$ a_T = \frac {d|v|} {dt} $$ <br />
-Which implies a coordinate system...  one which rotates with the object...  <br />
+<p>If you accelerate during the curve it is known as the <strong>tangential component</strong> of acceleration.    </p>
+<div class="arithmatex">\[
+ a_T = \frac {d|v|} {dt} 
+\]</div>
+<p>Which implies a coordinate system...  one which rotates with the object...  <br />
 Acceleration parallel to motion changes speed, perpendicular changes direction.    </p>
 <hr />
 <p>Ex: <br />
-A satalight is 250 km above earth at 7.82 km/s. What is the centeripetal acceleration? <br />
-$$ \frac{\left(7.83\cdot1000\right)^{2}}{\left(250+6370\right)\cdot1000} = 9.26116314199\ m/s^2 $$ <br />
-about 9.28   </p>
+A satalight is 250 km above earth at 7.82 km/s. What is the centeripetal acceleration?   </p>
+<div class="arithmatex">\[
+ \frac{\left(7.83\cdot1000\right)^{2}}{\left(250+6370\right)\cdot1000} = 9.26116314199\ m/s^2 
+\]</div>
+<p>about 9.28   </p>
 <p>Ex 2: <br />
 A firefighter as d needs to aim the hose such that water enters at a windows a height h above the ground. <br />
-a. Given theta and v_i where will it hit the building <br />
-$$ \Delta x = 0.5 a_x t^2 + v_{iy}t $$ <br />
-$$ \Delta y = 0.5 a_y t^2 + v_{iy}t $$ <br />
-Step 1, simplify with known vars <br />
-$$ d = \Delta x = (v_icos \Theta)t $$ <br />
-$$ h = -0.5 g t^2 = (v_i sin \Theta)t $$ <br />
-Unknowns h, t <br />
-$$ t = \frac {d}{v_i cos \Theta} $$ <br />
-$$ h = (\frac {-0.5gd}{v_i cos \Theta})^2 + \frac {v_{iy}d}{v_i cos \Theta} $$ <br />
-$$ h = (\frac {-0.5gd}{v_i cos \Theta})^2 + \frac {d}{cos \Theta} $$ <br />
-SImplify: $$ h = dtan\Theta - \frac {gd^2sec^2\Theta} {2 v_i^2} $$ <br />
-Using Pythagorean: <br />
-$$ \frac {cos^2 \Theta + sin^2 \Theta} {cos^2 \Theta} = \frac 1{cos^2\Theta} $$ <br />
-$$ 1 + tan^2\Theta = sec^2\Theta $$ <br />
-$$ h = d than\Theta- \frac {gd^2}{2v_i^2}(tan^2\Theta + 1) $$ <br />
-$$ \frac {gd^2}{2v_i^2}tan^2\Theta - dtan^2 \Theta  + (\frac{gd}{2v^2}) $$   </p>
+a. Given theta and v_i where will it hit the building   </p>
+<div class="arithmatex">\[
+ \Delta x = 0.5 a_x t^2 + v_{iy}t 
+\]</div>
+<div class="arithmatex">\[
+ \Delta y = 0.5 a_y t^2 + v_{iy}t 
+\]</div>
+<p>Step 1, simplify with known vars   </p>
+<div class="arithmatex">\[
+ d = \Delta x = (v_icos \Theta)t 
+\]</div>
+<div class="arithmatex">\[
+ h = -0.5 g t^2 = (v_i sin \Theta)t 
+\]</div>
+<p>Unknowns h, t   </p>
+<div class="arithmatex">\[
+ t = \frac {d}{v_i cos \Theta} 
+\]</div>
+<div class="arithmatex">\[
+ h = (\frac {-0.5gd}{v_i cos \Theta})^2 + \frac {v_{iy}d}{v_i cos \Theta} 
+\]</div>
+<div class="arithmatex">\[
+ h = (\frac {-0.5gd}{v_i cos \Theta})^2 + \frac {d}{cos \Theta} 
+\]</div>
+<p>SImplify:  <br />
+$$
+ h = dtan\Theta - \frac {gd^2sec^2\Theta} {2 v_i^2} 
+$$   </p>
+<p>Using Pythagorean:   </p>
+<div class="arithmatex">\[
+ \frac {cos^2 \Theta + sin^2 \Theta} {cos^2 \Theta} = \frac 1{cos^2\Theta} 
+\]</div>
+<div class="arithmatex">\[
+ 1 + tan^2\Theta = sec^2\Theta 
+\]</div>
+<div class="arithmatex">\[
+ h = d than\Theta- \frac {gd^2}{2v_i^2}(tan^2\Theta + 1) 
+\]</div>
+<div class="arithmatex">\[
+ \frac {gd^2}{2v_i^2}tan^2\Theta - dtan^2 \Theta  + (\frac{gd}{2v^2}) 
+\]</div>
 <hr /></div>
 <div class="note-footer">
 <div class="backlinks" style="display:none"></div>
@@ -411,17 +524,17 @@ $$ \frac {gd^2}{2v_i^2}tan^2\Theta - dtan^2 \Theta  + (\frac{gd}{2v^2}) $$   </p
 
 </div>
 <div class="graph requires_js ">
-    <div id="A146938308293484582241826036845830825004{level}" class="graph_div"></div>
+    <div id="A299892388985898396924539346303098032413{level}" class="graph_div"></div>
 
-    <div class="graph-instructions" id="D146938308293484582241826036845830825004{level}">
+    <div class="graph-instructions" id="D299892388985898396924539346303098032413{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B146938308293484582241826036845830825004{level}" level="{level}" note_temp_id="146938308293484582241826036845830825004" onclick="window.ObsHtmlGraph.run(this, '146938308293484582241826036845830825004', 'vectors and examples, wk2');">
+        <button class="graph_button graph_show_button" id="B299892388985898396924539346303098032413{level}" level="{level}" note_temp_id="299892388985898396924539346303098032413" onclick="window.ObsHtmlGraph.run(this, '299892388985898396924539346303098032413', 'vectors and examples, wk2');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C146938308293484582241826036845830825004{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C299892388985898396924539346303098032413{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>

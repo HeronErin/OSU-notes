@@ -277,6 +277,7 @@
 <li><a href="#all-kinematic-equations-apply" class="anchor-link">All kinematic equations apply!</a></li>
 <li><a href="#cross-product-ext" class="anchor-link">Cross product ext</a><ul>
 <li><a href="#dot-product" class="anchor-link">Dot product:</a></li>
+<li><a href="#cross-product-vector" class="anchor-link">Cross product (VECTOR!!!!):</a></li>
 </ul>
 </li>
 <li><a href="#kinetic-energy" class="anchor-link">Kinetic Energy</a><ul>
@@ -289,35 +290,61 @@
 </ul>
 </div>
 <p>See <a href="/OSU-notes/physics/Centripetal%20Acceleration.html">Centripetal Acceleration</a>, <a href="/OSU-notes/physics/Center%20of%20Mass.html">Center of Mass</a>   </p>
-<p>TLDR: <br />
-$$ v = R \omega $$ <br />
-$$ \tau = rFsin\phi $$ <br />
-$$ d \omega = \bar \tau \cdot d\bar\theta$$ <br />
-<img alt="" src="/OSU-notes/imgs/Pasted%20image%2020241014102932.jpg" /> <br />
+<p>TLDR:   </p>
+<div class="arithmatex">\[
+ v = R \omega 
+\]</div>
+<div class="arithmatex">\[
+ \tau = rFsin\phi 
+\]</div>
+<div class="arithmatex">\[
+ d \omega = \bar \tau \cdot d\bar\theta
+\]</div>
+<p><img alt="" src="/OSU-notes/imgs/Pasted%20image%2020241014102932.jpg" /> <br />
 <img alt="" src="/OSU-notes/imgs/Pasted%20image%2020241014103610.jpg" /> <br />
 <img alt="" src="/OSU-notes/Pasted%20image%2020241014104345.jpg" />   </p>
 <p>Direction defined with right hand rule: Take your right hand, curl your fingers, thumb = direction facing   </p>
 <h2 id="torque">Torque</h2>
 <p><img alt="" src="/OSU-notes/imgs/torque.png" /> <br />
-Action of force in a rotational context <br />
-$$ \tau = r F_t = rFsin\Theta$$ <br />
-$$ \bar \tau = \bar r * \bar F$$ <br />
-<strong>NOTE THE BAR!</strong> <br />
-two vectors into one vector - "Cross product".  <br />
-$$ \bar A * \bar B = ABsin\phi$$ <br />
-$$ (\bar B * \bar A) \ne (\bar A * \bar B) $$ <br />
-$$ (\bar B * \bar A) = -(\bar A * \bar B) $$   </p>
+Action of force in a rotational context   </p>
+<div class="arithmatex">\[
+ \tau = r F_t = rFsin\Theta
+\]</div>
+<div class="arithmatex">\[
+ \bar \tau = \bar r * \bar F
+\]</div>
+<p><strong>NOTE THE BAR!</strong> <br />
+two vectors into one vector - "Cross product".    </p>
+<div class="arithmatex">\[
+ \bar A * \bar B = ABsin\phi
+\]</div>
+<div class="arithmatex">\[
+ (\bar B * \bar A) \ne (\bar A * \bar B) 
+\]</div>
+<div class="arithmatex">\[
+ (\bar B * \bar A) = -(\bar A * \bar B) 
+\]</div>
 <p>Morse distance = more torque   </p>
 <h2 id="all-kinematic-equations-apply">All kinematic equations apply!</h2>
 <p>Angular position = theta <br />
-Angular velocity: <br />
-$$ \omega = \frac {d\theta}{dt}$$ <br />
-Angular acceleration: <br />
-$$ \alpha = \frac {d\omega}{dt}$$ <br />
-SO: <br />
-$$ \Delta\Theta = 1/2\alpha t^2 + \omega_it$$ <br />
-$$ \omega_t = \omega_i + \alpha t$$ <br />
-$$ \omega_f^2=\omega_i^2 + 2\alpha\Delta\Theta$$   </p>
+Angular velocity:   </p>
+<div class="arithmatex">\[
+ \omega = \frac {d\theta}{dt}
+\]</div>
+<p>Angular acceleration:   </p>
+<div class="arithmatex">\[
+ \alpha = \frac {d\omega}{dt}
+\]</div>
+<p>SO:   </p>
+<div class="arithmatex">\[
+ \Delta\Theta = 1/2\alpha t^2 + \omega_it
+\]</div>
+<div class="arithmatex">\[
+ \omega_t = \omega_i + \alpha t
+\]</div>
+<div class="arithmatex">\[
+ \omega_f^2=\omega_i^2 + 2\alpha\Delta\Theta
+\]</div>
 <table>
 <thead>
 <tr>
@@ -338,66 +365,126 @@ $$ \omega_f^2=\omega_i^2 + 2\alpha\Delta\Theta$$   </p>
 omega<sub>i</sub> =V<sub>i</sub> = 0 <br />
 omega<sub>f</sub> =V<sub>f</sub> = 390 <br />
 alpha = 125 <br />
-Unknown:  delta theta <br />
-$$ \Delta\theta = \frac{\omega_f^2}{2\alpha} = 208 $$ <br />
-208 RAD <br />
+Unknown:  delta theta   </p>
+<div class="arithmatex">\[
+ \Delta\theta = \frac{\omega_f^2}{2\alpha} = 208 
+\]</div>
+<p>208 RAD <br />
 So the amount of revelations =  208 / 2pi = 96.7662053999   </p>
 <hr />
 <p>Ex: The applied force F is 18N, the torque about point P is 8.5N, and the angle phi is 67*, the distance from point P to point Q is about?   </p>
-<div class="arithmatex">\[ \tau = rFsin\phi $$   
-$$ r = \frac \tau {Fsin\phi} = \frac {8.5}{18sin67} = .51m\]</div>
+<div class="arithmatex">\[
+ \tau = rFsin\phi 
+\]</div>
+<div class="arithmatex">\[
+ r = \frac \tau {Fsin\phi} = \frac {8.5}{18sin67} = .51m
+\]</div>
 <hr />
 <p>A firce of (7i-k)N is applied at position (9i + 3k) m.  Considering the origin to the the axis of rotation, determine the torque corresponding to this force. <br />
-<img alt="" src="/OSU-notes/imgs/ext.png" /> <br />
-$$ \bar \tau = \bar r * \bar F = (9\hat i + 3 \hat k) * (7 \hat i - \hat k) $$ <br />
-FOIL THIS BITCH   </p>
-<div class="arithmatex">\[  \bar \tau = 9\hat i * 7\hat i + 9\hat i * (-\hat h) + 3\hat k *7 \hat i  +3 \hat k * (-\hat k)    $$   
-$$ = -9(\hat i * \hat k) + 21 (\hat k * \hat i) $$   
-$$ = 9\hat J + 21 \hat J = 30 \hat J \]</div>
+<img alt="" src="/OSU-notes/imgs/ext.png" />   </p>
+<div class="arithmatex">\[
+ \bar \tau = \bar r * \bar F = (9\hat i + 3 \hat k) * (7 \hat i - \hat k) 
+\]</div>
+<p>FOIL THIS BITCH   </p>
+<div class="arithmatex">\[
+  \bar \tau = 9\hat i * 7\hat i + 9\hat i * (-\hat h) + 3\hat k *7 \hat i  +3 \hat k * (-\hat k)    
+\]</div>
+<div class="arithmatex">\[
+ = -9(\hat i * \hat k) + 21 (\hat k * \hat i) 
+\]</div>
+<div class="arithmatex">\[
+ = 9\hat J + 21 \hat J = 30 \hat J 
+\]</div>
 <hr />
 <h2 id="cross-product-ext">Cross product ext</h2>
-<p>Recall work: <br />
-$$ w = \bar F\Delta\bar R$$   </p>
+<p>Recall work:   </p>
+<div class="arithmatex">\[
+ w = \bar F\Delta\bar R
+\]</div>
 <h3 id="dot-product">Dot product:</h3>
-<div class="arithmatex">\[ \bar A \bar B = ABcos\phi = A_xB_x + A_yB_y + ...$$   
-$$ \hat i \cdot \hat i = (1)(1)cos0 = 1 = 1*1 $$   
-$$ \hat i \cdot \hat J = (1)(1)cos\frac \pi2 = 0 = \hat J \cdot \hat k$$   
-Torque:   
-$$ \bar\tau = \bar r * \bar F = rFsin\phi$$    
- RH-Rule   
-### Cross product (VECTOR!!!!):    
-$$ \bar A * \bar B = ABsin\theta \]</div>
-<div class="arithmatex">\[ \hat i * \hat i = (1)(1)sin0 = 0 $$   
-$$ \hat i * \hat J = (1)(1)sin\frac \pi2 = 1$$   
-$$ \hat i * \hat J = \hat k $$   
-$$ \hat k * \hat i = \hat j \]</div>
+<div class="arithmatex">\[
+ \bar A \bar B = ABcos\phi = A_xB_x + A_yB_y + ...
+\]</div>
+<div class="arithmatex">\[
+ \hat i \cdot \hat i = (1)(1)cos0 = 1 = 1*1 
+\]</div>
+<div class="arithmatex">\[
+ \hat i \cdot \hat J = (1)(1)cos\frac \pi2 = 0 = \hat J \cdot \hat k
+\]</div>
+<p>Torque:   </p>
+<div class="arithmatex">\[
+ \bar\tau = \bar r * \bar F = rFsin\phi
+\]</div>
+<p>RH-Rule   </p>
+<h3 id="cross-product-vector">Cross product (VECTOR!!!!):</h3>
+<div class="arithmatex">\[
+ \bar A * \bar B = ABsin\theta 
+\]</div>
+<div class="arithmatex">\[
+ \hat i * \hat i = (1)(1)sin0 = 0 
+\]</div>
+<div class="arithmatex">\[
+ \hat i * \hat J = (1)(1)sin\frac \pi2 = 1
+\]</div>
+<div class="arithmatex">\[
+ \hat i * \hat J = \hat k 
+\]</div>
+<div class="arithmatex">\[
+ \hat k * \hat i = \hat j 
+\]</div>
 <h2 id="kinetic-energy">Kinetic Energy</h2>
-<div class="arithmatex">\[ I = mR^2 $$   
-$$ k = \frac 1 2mv^2  $$   
-Stick them together   
-$$ m = \frac I {R^2} $$   
-$$ k = \frac 1 2 (\frac I R) ^2 = \frac 1 2 I w ^2 \]</div>
+<div class="arithmatex">\[
+ I = mR^2 
+\]</div>
+<div class="arithmatex">\[
+ k = \frac 1 2mv^2  
+\]</div>
+<p>Stick them together   </p>
+<div class="arithmatex">\[
+ m = \frac I {R^2} 
+\]</div>
+<div class="arithmatex">\[
+ k = \frac 1 2 (\frac I R) ^2 = \frac 1 2 I w ^2 
+\]</div>
 <h3 id="rolling-spheres-solid-are-different">Rolling spheres(Solid) are different:</h3>
 <p>Moments of inertia ARE CONSTANT (*Asterix):   </p>
-<p>$$ K = K_T + K_R $$ <br />
- $$ = \frac 1 2 m v^2 + \frac 1 2 I\omega^2 $$ <br />
- Subsitute in with: <br />
- $$ I = \frac 2 5 m R^2 $$ <br />
-  AND: <br />
- $$ \omega = \frac V R $$$$ = \frac 1 2 m v^2 + \frac 1 2 (\frac 2 5 m R^2)\omega^2 $$   </p>
-<p>$$ = \frac 1 2 m v^2 + \frac 2 {10} m R^2(\frac V R)^2 $$ <br />
- $$ k = \frac 7 {10} m v^2 $$ <br />
- 
-<h3>The asterix</h3></p>
+<div class="arithmatex">\[
+ K = K_T + K_R 
+\]</div>
+<div class="arithmatex">\[
+ = \frac 1 2 m v^2 + \frac 1 2 I\omega^2 
+\]</div>
+<p>Subsitute in with:   </p>
+<div class="arithmatex">\[
+ I = \frac 2 5 m R^2 
+\]</div>
+<p>AND:   </p>
+<div class="arithmatex">\[
+ \omega = \frac V R 
+\]</div>
+<div class="arithmatex">\[
+ = \frac 1 2 m v^2 + \frac 1 2 (\frac 2 5 m R^2)\omega^2 
+\]</div>
+<div class="arithmatex">\[
+ = \frac 1 2 m v^2 + \frac 2 {10} m R^2(\frac V R)^2 
+\]</div>
+<div class="arithmatex">\[
+ k = \frac 7 {10} m v^2 
+\]</div>
+<h3>The asterix</h3>
 <p>The axis matters with moment of inertia. And some object that are complex have multiple moments of inertia.  <br />
-<img alt="" src="/OSU-notes/imgs/rotlolly.png" /> <br />
- $$ I = I_{cm} + mD^2$$   </p>
+<img alt="" src="/OSU-notes/imgs/rotlolly.png" />   </p>
+<div class="arithmatex">\[
+ I = I_{cm} + mD^2
+\]</div>
 <p>mD^2 is known as the "point mass" term <br />
  D is the axis to center of mas <br />
  One object exists you can easily calc the moment of inertial. A RING <br />
 <img alt="" src="/OSU-notes/imgs/ring.png" /> <br />
- All the points are of r <br />
- $$ I = \int R^2dm = R^2 \int dm =R^2m $$   </p>
+ All the points are of r   </p>
+<div class="arithmatex">\[
+ I = \int R^2dm = R^2 \int dm =R^2m 
+\]</div>
 <hr />
 <h2 id="examples">Examples</h2>
 <p>You have just bought a new bicycle. On your first riding trip, it seems that the bike comes to rest relatively quickly after you stop pedaling and let the bicycle coast on flat ground. You call the bicycle shop from which you purchased the vehicle and describe the problem. The technician says that they will replace the bearings in the wheels or do whatever else is necessary if you can prove that the frictional torque in the axle of the wheels is worse than  −0.02 N · m.At first, you are discouraged by the technical sound of what you have been told and by the absence of any tool to measure torque in your garage. But then you remember that you are taking a physics class! You take your bike into the garage, turn it upside down and start spinning the wheel while you think about how to determine the frictional torque. The driveway outside the garage had a small puddle, so you notice that droplets of water are flying off the edge of one point on the tire tangentially, including drops that are projected straight upward, as shown in the figure below.   </p>
@@ -405,45 +492,78 @@ $$ k = \frac 1 2 (\frac I R) ^2 = \frac 1 2 I w ^2 \]</div>
 The wet spot on the tire makes one revolution and another drop is projected upward. You measure its highest point:  h2 = 42.0 cm. You measure the radius of the wheel:  r = 0.292 m. <br />
 Finally, you take the wheel off the bike and find its mass: m = 0.900 kg. <br />
  Because most of the mass of the wheel is at the tire, you model the wheel as a hoop. What do you tell the technician when you call back? (Enter the frictional torque, in N · m, that you tell to the technician. Assume the positive direction is clockwise. Indicate the direction with the sign of your answer.)   </p>
-<p>We know $$ v = R\omega $$ <br />
-AND <br />
-$$ v=\sqrt{2gh} $$ <br />
-AND <br />
-$$ \omega_f^2=\omega_i^2 + 2\alpha\Delta\Theta $$ <br />
-AND <br />
-$$ \tau = I\alpha$$   </p>
-<p>Modeling the wheel as a hoop: <br />
- $$ I = mR^2 $$   </p>
+<p>We know  <br />
+$$
+ v = R\omega 
+$$   </p>
+<p>AND   </p>
+<div class="arithmatex">\[
+ v=\sqrt{2gh} 
+\]</div>
+<p>AND   </p>
+<div class="arithmatex">\[
+ \omega_f^2=\omega_i^2 + 2\alpha\Delta\Theta 
+\]</div>
+<p>AND   </p>
+<div class="arithmatex">\[
+ \tau = I\alpha
+\]</div>
+<p>Modeling the wheel as a hoop:   </p>
+<div class="arithmatex">\[
+ I = mR^2 
+\]</div>
 <p>Measure the h twice, in between 2 pi rads pass. <br />
 <img alt="" src="/OSU-notes/imgs/Pasted%20image%2020241014094623.png" />   </p>
-<p>SO: <br />
-$$  \frac{\omega_f^2- \omega_i^2}{2\Delta\Theta} =  \alpha  $$   </p>
+<p>SO:   </p>
+<div class="arithmatex">\[
+  \frac{\omega_f^2- \omega_i^2}{2\Delta\Theta} =  \alpha  
+\]</div>
 <hr />
 <p>The figure below shows the drive train of a bicycle that has wheels 67.3 cm in diameter and pedal cranks 17.5 cm long. The cyclist pedals at a steady cadence of 82.0 rev/min. The chain engages with a front sprocket 15.2 cm in diameter and a rear sprocket 6.00 cm in diameter. <br />
 <img alt="" src="/OSU-notes/imgs/10-p-016.gif" /> <br />
-(a) Calculate the speed of a link of the chain relative to the bicycle frame. <br />
-$$ v = R_f\omega_f $$ <br />
-(b) Calculate the angular speed of the bicycle wheels. <br />
-$$ v = R_r\omega_r$$ <br />
-Since the rear sprocket is on the wheel  <br />
-$$ \omega_R = \omega_W $$ <br />
-$$ \omega_R = \frac {R_f}{R_R}{\omega_F} = \omega_W$$   </p>
+(a) Calculate the speed of a link of the chain relative to the bicycle frame.   </p>
+<div class="arithmatex">\[
+ v = R_f\omega_f 
+\]</div>
+<p>(b) Calculate the angular speed of the bicycle wheels.   </p>
+<div class="arithmatex">\[
+ v = R_r\omega_r
+\]</div>
+<p>Since the rear sprocket is on the wheel    </p>
+<div class="arithmatex">\[
+ \omega_R = \omega_W 
+\]</div>
+<div class="arithmatex">\[
+ \omega_R = \frac {R_f}{R_R}{\omega_F} = \omega_W
+\]</div>
 <p>(c) Calculate the speed of the bicycle relative to the road. <br />
-Wheels are rolling objects SO: <br />
-$$ v_B = R_w \omega $$   </p>
+Wheels are rolling objects SO:   </p>
+<div class="arithmatex">\[
+ v_B = R_w \omega 
+\]</div>
 <hr />
 <p>A weed trimmer for landscaping has a rotating head which consists of a spool of monofilament line, with a strand of line that extends out from the edge. The spool has an inner diameter of 3.00 cm and an outer diameter of 18.0 cm, and a mass of 100 g. The strand has a length of 16.0 cm. The monofilament line has a linear density of 10.0 g/m. <br />
 <img alt="" src="/OSU-notes/imgs/10-p-054.gif" /> <br />
 (a) When switched on, the trimmer speeds up from 0 to 2,250 rev/min in 0.175 s. What average power (in W) is delivered to the head by the trimmer motor while it is accelerating? (Round your answer to at least one decimal place.)   </p>
-<p>Power is the rate of work (work per time) <br />
-$$ P = \frac W {\Delta t} $$ <br />
-$$ W = \Delta K = \frac 1 2 I \omega ^2 $$ <br />
-Objective: Moment of inertia  <br />
-$$ I = I_{SPOOL} + I_{STRAND} $$ <br />
-LOOK UP THE SPOOL <br />
-$$ I_{SPOOL} = \frac 1 2 M(R_{tot}^2 + M_{HOLE}^2) $$ <br />
-$$ I_{STRAND} = I_{CM} + MD^2 $$ <br />
-<a href="/OSU-notes/physics/Intertia.html#parallel-axis-theorem">Intertia</a>   </p></div>
+<p>Power is the rate of work (work per time)   </p>
+<div class="arithmatex">\[
+ P = \frac W {\Delta t} 
+\]</div>
+<div class="arithmatex">\[
+ W = \Delta K = \frac 1 2 I \omega ^2 
+\]</div>
+<p>Objective: Moment of inertia    </p>
+<div class="arithmatex">\[
+ I = I_{SPOOL} + I_{STRAND} 
+\]</div>
+<p>LOOK UP THE SPOOL   </p>
+<div class="arithmatex">\[
+ I_{SPOOL} = \frac 1 2 M(R_{tot}^2 + M_{HOLE}^2) 
+\]</div>
+<div class="arithmatex">\[
+ I_{STRAND} = I_{CM} + MD^2 
+\]</div>
+<p><a href="/OSU-notes/physics/Intertia.html#parallel-axis-theorem">Intertia</a>   </p></div>
 <div class="note-footer">
 <div class="backlinks" style="display:none"></div>
 
@@ -453,17 +573,17 @@ $$ I_{STRAND} = I_{CM} + MD^2 $$ <br />
 
 </div>
 <div class="graph requires_js ">
-    <div id="A314337881757622596899276496338709375315{level}" class="graph_div"></div>
+    <div id="A233561367169903235116013119715423629139{level}" class="graph_div"></div>
 
-    <div class="graph-instructions" id="D314337881757622596899276496338709375315{level}">
+    <div class="graph-instructions" id="D233561367169903235116013119715423629139{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B314337881757622596899276496338709375315{level}" level="{level}" note_temp_id="314337881757622596899276496338709375315" onclick="window.ObsHtmlGraph.run(this, '314337881757622596899276496338709375315', 'angular math');">
+        <button class="graph_button graph_show_button" id="B233561367169903235116013119715423629139{level}" level="{level}" note_temp_id="233561367169903235116013119715423629139" onclick="window.ObsHtmlGraph.run(this, '233561367169903235116013119715423629139', 'angular math');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C314337881757622596899276496338709375315{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C233561367169903235116013119715423629139{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>

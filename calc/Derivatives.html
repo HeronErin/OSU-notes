@@ -274,6 +274,10 @@
 <ul>
 <li><a href="#derivatives" class="anchor-link">Derivatives</a><ul>
 <li><a href="#product-rule" class="anchor-link">Product rule</a></li>
+<li><a href="#quotient-rule" class="anchor-link">Quotient Rule</a></li>
+<li><a href="#chain-rule" class="anchor-link">Chain rule</a></li>
+<li><a href="#ln" class="anchor-link">Ln</a></li>
+<li><a href="#tangent-line" class="anchor-link">Tangent line</a></li>
 <li><a href="#trig-function-derivatives" class="anchor-link">Trig function derivatives</a></li>
 <li><a href="#higher-order-derivatives" class="anchor-link">Higher Order  Derivatives</a></li>
 <li><a href="#implicit-differentiation" class="anchor-link">Implicit Differentiation</a></li>
@@ -289,34 +293,62 @@
 BUT <br />
 Continuous != differentiable   </p>
 <p>Reasoning:   </p>
-<p>If f'(a) exists <br />
-$$ \lim_{h \to 0} \frac {f(a+h) - f(a)}h$$ <br />
-Need to show f is continous at a MEANING: <br />
-$$ \lim_{x \to a} f(x)=f(a) $$ <br />
-Step 1: <br />
-$$ \lim_{h \to 0} (f(a+h)-f(a)) = 0 $$ <br />
-As <br />
-$$ \lim_{h \to 0}h = 0 $$ <br />
-Step 2: <br />
-$$ \lim_{h \to 0} f(a+h) = \lim_{h \to 0}(f(a+h) - f(a) + f(a)) $$ <br />
-$$ \lim_{h \to 0} f(a+h) = f(a) $$   </p>
+<p>If f'(a) exists   </p>
+<div class="arithmatex">\[
+ \lim_{h \to 0} \frac {f(a+h) - f(a)}h
+\]</div>
+<p>Need to show f is continous at a MEANING:   </p>
+<div class="arithmatex">\[
+ \lim_{x \to a} f(x)=f(a) 
+\]</div>
+<p>Step 1:   </p>
+<div class="arithmatex">\[
+ \lim_{h \to 0} (f(a+h)-f(a)) = 0 
+\]</div>
+<p>As   </p>
+<div class="arithmatex">\[
+ \lim_{h \to 0}h = 0 
+\]</div>
+<p>Step 2:   </p>
+<div class="arithmatex">\[
+ \lim_{h \to 0} f(a+h) = \lim_{h \to 0}(f(a+h) - f(a) + f(a)) 
+\]</div>
+<div class="arithmatex">\[
+ \lim_{h \to 0} f(a+h) = f(a) 
+\]</div>
 <hr />
 <h2 id="product-rule">Product rule</h2>
-<div class="arithmatex">\[ \frac d{dx}(f(x)f(x)) = f'(x)g(x) + f(x)g'(x) $$   
-## Quotient Rule   
-$$ \frac d{dx} \frac {f(x)}{g(x)} = \frac {f'(x)g(x) - f(x)g'(x)}{g(x)^2}$$   
-## Chain rule   
-Composition MAGIC   
-$$ \frac d{dx} f(g(x)) = f'(g(x))g'(x) $$   
-## Ln   
- $$ \frac d{dx} ln(x) = 1/x $$   
- $$ \frac d{dx} (log_bx) = \frac 1{ln b} * \frac 1x$$   
- See: [Logs](/OSU-notes/calc/Logs.html)   
-## Tangent line   
-At know point   
-$$ y−y_0​=m(x−x_0​) $$   
-$$ y=m(x−x_0​) + y_0​ $$   
-$$ y=f'(x_0)(x−x_0​) + f(x_0) \]</div>
+<div class="arithmatex">\[
+ \frac d{dx}(f(x)f(x)) = f'(x)g(x) + f(x)g'(x) 
+\]</div>
+<h2 id="quotient-rule">Quotient Rule</h2>
+<div class="arithmatex">\[
+ \frac d{dx} \frac {f(x)}{g(x)} = \frac {f'(x)g(x) - f(x)g'(x)}{g(x)^2}
+\]</div>
+<h2 id="chain-rule">Chain rule</h2>
+<p>Composition MAGIC   </p>
+<div class="arithmatex">\[
+ \frac d{dx} f(g(x)) = f'(g(x))g'(x) 
+\]</div>
+<h2 id="ln">Ln</h2>
+<div class="arithmatex">\[
+ \frac d{dx} ln(x) = 1/x 
+\]</div>
+<div class="arithmatex">\[
+ \frac d{dx} (log_bx) = \frac 1{ln b} * \frac 1x
+\]</div>
+<p>See: <a href="/OSU-notes/calc/Logs.html">Logs</a>   </p>
+<h2 id="tangent-line">Tangent line</h2>
+<p>At know point   </p>
+<div class="arithmatex">\[
+ y−y_0​=m(x−x_0​) 
+\]</div>
+<div class="arithmatex">\[
+ y=m(x−x_0​) + y_0​ 
+\]</div>
+<div class="arithmatex">\[
+ y=f'(x_0)(x−x_0​) + f(x_0) 
+\]</div>
 <h2 id="trig-function-derivatives">Trig function derivatives</h2>
 <p><img alt="" src="/OSU-notes/imgs/Pasted%20image%2020240920140430.jpg" /> <br />
 <img alt="" src="/OSU-notes/imgs/Screenshot_20241001_135116.png" />   </p>
@@ -324,45 +356,104 @@ $$ y=f'(x_0)(x−x_0​) + f(x_0) \]</div>
 <h2 id="higher-order-derivatives">Higher Order  Derivatives</h2>
 <p>Get the derivative of the derivative   </p>
 <h2 id="implicit-differentiation">Implicit Differentiation</h2>
-<p>Classic Example: $$ x^2 + y^2 = 1 $$ <br />
-Circle of rad 1 <br />
-$$ y^2 = 1-x^2 $$ <br />
-$$ y = \pm \sqrt{1-x^2} $$ $$ y' = ...$$ <br />
-BUT THIS SUCKS   </p>
-<p>Instead find dy/dx: (Remember y depends on x, need dy/dx) <br />
-$$ \frac d{dx} (x^2) + \frac d{dx} (y^2)  = \frac d{dx}(1) $$ <br />
-$$ 2x + 2y \frac d{dx} = 0 $$ <br />
-$$ 2y\frac d{dx} = -2x $$ <br />
-$$ \frac d{dx} = \frac {2x}{-2y} = \frac  {-x}y $$ <br />
-WE PUT dy/dx AFTER y as it is the DEPENDENT VARIABLE!   </p>
-<p>Solving for ln(x)' <br />
-$$ x = e^{ln(x)}$$ <br />
-$$ 1 = e^{ln(x)}ln'(x)$$ <br />
-$$ 1 = xln'(x)$$ <br />
-$$ ln'(x) = 1/x$$   </p>
+<p>Classic Example:  <br />
+$$
+ x^2 + y^2 = 1 
+$$   </p>
+<p>Circle of rad 1   </p>
+<div class="arithmatex">\[
+ y^2 = 1-x^2 
+\]</div>
+<div class="arithmatex">\[
+ y = \pm \sqrt{1-x^2} 
+\]</div>
+<div class="arithmatex">\[
+ y' = ...
+\]</div>
+<p>BUT THIS SUCKS   </p>
+<p>Instead find dy/dx: (Remember y depends on x, need dy/dx)   </p>
+<div class="arithmatex">\[
+ \frac d{dx} (x^2) + \frac d{dx} (y^2)  = \frac d{dx}(1) 
+\]</div>
+<div class="arithmatex">\[
+ 2x + 2y \frac d{dx} = 0 
+\]</div>
+<div class="arithmatex">\[
+ 2y\frac d{dx} = -2x 
+\]</div>
+<div class="arithmatex">\[
+ \frac d{dx} = \frac {2x}{-2y} = \frac  {-x}y 
+\]</div>
+<p>WE PUT dy/dx AFTER y as it is the DEPENDENT VARIABLE!   </p>
+<p>Solving for ln(x)'   </p>
+<div class="arithmatex">\[
+ x = e^{ln(x)}
+\]</div>
+<div class="arithmatex">\[
+ 1 = e^{ln(x)}ln'(x)
+\]</div>
+<div class="arithmatex">\[
+ 1 = xln'(x)
+\]</div>
+<div class="arithmatex">\[
+ ln'(x) = 1/x
+\]</div>
 <h2 id="high-order-implicit">High order implicit</h2>
-<div class="arithmatex">\[ x^2 + y^2 = 1$$   
-find $$ \frac {d^2y}{d^2x} $$   
-$$...$$$$ \frac {dy}{dx} = -\frac xy $$   
-$$ \frac {d^2y}{d^2x} = -\frac {1y-x\frac {dy}{dx}}{y^2} $$   
-$$ \frac {d^2y}{d^2x} = -\frac {y-x\frac {-x}{y}}{y^2} $$   
-$$ \frac {d^2y}{d^2x} = -\frac {y+\frac {x^2}{y}}{y^2} $$   
-$$ \frac {d^2y}{d^2x} = -\frac {y^2+x^2}{y^3} $$   
-Knowing: $$ x^2 + y^2 = 1$$   
-We can do:   
-$$ \frac {d^2y}{d^2x} = -\frac {1}{y^3} \]</div>
+<div class="arithmatex">\[
+ x^2 + y^2 = 1
+\]</div>
+<p>find  <br />
+$$
+ \frac {d^2y}{d^2x} 
+$$   </p>
+<div class="arithmatex">\[
+...
+\]</div>
+<div class="arithmatex">\[
+ \frac {dy}{dx} = -\frac xy 
+\]</div>
+<div class="arithmatex">\[
+ \frac {d^2y}{d^2x} = -\frac {1y-x\frac {dy}{dx}}{y^2} 
+\]</div>
+<div class="arithmatex">\[
+ \frac {d^2y}{d^2x} = -\frac {y-x\frac {-x}{y}}{y^2} 
+\]</div>
+<div class="arithmatex">\[
+ \frac {d^2y}{d^2x} = -\frac {y+\frac {x^2}{y}}{y^2} 
+\]</div>
+<div class="arithmatex">\[
+ \frac {d^2y}{d^2x} = -\frac {y^2+x^2}{y^3} 
+\]</div>
+<p>Knowing:  <br />
+$$
+ x^2 + y^2 = 1
+$$   </p>
+<p>We can do:   </p>
+<div class="arithmatex">\[
+ \frac {d^2y}{d^2x} = -\frac {1}{y^3} 
+\]</div>
 <h2 id="logarithmic-differentiation">Logarithmic differentiation</h2>
 <p>Example, find the derivative of x<sup>x</sub> <br />
 1. ln(f(x)) = ln(x<sup>x</sup>) <br />
 2. ln(f(x))  = x ln(x) <br />
-3. d/dx ln(f(x)) = d/dx( x ln(x) ) <br />
-$$ \frac 1 {f(x)} f'(x) = 1 * ln(x) + x *1/x $$ <br />
-$$ \frac 1 {f(x)} f'(x) = ln(x) + 1 $$ <br />
-$$ f'(x) = f(x)ln(x) + f(x) $$ <br />
-$$ f'(x) = x^xln(x) + x^x $$   </p>
+3. d/dx ln(f(x)) = d/dx( x ln(x) )   </p>
+<div class="arithmatex">\[
+ \frac 1 {f(x)} f'(x) = 1 * ln(x) + x *1/x 
+\]</div>
+<div class="arithmatex">\[
+ \frac 1 {f(x)} f'(x) = ln(x) + 1 
+\]</div>
+<div class="arithmatex">\[
+ f'(x) = f(x)ln(x) + f(x) 
+\]</div>
+<div class="arithmatex">\[
+ f'(x) = x^xln(x) + x^x 
+\]</div>
 <h2 id="derivatives-of-inverse">Derivatives of inverse</h2>
-<p>You might need to restrict the original domain (inverse range) to make one to one <br />
-$$ \frac d{dx} (f^{-1}(x)) = \frac 1 {f'(f^{-1}(x))} $$   </p>
+<p>You might need to restrict the original domain (inverse range) to make one to one   </p>
+<div class="arithmatex">\[
+ \frac d{dx} (f^{-1}(x)) = \frac 1 {f'(f^{-1}(x))} 
+\]</div>
 <h2 id="related-rates-of-change">Related Rates of change</h2>
 <p>Suppose we know <br />
 1) A relation between x at y <br />
@@ -371,18 +462,33 @@ From this we can find the rate of change at y with t   </p>
 <p>Ex x<sup>2</sub> + y<sup>2</sup> = 25 <br />
 We know (3, 4) exists at t=2 <br />
 And that dx/dt = -7 <br />
-Problem Find dy/dt at t=2 <br />
-$$ 2x\frac{dx}{dt}  + 2y\frac{dy}{dt} = 0 $$ <br />
-Plug in x=3, y=4, and dx/dt = -7   </p>
-<div class="arithmatex">\[ 2(3)(-7)  + 2(4)\frac{dy}{dt} = 0 $$   
-$$\frac{dy}{dt} = \frac{-2(3)(-7)}{2(4)} = 5.25 \]</div>
+Problem Find dy/dt at t=2   </p>
+<div class="arithmatex">\[
+ 2x\frac{dx}{dt}  + 2y\frac{dy}{dt} = 0 
+\]</div>
+<p>Plug in x=3, y=4, and dx/dt = -7   </p>
+<div class="arithmatex">\[
+ 2(3)(-7)  + 2(4)\frac{dy}{dt} = 0 
+\]</div>
+<div class="arithmatex">\[
+\frac{dy}{dt} = \frac{-2(3)(-7)}{2(4)} = 5.25 
+\]</div>
 <p>Ex2: <br />
 The radius of a circle is increasing at a rate of 2 in/sec. That is the rate the at which the area is increasing at 12 in?   </p>
-<p>So we know $$ \frac {dr}{dt} = 2 $$ <br />
-and <br />
-$$ a = \pi r^2 $$ <br />
-$$ \frac{da}{dt} = \pi 2r\frac {dr}{dt} $$ <br />
-$$ \frac{da}{dt} = 48\pi $$   </p></div>
+<p>So we know  <br />
+$$
+ \frac {dr}{dt} = 2 
+$$   </p>
+<p>and   </p>
+<div class="arithmatex">\[
+ a = \pi r^2 
+\]</div>
+<div class="arithmatex">\[
+ \frac{da}{dt} = \pi 2r\frac {dr}{dt} 
+\]</div>
+<div class="arithmatex">\[
+ \frac{da}{dt} = 48\pi 
+\]</div></div>
 <div class="note-footer">
 <div class="backlinks" style="display:none"></div>
 
@@ -392,17 +498,17 @@ $$ \frac{da}{dt} = 48\pi $$   </p></div>
 
 </div>
 <div class="graph requires_js ">
-    <div id="A274977193270303212626048384968115101043{level}" class="graph_div"></div>
+    <div id="A32004029428742805248479030897687362678{level}" class="graph_div"></div>
 
-    <div class="graph-instructions" id="D274977193270303212626048384968115101043{level}">
+    <div class="graph-instructions" id="D32004029428742805248479030897687362678{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B274977193270303212626048384968115101043{level}" level="{level}" note_temp_id="274977193270303212626048384968115101043" onclick="window.ObsHtmlGraph.run(this, '274977193270303212626048384968115101043', 'derivatives');">
+        <button class="graph_button graph_show_button" id="B32004029428742805248479030897687362678{level}" level="{level}" note_temp_id="32004029428742805248479030897687362678" onclick="window.ObsHtmlGraph.run(this, '32004029428742805248479030897687362678', 'derivatives');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C274977193270303212626048384968115101043{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C32004029428742805248479030897687362678{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>

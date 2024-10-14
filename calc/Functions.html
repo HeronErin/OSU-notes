@@ -282,11 +282,17 @@
 </ul>
 </div>
 <h2 id="even-functions-cos">Even Functions (cos)</h2>
-<p>$$ f(-x) = f(x) $$ <br />
-Test by replacing x with -x and seeing if it changes the func   </p>
+<div class="arithmatex">\[
+ f(-x) = f(x) 
+\]</div>
+<p>Test by replacing x with -x and seeing if it changes the func   </p>
 <h2 id="odd-functions-sin">Odd Functions (sin)</h2>
-<div class="arithmatex">\[ f(-x) = -f(x) $$   
-$$ -f(-x) = f(x) \]</div>
+<div class="arithmatex">\[
+ f(-x) = -f(x) 
+\]</div>
+<div class="arithmatex">\[
+ -f(-x) = f(x) 
+\]</div>
 <h2 id="one-to-one-functions">One-To-One functions</h2>
 <ul>
 <li>Horizontal line test   </li>
@@ -294,20 +300,39 @@ $$ -f(-x) = f(x) \]</div>
 </ul>
 <h2 id="famous-functions-roff">Famous functions (ROFF)</h2>
 <ul>
-<li>Polynomials $$ 3x^5 - y\pi x^2 + e^2x + 2  ; d = (-oo, oo) $$   </li>
-<li>Rationals (including polynomials)   <ul>
-<li>Where top and bottom are polynomials $$ \frac {x^2 + 2} {x^3 - 1} ; d = (-oo, oo)$$ <strong>bottom != 0!</strong>   </li>
+<li>Polynomials    </li>
 </ul>
-</li>
-<li>Exponential $$ 3^x $$   </li>
-<li>Logarithmic $$ log_3x $$   <ul>
-<li>Common log is 10 (assumed without num)   </li>
-<li>Natural is ln (e = 2.7128)   </li>
-</ul>
-</li>
-<li>
-<p>Trigonometric   </p>
+<div class="arithmatex">\[
+ 3x^5 - y\pi x^2 + e^2x + 2  ; d = (-oo, oo) 
+\]</div>
 <ul>
+<li>Rationals (including polynomials)   <ul>
+<li>Where top and bottom are polynomials    </li>
+</ul>
+</li>
+</ul>
+<p>$$
+ \frac {x^2 + 2} {x^3 - 1} ; d = (-oo, oo)
+$$ <br />
+<strong>bottom != 0!</strong>   </p>
+<ul>
+<li>Exponential    </li>
+</ul>
+<div class="arithmatex">\[
+ 3^x 
+\]</div>
+<ul>
+<li>Logarithmic    </li>
+</ul>
+<div class="arithmatex">\[
+ log_3x 
+\]</div>
+<div class="codehilite"><pre><span></span><code>* Common log is 10 (assumed without num)   
+* Natural is ln (e = 2.7128)
+</code></pre></div>
+
+<ul>
+<li>Trigonometric   <ul>
 <li>Typical   <ul>
 <li>Sin(x), cos(x), tan(x)   </li>
 <li>csc(x), sec(x), cot(x)   </li>
@@ -320,39 +345,92 @@ $$ -f(-x) = f(x) \]</div>
 </li>
 </ul>
 </li>
-<li>Pythagorean idents $$ sin^2x + cos^2x = 1$$ <span class="arithmatex">\(<span class="arithmatex">\(tan^2x+1=sec^2x\)</span>\)</span> $$ 1 + cot^2x = csc^2x $$   </li>
-<li>Other  idents : $$ sin(-x) = -sin(x) $$   </li>
-</ul>
-<p>$$  cos(-x) = cos(x) $$ <br />
- $$ tan(-x) = -tan(x) $$ <br />
-<em>$$ sin(2x) = 2 sin(x)cos(x) $$ <br />
- $$ cos(2x) = cos^2x - sin^2x $$ <br />
-</em><em>REMEMBER THE UNIT CIRCLE</em>* <br />
- ## Trig functions   </p>
-<ul>
-<li>30 60 90   <ul>
-<li>pi/6 pi / 3 pi/2   </li>
-</ul>
-</li>
-<li>45 45 90   <ul>
-<li>pi/4   </li>
+<li>Pythagorean idents    </li>
 </ul>
 </li>
 </ul>
-<p>$$ sin \pi / 6 = 1 / 2$$ <br />
- $$ sin \pi / 4 = \sqrt2 / 2$$ <br />
- $$ sin \pi / 3 = \sqrt3 / 2$$ <br />
-     $$ cos \pi / 6 = \sqrt 3 / 2$$ <br />
- $$ cos \pi / 4 = \sqrt2 / 2$$ <br />
- $$ cos \pi / 3 = 1 / 2$$ BASE:  <br />
- $$ sin(0) = 0 $$ <br />
- $$ cos(0) = 1 $$ <br />
- $$ sin(\pi / 2) = 1 $$ <br />
- $$ cos(\pi / 2) = 0 $$$$sin (\pi) = 0 $$ <br />
- $$ cos(\pi) = 1 $$ <br />
- $$ sin(\frac {3 \pi} {2}) = 1 $$$$ cos(\frac {3 \pi} {2}) = 0 $$   </p>
-</li>
-</ul></div>
+<div class="arithmatex">\[
+ sin^2x + cos^2x = 1
+\]</div>
+<div class="arithmatex">\[
+tan^2x+1=sec^2x
+\]</div>
+<div class="arithmatex">\[
+ 1 + cot^2x = csc^2x 
+\]</div>
+<div class="codehilite"><pre><span></span><code>* Other  idents :
+</code></pre></div>
+
+<div class="arithmatex">\[
+ sin(-x) = -sin(x) 
+\]</div>
+<div class="arithmatex">\[
+  cos(-x) = cos(x) 
+\]</div>
+<div class="arithmatex">\[
+ tan(-x) = -tan(x) 
+\]</div>
+<div class="codehilite"><pre><span></span><code>*
+</code></pre></div>
+
+<div class="arithmatex">\[
+ sin(2x) = 2 sin(x)cos(x) 
+\]</div>
+<div class="arithmatex">\[
+ cos(2x) = cos^2x - sin^2x 
+\]</div>
+<div class="codehilite"><pre><span></span><code> **REMEMBER THE UNIT CIRCLE**   
+ ## Trig functions
+
+ * 30 60 90   
+     * pi/6 pi / 3 pi/2   
+ * 45 45 90   
+     * pi/4
+</code></pre></div>
+
+<div class="arithmatex">\[
+ sin \pi / 6 = 1 / 2
+\]</div>
+<div class="arithmatex">\[
+ sin \pi / 4 = \sqrt2 / 2
+\]</div>
+<div class="arithmatex">\[
+ sin \pi / 3 = \sqrt3 / 2
+\]</div>
+<div class="arithmatex">\[
+ cos \pi / 6 = \sqrt 3 / 2
+\]</div>
+<div class="arithmatex">\[
+ cos \pi / 4 = \sqrt2 / 2
+\]</div>
+<p>$$
+ cos \pi / 3 = 1 / 2
+$$ <br />
+ BASE:    </p>
+<div class="arithmatex">\[
+ sin(0) = 0 
+\]</div>
+<div class="arithmatex">\[
+ cos(0) = 1 
+\]</div>
+<div class="arithmatex">\[
+ sin(\pi / 2) = 1 
+\]</div>
+<div class="arithmatex">\[
+ cos(\pi / 2) = 0 
+\]</div>
+<div class="arithmatex">\[
+sin (\pi) = 0 
+\]</div>
+<div class="arithmatex">\[
+ cos(\pi) = 1 
+\]</div>
+<div class="arithmatex">\[
+ sin(\frac {3 \pi} {2}) = 1 
+\]</div>
+<div class="arithmatex">\[
+ cos(\frac {3 \pi} {2}) = 0 
+\]</div></div>
 <div class="note-footer">
 <div class="backlinks" style="display:none"></div>
 
@@ -362,17 +440,17 @@ $$ -f(-x) = f(x) \]</div>
 
 </div>
 <div class="graph requires_js ">
-    <div id="A272171689130676027620412401333133828158{level}" class="graph_div"></div>
+    <div id="A193598934976141454677217005580172249357{level}" class="graph_div"></div>
 
-    <div class="graph-instructions" id="D272171689130676027620412401333133828158{level}">
+    <div class="graph-instructions" id="D193598934976141454677217005580172249357{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B272171689130676027620412401333133828158{level}" level="{level}" note_temp_id="272171689130676027620412401333133828158" onclick="window.ObsHtmlGraph.run(this, '272171689130676027620412401333133828158', 'functions');">
+        <button class="graph_button graph_show_button" id="B193598934976141454677217005580172249357{level}" level="{level}" note_temp_id="193598934976141454677217005580172249357" onclick="window.ObsHtmlGraph.run(this, '193598934976141454677217005580172249357', 'functions');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C272171689130676027620412401333133828158{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C193598934976141454677217005580172249357{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>
