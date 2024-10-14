@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calc/Logs.md",
+                "file": "calc/Minima And Maxima.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "calc/Logs.md",
+                "file": "calc/Minima And Maxima.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "calc/Logs.md",
+                "file": "calc/Minima And Maxima.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "calc/Logs.md"
+                "file": "calc/Minima And Maxima.md"
               }
             }
           }
@@ -148,6 +148,7 @@
   },
   "active": "36ebd230757e860c",
   "lastOpenFiles": [
+    "calc/Logs.md",
     "calc/Minima And Maxima.md",
     "calc/Derivatives.md",
     "calc/Problem 2.md",
@@ -175,7 +176,6 @@
     "physics/Class info.md",
     "physics/Vectors and examples, WK2.md",
     "physics/Newton.md",
-    "calc/Logs.md",
     "physics/Friction.md",
     "calc/Limits.md",
     "\"Potential energy\".md",

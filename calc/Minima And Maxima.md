@@ -6,7 +6,6 @@ F(x) has a defined maxima at x=a if:
 
 
 ## Extreme tests
-
 $$ f'(x) = 0\ \ OR\ = DNE $$
 Not 100% accurate
 ## Critical points
