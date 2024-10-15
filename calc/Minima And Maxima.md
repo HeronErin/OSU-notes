@@ -22,5 +22,8 @@ If f has a local exteme at x = a, then either f'(a) = 0 or f'(a) = DNE
 derivative MUST CHANGE SIGN
 
 ## Derivative tests
+1.
 1. f'(x) goes from pos to neg. Local max at x
 2. f'(x) goes from neg to pos, Local min
+2.
+	**Sign of Second Derivative**: If the second derivative is positive, the critical point is a local minimum. If the second derivative is negative, the critical point is a local maximum. If the second derivative is zero, the test is inconclusive.

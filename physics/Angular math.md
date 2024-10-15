@@ -3,6 +3,7 @@ See [[Centripetal Acceleration]], [[Center of Mass]]
 
 TLDR:
 $$ v = R \omega $$
+$$ P = \tau \cdot \omega $$
 $$ \tau = rFsin\phi $$
 $$ d \omega = \bar \tau \cdot d\bar\theta$$
 ![[Pasted image 20241014102932.jpg]]
@@ -177,6 +178,26 @@ $$ W = \Delta K = \frac 1 2 I \omega ^2 $$
 Objective: Moment of inertia 
 $$ I = I_{SPOOL} + I_{STRAND} $$
 LOOK UP THE SPOOL
-$$ I_{SPOOL} = \frac 1 2 M(R_{tot}^2 + M_{HOLE}^2) $$
+$$ I_{SPOOL} = \frac 1 2 M(R_{tot}^2 + R_{HOLE}^2) $$
 $$ I_{STRAND} = I_{CM} + MD^2 $$
+
 [[Intertia#Parallel Axis theorem]]
+________________________
+![[Pasted image 20241014194134.png]]
+A hollow sphere is attached to the end of a uniform rod. The sphere has a radius of 0.90 m and a mass of 0.60 kg. The rod has a length of 1.52 m and a mass of 0.58 kg. The rod is placed on a fulcrum (pivot) at _X_ = 0.48 m from the left end of the rod.
+
+(a) Calculate the [moment of inertia](http://www.webassign.net/serpse9/10-table-02.gif) (click for graphical table) of the contraption around the fulcrum.
+$$ X=0.48 $$
+$$ R=0.9 $$
+$$ m_{s}=0.6 $$
+$$ m_{r}=0.58 $$
+$$ L=1.52 $$$$ I_{s}=\frac{2}{3}m_{s}R^{2}+m_{s}d_{s}^{2} $$
+
+$$ I_{R}=\frac{1}{12}m_{r}L^{2}+m_{r}\left(\frac{L}{2}-X\right)^{2} $$
+$$ I_{tot}=I_{s}+I_{R} $$
+$$ T_{s}=9.8m_{s}d_{s} $$
+$$ T_{r}=-9.8m_{r}\left(\frac{L}{2}-X\right) $$
+$$ T_{tot}=T_{s}+T_{r} $$
+$$ \alpha = \frac{T_{tot}}{I_{tot}} $$
+$$ R_{q}=L-X $$
+$$ a = R_{q}\frac{T_{tot}}{I_{tot}} $$

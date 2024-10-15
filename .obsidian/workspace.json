@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "7fa396b8735b08a5",
+        "id": "08608b587a95e385",
         "type": "tabs",
         "children": [
           {
-            "id": "36ebd230757e860c",
+            "id": "40c52705d07e5aa0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calc/Minima And Maxima.md",
+                "file": "calc/Derivatives.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "calc/Minima And Maxima.md",
+                "file": "calc/Derivatives.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "calc/Minima And Maxima.md",
+                "file": "calc/Derivatives.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "calc/Minima And Maxima.md"
+                "file": "calc/Derivatives.md"
               }
             }
           }
@@ -146,17 +146,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "39155fa213454129",
+  "active": "40c52705d07e5aa0",
   "lastOpenFiles": [
-    "calc/Logs.md",
+    "calc/Concavity.md",
+    "physics/Angular math.md",
+    "physics/Center of Mass.md",
+    "physics/Intertia.md",
+    "physics/Newton.md",
+    "physics/Forces.md",
+    "physics/Energy.md",
+    "Pasted image 20241014194134.png",
     "calc/Minima And Maxima.md",
+    "calc/Logs.md",
     "calc/Derivatives.md",
     "calc/Problem 2.md",
     "calc/Functions.md",
-    "physics/Intertia.md",
     "imgs/10-table-02.gif",
-    "physics/Angular math.md",
-    "physics/Center of Mass.md",
     "physics/Defs and notation WK1.md",
     "README.md",
     "imgs/Pasted image 20241014104345.jpg",
@@ -168,14 +173,10 @@
     "imgs/Pasted image 20241014094623.png",
     "imgs",
     "imgs/cmROT.png",
-    "imgs/ring.png",
     "physics/Centripetal Acceleration.md",
     "physics/Collisions.md",
-    "physics/Energy.md",
-    "physics/Forces.md",
     "physics/Class info.md",
     "physics/Vectors and examples, WK2.md",
-    "physics/Newton.md",
     "physics/Friction.md",
     "calc/Limits.md",
     "\"Potential energy\".md",
