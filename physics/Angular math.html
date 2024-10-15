@@ -219,6 +219,7 @@
             <div id="dirtree"><button id="folder-1" class="dir-button " onclick="toggle_dir(this.id)"><div class="file-icon"></div>calc</button>
 <div id="folder-container-1" class="dir-container requires_js " path="/OSU-notes/calc">
 	<ul class="dir-list">
+		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Concavity.html"  >Concavity</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Derivatives.html"  >Derivatives</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Functions.html"  >Functions</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Limits.html"  >Limits</a></li>
@@ -263,6 +264,7 @@
 	</ul>
 </div>
 <ul class="dir-list">
+	<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/Pasted image 20241014194134.png"  class="external-link">Pasted image 20241014194134.png</a></li>
 	<li><div class="file-icon"></div><a class="" href="/OSU-notes/index.html"  >index</a></li>
 </ul>
 </div>
@@ -293,6 +295,9 @@
 <p>TLDR:   </p>
 <div class="arithmatex">\[
  v = R \omega 
+\]</div>
+<div class="arithmatex">\[
+ P = \tau \cdot \omega 
 \]</div>
 <div class="arithmatex">\[
  \tau = rFsin\phi 
@@ -567,12 +572,59 @@ Wheels are rolling objects SO:   </p>
 \]</div>
 <p>LOOK UP THE SPOOL   </p>
 <div class="arithmatex">\[
- I_{SPOOL} = \frac 1 2 M(R_{tot}^2 + M_{HOLE}^2) 
+ I_{SPOOL} = \frac 1 2 M(R_{tot}^2 + R_{HOLE}^2) 
 \]</div>
 <div class="arithmatex">\[
  I_{STRAND} = I_{CM} + MD^2 
 \]</div>
-<p><a href="/OSU-notes/physics/Intertia.html#parallel-axis-theorem">Intertia</a>   </p></div>
+<p><a href="/OSU-notes/physics/Intertia.html#parallel-axis-theorem">Intertia</a>   </p>
+<hr />
+<p><img alt="" src="/OSU-notes/Pasted%20image%2020241014194134.png" /> <br />
+A hollow sphere is attached to the end of a uniform rod. The sphere has a radius of 0.90 m and a mass of 0.60 kg. The rod has a length of 1.52 m and a mass of 0.58 kg. The rod is placed on a fulcrum (pivot) at <em>X</em> = 0.48 m from the left end of the rod.   </p>
+<p>(a) Calculate the <a href="http:   
+//www.webassign.net/serpse9/10-table-02.gif" class="external-link">moment of inertia</a> (click for graphical table) of the contraption around the fulcrum.   </p>
+<div class="arithmatex">\[
+ X=0.48 
+\]</div>
+<div class="arithmatex">\[
+ R=0.9 
+\]</div>
+<div class="arithmatex">\[
+ m_{s}=0.6 
+\]</div>
+<div class="arithmatex">\[
+ m_{r}=0.58 
+\]</div>
+<div class="arithmatex">\[
+ L=1.52 
+\]</div>
+<div class="arithmatex">\[
+ I_{s}=\frac{2}{3}m_{s}R^{2}+m_{s}d_{s}^{2} 
+\]</div>
+<div class="arithmatex">\[
+ I_{R}=\frac{1}{12}m_{r}L^{2}+m_{r}\left(\frac{L}{2}-X\right)^{2} 
+\]</div>
+<div class="arithmatex">\[
+ I_{tot}=I_{s}+I_{R} 
+\]</div>
+<div class="arithmatex">\[
+ T_{s}=9.8m_{s}d_{s} 
+\]</div>
+<div class="arithmatex">\[
+ T_{r}=-9.8m_{r}\left(\frac{L}{2}-X\right) 
+\]</div>
+<div class="arithmatex">\[
+ T_{tot}=T_{s}+T_{r} 
+\]</div>
+<div class="arithmatex">\[
+ \alpha = \frac{T_{tot}}{I_{tot}} 
+\]</div>
+<div class="arithmatex">\[
+ R_{q}=L-X 
+\]</div>
+<div class="arithmatex">\[
+ a = R_{q}\frac{T_{tot}}{I_{tot}} 
+\]</div></div>
 <div class="note-footer">
 <div class="backlinks" style="display:none"></div>
 
@@ -582,17 +634,17 @@ Wheels are rolling objects SO:   </p>
 
 </div>
 <div class="graph requires_js ">
-    <div id="A115308273976734132103733460741983964921{level}" class="graph_div"></div>
+    <div id="A193953407906507086471990361090738882665{level}" class="graph_div"></div>
 
-    <div class="graph-instructions" id="D115308273976734132103733460741983964921{level}">
+    <div class="graph-instructions" id="D193953407906507086471990361090738882665{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B115308273976734132103733460741983964921{level}" level="{level}" note_temp_id="115308273976734132103733460741983964921" onclick="window.ObsHtmlGraph.run(this, '115308273976734132103733460741983964921', 'angular math');">
+        <button class="graph_button graph_show_button" id="B193953407906507086471990361090738882665{level}" level="{level}" note_temp_id="193953407906507086471990361090738882665" onclick="window.ObsHtmlGraph.run(this, '193953407906507086471990361090738882665', 'angular math');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C115308273976734132103733460741983964921{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C193953407906507086471990361090738882665{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>
