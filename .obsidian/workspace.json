@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "08608b587a95e385",
+        "id": "7cdf478ea87348da",
         "type": "tabs",
         "children": [
           {
-            "id": "40c52705d07e5aa0",
+            "id": "912378d52c2fdae5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "calc/Derivatives.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0167f6c83824aa11",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physics/Intertia.md",
                 "mode": "source",
                 "source": false
               }
@@ -146,19 +158,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "40c52705d07e5aa0",
+  "active": "912378d52c2fdae5",
   "lastOpenFiles": [
-    "calc/Concavity.md",
     "physics/Angular math.md",
-    "physics/Center of Mass.md",
+    "physics/Energy.md",
     "physics/Intertia.md",
+    "physics/Stress.md",
+    "imgs/Pasted image 20241016104522.jpg",
+    "imgs/12-p-043.gif",
+    "imgs/12-p-011-alt.gif",
+    "imgs/pse6_p10-37.gif",
+    "imgs/11-p-055.gif",
+    "calc/Derivatives.md",
+    "calc/Concavity.md",
+    "physics/Center of Mass.md",
     "physics/Newton.md",
     "physics/Forces.md",
-    "physics/Energy.md",
-    "Pasted image 20241014194134.png",
+    "imgs/Pasted image 20241014194134.png",
     "calc/Minima And Maxima.md",
     "calc/Logs.md",
-    "calc/Derivatives.md",
     "calc/Problem 2.md",
     "calc/Functions.md",
     "imgs/10-table-02.gif",
@@ -167,12 +185,7 @@
     "imgs/Pasted image 20241014104345.jpg",
     "imgs/Pasted image 20241014103610.jpg",
     "imgs/Pasted image 20241014102932.jpg",
-    "Pasted image 20241014102030.jpg",
-    "imgs/10-p-054.gif",
-    "imgs/10-p-016.gif",
-    "imgs/Pasted image 20241014094623.png",
     "imgs",
-    "imgs/cmROT.png",
     "physics/Centripetal Acceleration.md",
     "physics/Collisions.md",
     "physics/Class info.md",

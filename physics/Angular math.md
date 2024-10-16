@@ -4,6 +4,10 @@ See [[Centripetal Acceleration]], [[Center of Mass]]
 TLDR:
 $$ v = R \omega $$
 $$ P = \tau \cdot \omega $$
+Power is the rate of work (work per time)
+$$ P = \frac W {\Delta t} $$
+$$ W = \Delta K = \frac 1 2 I \omega ^2 $$
+$$ \tau = r*F $$
 $$ \tau = rFsin\phi $$
 $$ d \omega = \bar \tau \cdot d\bar\theta$$
 ![[Pasted image 20241014102932.jpg]]
@@ -201,3 +205,79 @@ $$ T_{tot}=T_{s}+T_{r} $$
 $$ \alpha = \frac{T_{tot}}{I_{tot}} $$
 $$ R_{q}=L-X $$
 $$ a = R_{q}\frac{T_{tot}}{I_{tot}} $$
+__________________
+4. A uniform solid disk of mass _m_ = 2.90 kg and radius _r_ = 0.200 m rotates about a fixed axis perpendicular to its face with angular frequency 6.09 rad/s.
+
+(a) Calculate the magnitude of the angular momentum of the disk when the axis of rotation passes through its center of mass.
+$$ L = I\omega $$
+$$ I = \frac 1 2 mR^2 $$
+FIND L
+(b) What is the magnitude of the angular momentum when the axis of rotation passes through a point midway between the center and the rim?
+$$ I = \frac 1 2 mR^2 + m(R/2)^2 $$
+____________________________________
+8. A playground merry-go-round of radius R = 2.20 m has a moment of inertia I = 255 kg · m2 and is rotating at 9.0 rev/min about a frictionless vertical axle. Facing the axle, a 24.0-kg child hops onto the merry-go-round and manages to sit down on the edge. What is the new angular speed of the merry-go-round?
+INELASTIC COLLISIONS
+KE is not conserved
+Momentum is not conserved due to the axle being non moving
+SO we use angular, as thats conserved
+
+$$ l_i = L_f $$
+$$ I_i\omega_i=I_f\omega_f$$
+We added the kid at the edge
+$$ I_f = I_i + m_{kid}R^2 $$
+____________________
+9. Two astronauts (figure), each having a mass of 80.0 kg, are connected by a d = 9.0-m rope of negligible mass. They are isolated in space, orbiting their center of mass at speeds of 5.10 m/s.
+
+
+![[11-p-055.gif]]
+NOTE THE m/s, THIS IS NOT ANGULAR VELOCITY
+
+(a) Treating the astronauts as particles, calculate the magnitude of the angular momentum of the two-astronaut system.
+
+Magically as this is a rotor **and** a particle we can do:
+$$ \bar L = I\bar\omega$$
+$$ L = 2mR^2\omega = 2mRv $$
+AND
+$$ \bar L = \bar r * \bar p = rpsin\phi $$
+$$ L = rp = rp_{tot}  = 2mvr$$
+(b) Calculate the rotational energy of the system. 
+$$ K_R = \frac 1 2 I\omega^2$$
+(c) By pulling on the rope, one astronaut shortens the distance between them to 5.00 m. What is the new angular momentum of the system?
+$$ \Sigma \tau = \frac{d\bar L}{dt}$$
+Due to the astronauts pulling on the rope, the force points inward, and therefore exerts 0 torque.
+
+**ITS THE SAME!**
+
+(d) What are the astronauts' new speeds?
+
+$$ I_i\omega_i = I_f\omega_f$$
+$$ I_i = mR_i^2 $$
+$$ I_f = mR_f^2 $$
+
+Recall:
+$$ v = R\omega$$**Increase in rotational energy**
+
+(e) What is the new rotational energy of the system?
+$$ K_R = \frac 1 2 I_f \omega{p}^2 $$
+(f) How much chemical potential energy in the body of the astronaut was converted to mechanical energy in the system when he shortened the rope?
+
+Simply the difference of before and after
+
+$$ \Delta k + \Delta E_{int} = 0 $$
+_____________________________________
+11. A block of mass _m_1 = 2.30 kg and a block of mass _m_2 = 5.90 kg are connected by a massless string over a pulley in the shape of a solid disk having radius _R_ = 0.250 m and mass _M_ = 10.0 kg. The fixed, wedge-shaped ramp makes an angle of 𝜃 = 30.0° as shown in the figure. The coefficient of kinetic friction is 0.360 for both blocks. Use _g_=9.8 m/s2.
+![[pse6_p10-37.gif]]
+SHIT THE PULLY HAS MASS!!!!
+It acts like a rotor
+Friction acts, so T<sub>1</sub> != T<sub>2</sub>
+$$ \Sigma \tau = I \bar \alpha  $$
+$$ -RT_1 + RT_2 = Ia $$
+$$ a = R\alpha$$
+Luckly still 90 deg
+_____________________
+12. A uniform beam of length L = 7.00 m and weight 3.80 ✕ 10<sup>2</sup> N is carried by two workers, Sam and Joe, as shown in the figure below. Determine the force that each person exerts on the beam.
+![[12-p-011-alt.gif]]
+Make a force diagram, do the math
+_______________
+13. A hungry bear weighing 700 N walks out on a beam in an attempt to retrieve a basket of goodies hanging at the end of the beam (see figure below). The beam is uniform, weighs 200 N, and is 6.00 m long, and it is supported by a wire at an angle of 𝜃 = 60.0°. The basket weighs 80.0 N.
+![[12-p-043.gif]]![[Pasted image 20241016104522.jpg]]
