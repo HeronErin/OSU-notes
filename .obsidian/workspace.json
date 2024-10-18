@@ -13,10 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "calc/Derivatives.md",
+                "file": "physics/Stress.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Stress"
             }
           },
           {
@@ -28,7 +30,9 @@
                 "file": "physics/Intertia.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "Intertia"
             }
           }
         ]
@@ -51,7 +55,9 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -66,7 +72,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -74,7 +82,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -97,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "calc/Derivatives.md",
+                "file": "physics/Angular math.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,7 +115,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Angular math"
             }
           },
           {
@@ -114,10 +126,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "calc/Derivatives.md",
+                "file": "physics/Angular math.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Angular math"
             }
           },
           {
@@ -128,7 +142,9 @@
               "state": {
                 "sortOrder": "frequency",
                 "useHierarchy": true
-              }
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -137,8 +153,10 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "calc/Derivatives.md"
-              }
+                "file": "physics/Angular math.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Angular math"
             }
           }
         ]
@@ -160,18 +178,20 @@
   },
   "active": "912378d52c2fdae5",
   "lastOpenFiles": [
+    "physics/Collisions.md",
+    "physics/Stress.md",
     "physics/Angular math.md",
+    "physics/Centripetal Acceleration.md",
+    "physics/Center of Mass.md",
+    "calc/Derivatives.md",
     "physics/Energy.md",
     "physics/Intertia.md",
-    "physics/Stress.md",
     "imgs/Pasted image 20241016104522.jpg",
     "imgs/12-p-043.gif",
     "imgs/12-p-011-alt.gif",
     "imgs/pse6_p10-37.gif",
     "imgs/11-p-055.gif",
-    "calc/Derivatives.md",
     "calc/Concavity.md",
-    "physics/Center of Mass.md",
     "physics/Newton.md",
     "physics/Forces.md",
     "imgs/Pasted image 20241014194134.png",
@@ -186,8 +206,6 @@
     "imgs/Pasted image 20241014103610.jpg",
     "imgs/Pasted image 20241014102932.jpg",
     "imgs",
-    "physics/Centripetal Acceleration.md",
-    "physics/Collisions.md",
     "physics/Class info.md",
     "physics/Vectors and examples, WK2.md",
     "physics/Friction.md",

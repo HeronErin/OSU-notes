@@ -281,3 +281,159 @@ Make a force diagram, do the math
 _______________
 13. A hungry bear weighing 700 N walks out on a beam in an attempt to retrieve a basket of goodies hanging at the end of the beam (see figure below). The beam is uniform, weighs 200 N, and is 6.00 m long, and it is supported by a wire at an angle of 𝜃 = 60.0°. The basket weighs 80.0 N.
 ![[12-p-043.gif]]![[Pasted image 20241016104522.jpg]]
+______________
+		
+```plaintext
+A mixing beater consists of three thin rods, each 11.0 cm long. The rods diverge from a central hub, separated from each other by 120°, and all turn in the same plane. A ball is attached to the end of each rod. Each ball has cross-sectional area 3.80 cm2 and is so shaped that it has a drag coefficient of 0.500. The drag force on each ball is R = 1 2 D 𝜌 A v2 where D is the drag coefficient, 𝜌 the density of the fluid, A the cross-sectional area, and v the speed of the object moving through the fluid. 
+
+(a) Calculate the power input required to spin the beater at 1000 rev/min in water.
+
+b) The beater is taken out of the water and held in air. If the input power remains the same (it wouldn't, but if it did), what would be the new rotation speed?
+```
+a.
+To calculate the power input required to spin the beater at 1000 rev/min in water, we need to find the drag force acting on each ball and the work done to overcome this force.
+
+### Step 1: Given information
+
+- Rod length = \( 11.0 \, \text{cm} = 0.110 \, \text{m} \)
+- Cross-sectional area of each ball, \( A = 3.80 \, \text{cm}^2 = 3.80 \times 10^{-4} \, \text{m}^2 \)
+- Drag coefficient, \( D = 0.500 \)
+- Water density, \( \rho = 1000 \, \text{kg/m}^3 \)
+- Rotational speed, \( N = 1000 \, \text{rev/min} \)
+
+### Step 2: Find angular velocity and tangential speed of each ball
+
+Convert the angular speed into rad/s:
+
+$$
+\omega = \frac{1000 \, \text{rev/min}}{60 \, \text{s/min}} \times 2\pi \, \text{rad/rev} = \frac{1000 \times 2\pi}{60} = 104.72 \, \text{rad/s}
+$$
+
+The tangential speed \( v \) of each ball (at a distance \( r = 0.110 \, \text{m} \)) is:
+
+$$
+v = \omega r = 104.72 \times 0.110 = 11.519 \, \text{m/s}
+$$
+
+### Step 3: Calculate the drag force on each ball
+
+The drag force is given by the formula:
+
+$$
+R = \frac{1}{2} D \rho A v^2
+$$
+
+Substitute the known values:
+
+$$
+R = \frac{1}{2} \times 0.500 \times 1000 \, \text{kg/m}^3 \times 3.80 \times 10^{-4} \, \text{m}^2 \times (11.519 \, \text{m/s})^2
+$$
+
+$$
+R = 0.25 \times 1000 \times 3.80 \times 10^{-4} \times 132.71
+$$
+
+$$
+R \approx 12.62 \, \text{N}
+$$
+
+Thus, the drag force on each ball is approximately \( 12.62 \, \text{N} \).
+
+### Step 4: Calculate the torque
+
+The torque \( \tau \) exerted by the drag force on each ball at a distance \( r = 0.110 \, \text{m} \) is:
+
+$$
+\tau = R r = 12.62 \times 0.110 = 1.388 \, \text{N·m}
+$$
+
+Since there are three balls, the total torque is:
+
+$$
+\tau_{\text{total}} = 3 \times 1.388 = 4.164 \, \text{N·m}
+$$
+
+### Step 5: Calculate the power input
+
+The power \( P \) required to spin the beater is given by:
+
+$$
+P = \tau_{\text{total}} \times \omega
+$$
+
+Substitute the values:
+
+$$
+P = 4.164 \times 104.72 = 436.0 \, \text{W}
+$$
+
+Thus, the power input required to spin the beater at 1000 rev/min in water is approximately **436 W**.
+In this part, we want to find the new rotational speed of the beater in air, assuming the input power remains the same as in water. The key factor is that the drag force in air will be much less than in water due to the lower density of air, which will allow the beater to rotate faster for the same power.
+
+b.
+### Step 1: Given information
+
+- Drag coefficient, \( D = 0.500 \)
+- Cross-sectional area of each ball, \( A = 3.80 \times 10^{-4} \, \text{m}^2 \)
+- Air density, \( \rho_{\text{air}} \approx 1.225 \, \text{kg/m}^3 \)
+- Power input, \( P = 436.0 \, \text{W} \) (same as in water)
+
+We will assume the drag force relationship still holds, and we need to find the new rotational speed \( \omega_{\text{air}} \) in air.
+
+### Step 2: Power and drag force relationship
+
+From the drag force equation, we know the force is proportional to the square of the speed:
+
+$$
+R \propto \rho v^2
+$$
+
+Since power is proportional to the torque and the angular velocity \( P \propto \tau \times \omega \), and torque is related to drag force \( R \), we can establish that:
+
+$$
+P \propto \rho \omega^3
+$$
+
+This means:
+
+$$
+\frac{P_{\text{air}}}{P_{\text{water}}} = \frac{\rho_{\text{air}} \omega_{\text{air}}^3}{\rho_{\text{water}} \omega_{\text{water}}^3}
+$$
+
+Given that \( P_{\text{air}} = P_{\text{water}} \), this simplifies to:
+
+$$
+\frac{\omega_{\text{air}}^3}{\omega_{\text{water}}^3} = \frac{\rho_{\text{water}}}{\rho_{\text{air}}}
+$$
+
+### Step 3: Solve for \( \omega_{\text{air}} \)
+
+Substitute the densities of water and air:
+
+$$
+\frac{\omega_{\text{air}}^3}{\omega_{\text{water}}^3} = \frac{1000 \, \text{kg/m}^3}{1.225 \, \text{kg/m}^3}
+$$
+
+$$
+\frac{\omega_{\text{air}}^3}{\omega_{\text{water}}^3} \approx 816.33
+$$
+
+Thus,
+
+$$
+\omega_{\text{air}} \approx \omega_{\text{water}} \times 816.33^{1/3}
+$$
+
+$$
+\omega_{\text{air}} \approx 104.72 \times 9.44 = 988.4 \, \text{rad/s}
+$$
+
+### Step 4: Convert to revolutions per minute
+
+To convert angular velocity back to rev/min:
+
+$$
+N_{\text{air}} = \frac{\omega_{\text{air}}}{2\pi} \times 60 = \frac{988.4}{2\pi} \times 60 = 9440 \, \text{rev/min}
+$$
+
+Thus, the new rotation speed in air, assuming the same power input, would be approximately **9440 rev/min**.
