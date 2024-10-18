@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics/Stress.md",
+                "file": "calc/Logs.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Stress"
+              "title": "Logs"
             }
           },
           {
@@ -172,20 +172,22 @@
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "templates:Insert template": false
     }
   },
   "active": "912378d52c2fdae5",
   "lastOpenFiles": [
-    "physics/Collisions.md",
-    "physics/Stress.md",
+    "calc/Minima And Maxima.md",
+    "calc/Derivatives.md",
+    "physics/Intertia.md",
     "physics/Angular math.md",
+    "physics/Forces.md",
+    "physics/Stress.md",
+    "physics/Collisions.md",
     "physics/Centripetal Acceleration.md",
     "physics/Center of Mass.md",
-    "calc/Derivatives.md",
     "physics/Energy.md",
-    "physics/Intertia.md",
     "imgs/Pasted image 20241016104522.jpg",
     "imgs/12-p-043.gif",
     "imgs/12-p-011-alt.gif",
@@ -193,9 +195,7 @@
     "imgs/11-p-055.gif",
     "calc/Concavity.md",
     "physics/Newton.md",
-    "physics/Forces.md",
     "imgs/Pasted image 20241014194134.png",
-    "calc/Minima And Maxima.md",
     "calc/Logs.md",
     "calc/Problem 2.md",
     "calc/Functions.md",
