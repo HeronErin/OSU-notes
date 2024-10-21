@@ -17,7 +17,7 @@ Aka anything special, ex tan lines
 If f is differentiable at a and f has a local extreme at x = a THEN the derivative = 0
 ## Conclusion
 
-If f has a local exteme at x = a, then either f'(a) = 0 or f'(a) = DNE
+If f has a local extreme at x = a, then either f'(a) = 0 or f'(a) = DNE
 
 derivative MUST CHANGE SIGN
 
@@ -29,3 +29,7 @@ derivative MUST CHANGE SIGN
 	**Sign of Second Derivative**: If the second derivative is positive, the critical point is a local minimum. If the second derivative is negative, the critical point is a local maximum. If the second derivative is zero, the test is inconclusive.
 ## Extreme value theorem
 If f is continuous on \[a, b], then f has a global maximum value and a global minimum value on \[a, b]
+## Mean value theorem
+If f is continuous on \[a, b] and differentiable on (a, b).
+$$ m_{avr} = \frac{b_y - a_y}{b_x - a_x} $$
+Somewhere on that lies at least one point whose derivative is the average rate of change (slope of secant line)
