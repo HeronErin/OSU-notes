@@ -27,3 +27,5 @@ derivative MUST CHANGE SIGN
 2. f'(x) goes from neg to pos, Local min
 2.
 	**Sign of Second Derivative**: If the second derivative is positive, the critical point is a local minimum. If the second derivative is negative, the critical point is a local maximum. If the second derivative is zero, the test is inconclusive.
+## Extreme value theorem
+If f is continuous on \[a, b], then f has a global maximum value and a global minimum value on \[a, b]
