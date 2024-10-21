@@ -5,7 +5,7 @@
         <head>
                 <!-- Page information -->
                 <meta charset="UTF-8" />
-                <meta name="node_id" content="none">
+                <meta name="node_id" content="universal gravity">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="shortcut icon" href="/OSU-notes/favicon.ico" />
 
@@ -57,7 +57,7 @@
 
                 <!-- Onload tweaks -->
                 <script>
-                        const CURRENT_NODE = 'none';
+                        const CURRENT_NODE = 'universal gravity';
                         const HTML_URL_PREFIX = '/OSU-notes';
                         const PAGE_DEPTH = 1;
                 </script>
@@ -181,7 +181,7 @@
             }
         </script>
                                     <div class="graph_header_div requires_js">
-            <a id="graph_link" class="system-link" href="/OSU-notes/obs.html/graph/index.html?node=none" title="Open fullpage Graph">
+            <a id="graph_link" class="system-link" href="/OSU-notes/obs.html/graph/index.html?node=universal gravity" title="Open fullpage Graph">
                     <img class="graph_header_div_svg" src = "/OSU-notes/obs.html/static/graph.svg" alt="Open fullpage Graph" style="margin: 2px; width: 17px;"/>
             </a>
         </div>
@@ -213,9 +213,10 @@
 </div>
 </div>
                 <div class="flex_row">
-                        
-                        <div class="container">
-                                <div id="dirtree"><button id="folder-1" class="dir-button " onclick="toggle_dir(this.id)"><div class="file-icon"></div>calc</button>
+                        <div id="left_pane" class="left_pane active">
+    <div id="left_pane_fold_header" class="left_pane_fold_header fold_header">x</div>
+    <div id="left_pane_content" class="left_pane_content">
+            <div id="dirtree"><button id="folder-1" class="dir-button " onclick="toggle_dir(this.id)"><div class="file-icon"></div>calc</button>
 <div id="folder-container-1" class="dir-container requires_js " path="/OSU-notes/calc">
 	<ul class="dir-list">
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Concavity.html"  >Concavity</a></li>
@@ -254,8 +255,8 @@
 		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/torque.png"  class="external-link">torque.png</a></li>
 	</ul>
 </div>
-<button id="folder-3" class="dir-button " onclick="toggle_dir(this.id)"><div class="file-icon"></div>physics</button>
-<div id="folder-container-3" class="dir-container requires_js " path="/OSU-notes/physics">
+<button id="folder-3" class="dir-button active" onclick="toggle_dir(this.id)"><div class="file-icon"></div>physics</button>
+<div id="folder-container-3" class="dir-container requires_js active" path="/OSU-notes/physics">
 	<ul class="dir-list">
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Angular math.html"  >Angular math</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Center of Mass.html"  >Center of Mass</a></li>
@@ -269,7 +270,7 @@
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Intertia.html"  >Intertia</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Newton.html"  >Newton</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Stress.html"  >Stress</a></li>
-		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Universal Gravity.html"  >Universal Gravity</a></li>
+		<li><div class="file-icon"></div><a class="active current_page_dirtree" href="/OSU-notes/physics/Universal Gravity.html"  >Universal Gravity</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Vectors and examples, WK2.html"  >Vectors and examples, WK2</a></li>
 	</ul>
 </div>
@@ -277,18 +278,187 @@
 	<li><div class="file-icon"></div><a class="" href="/OSU-notes/index.html"  >index</a></li>
 </ul>
 </div>
-<div class="graph requires_js hidden">
-    <div id="A101697076085870875547861044280341356031{level}" class="graph_div"></div>
+    </div>
+</div>
+                        <div class="container">
+                                <div class="content"><h1 id="universal-gravity">Universal Gravity</h1>
+<div class="toc">
+<ul>
+<li><a href="#universal-gravity" class="anchor-link">Universal Gravity</a><ul>
+<li><a href="#to-calculate-g" class="anchor-link">To calculate g:</a></li>
+<li><a href="#modified-potential-energy" class="anchor-link">Modified potential energy</a></li>
+<li><a href="#planetary-motion" class="anchor-link">Planetary motion</a><ul>
+<li><a href="#circular-orbits" class="anchor-link">Circular Orbits:</a></li>
+<li><a href="#total-energy-of-an-orbit" class="anchor-link">Total energy of an orbit</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="arithmatex">\[
+ F_g = -mg
+\]</div>
+<p>NOT ALWAYS TRUE!!!!!!   </p>
+<div class="arithmatex">\[
+ U_g = mgy 
+\]</div>
+<div class="arithmatex">\[
+ F_g = \frac {-dU_3}{dy} 
+\]</div>
+<p>Springs look about the same   </p>
+<div class="arithmatex">\[
+ F_s = -kx 
+\]</div>
+<div class="arithmatex">\[
+ U_s= \frac 1 2 kx^2
+\]</div>
+<div class="arithmatex">\[
+ F_s = \frac {-dU_s}{dx} 
+\]</div>
+<p>THE REAL GRAVITY EQUATION (for point masses):   </p>
+<div class="arithmatex">\[
+ f_g = \frac {m_1m_2G}{r^2} 
+\]</div>
+<p>Where G is the <strong>universal constant</strong>:   </p>
+<div class="arithmatex">\[
+ G = 6.67 *10^{-11} 
+\]</div>
+<hr />
+<h2 id="to-calculate-g">To calculate g:</h2>
+<p>Assert:   </p>
+<p>A spherically symmetric object behaves as a point mass. (Under gravity) <br />
+    Hard to prove, but true.   </p>
+<div class="arithmatex">\[
+ m_e = 5.9722×10²⁴
+\]</div>
+<div class="arithmatex">\[
+ r_e = 6357 * 1000 
+\]</div>
+<div class="arithmatex">\[
+ f_g = \frac {M_emg}{R^2_e} = mg
+\]</div>
+<div class="arithmatex">\[
+ g = \frac {M_eG}{R_e^2}
+\]</div>
+<div class="arithmatex">\[
+ g = 9.85361846342
+\]</div>
+<hr />
+<h2 id="modified-potential-energy">Modified potential energy</h2>
+<div class="arithmatex">\[
+ F_g = \frac {-dU_g}{dr} 
+\]</div>
+<p>But we only have the derivative of it, not the actual function. <br />
+The solution: <br />
+<strong>Anti-derivative</strong>   </p>
+<div class="arithmatex">\[
+ \Delta U = - \int \frac{-m_1m_2G}{r^2}dr
+\]</div>
+<p>Distance matters here so the - sign is added.   </p>
+<p>Cancel out and move out consts   </p>
+<div class="arithmatex">\[
+ \Delta U = \int \frac{m_1m_2G}{r^2}dr = m_1m_2G\int \frac{dr}{r^2} 
+\]</div>
+<div class="arithmatex">\[
+ = m_1m_2G\int^{r_f}_{r_i}r^{-2}dr
+\]</div>
+<p>Then some complected shit happens:   </p>
+<div class="arithmatex">\[
+...
+\]</div>
+<div class="arithmatex">\[
+\Delta U = -m_1m_2G(\frac 1 {r_f} - \frac 1 {r_i})
+\]</div>
+<p>Choose your scale so that:   </p>
+<div class="arithmatex">\[
+ U_g = \frac {-m_1m_2G}r 
+\]</div>
+<hr />
+<h2 id="planetary-motion">Planetary motion</h2>
+<h3 id="circular-orbits">Circular Orbits:</h3>
+<div class="arithmatex">\[
+ F_g = \frac {mMG}{r^2} = ma 
+\]</div>
+<div class="arithmatex">\[
+ \frac {MG}{r^2} = a 
+\]</div>
+<div class="arithmatex">\[
+ a = \frac{v^2}r = \frac {MG}{r^2} 
+\]</div>
+<div class="arithmatex">\[
+ v^2 = \frac {MG}r 
+\]</div>
+<hr />
+<p>Orbit period of 24   </p>
+<div class="arithmatex">\[
+ T = \frac {2\pi r}v
+\]</div>
+<div class="arithmatex">\[
+ v = \frac{2\pi r}T 
+\]</div>
+<div class="arithmatex">\[
+ v ^2 = \frac {MG}r 
+\]</div>
+<div class="arithmatex">\[
+ v^2 = \frac {4\pi^2r^2}{T^2}
+\]</div>
+<div class="arithmatex">\[
+ \frac {4\pi^2r^2}{T^2} = \frac {MG}r 
+\]</div>
+<div class="arithmatex">\[
+ r^3 = \frac {MGT^2}{4\pi^2}
+\]</div>
+<div class="arithmatex">\[
+ r = 42.2 * 10^6 km
+\]</div>
+<hr />
+<h3 id="total-energy-of-an-orbit">Total energy of an orbit</h3>
+<div class="arithmatex">\[
+ U = \frac {-mMG}r 
+\]</div>
+<div class="arithmatex">\[
+ E = K+U 
+\]</div>
+<div class="arithmatex">\[
+ K= \frac 1 2 mv^2 
+\]</div>
+<div class="arithmatex">\[
+ \frac 1 2 mv^2 = \frac 1 2 \frac {mMG}r 
+\]</div>
+<div class="arithmatex">\[
+ E = K + U = \frac {mMG}{2r} - \frac {mMG}r = -\frac {mMG}{2r} 
+\]</div>
+<p>Low Orbit   </p>
+<div class="arithmatex">\[
+E = \frac {-mMG}{R_e} + \frac {mMG}{2R_e} = \frac{-mMG}{2R_e}
+\]</div>
+<div class="arithmatex">\[
+w = \Delta E = \frac{mMG}{2R} - \frac{-mMG}{R} = \frac {mMG}{2R}
+\]</div>
+<div class="arithmatex">\[
+ E_{\text{Escape orbit}} = 0 
+\]</div></div>
+<div class="note-footer">
+<div class="backlinks" style="display:none"></div>
 
-    <div class="graph-instructions" id="D101697076085870875547861044280341356031{level}">
+<div class="tags">
+
+</div>
+
+</div>
+<div class="graph requires_js ">
+    <div id="A245657642774600970081836788459861141897{level}" class="graph_div"></div>
+
+    <div class="graph-instructions" id="D245657642774600970081836788459861141897{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B101697076085870875547861044280341356031{level}" level="{level}" note_temp_id="101697076085870875547861044280341356031" onclick="window.ObsHtmlGraph.run(this, '101697076085870875547861044280341356031', 'dirtree');">
+        <button class="graph_button graph_show_button" id="B245657642774600970081836788459861141897{level}" level="{level}" note_temp_id="245657642774600970081836788459861141897" onclick="window.ObsHtmlGraph.run(this, '245657642774600970081836788459861141897', 'universal gravity');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C101697076085870875547861044280341356031{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C245657642774600970081836788459861141897{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>
@@ -305,11 +475,17 @@
 
 
 
+
                                 <!-- end content -->
                         </div>
                         <div class="container_filler">
                         </div>
-                        
+                        <div id="right_pane" class="right_pane active">
+    <div id="right_pane_fold_header" class="right_pane_fold_header fold_header">x</div>
+    <div id="right_pane_content" class="right_pane_content">
+            
+    </div>
+</div>
                 </div>
         </div>
 

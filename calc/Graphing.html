@@ -5,7 +5,7 @@
         <head>
                 <!-- Page information -->
                 <meta charset="UTF-8" />
-                <meta name="node_id" content="none">
+                <meta name="node_id" content="graphing">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="shortcut icon" href="/OSU-notes/favicon.ico" />
 
@@ -57,7 +57,7 @@
 
                 <!-- Onload tweaks -->
                 <script>
-                        const CURRENT_NODE = 'none';
+                        const CURRENT_NODE = 'graphing';
                         const HTML_URL_PREFIX = '/OSU-notes';
                         const PAGE_DEPTH = 1;
                 </script>
@@ -181,7 +181,7 @@
             }
         </script>
                                     <div class="graph_header_div requires_js">
-            <a id="graph_link" class="system-link" href="/OSU-notes/obs.html/graph/index.html?node=none" title="Open fullpage Graph">
+            <a id="graph_link" class="system-link" href="/OSU-notes/obs.html/graph/index.html?node=graphing" title="Open fullpage Graph">
                     <img class="graph_header_div_svg" src = "/OSU-notes/obs.html/static/graph.svg" alt="Open fullpage Graph" style="margin: 2px; width: 17px;"/>
             </a>
         </div>
@@ -213,15 +213,16 @@
 </div>
 </div>
                 <div class="flex_row">
-                        
-                        <div class="container">
-                                <div id="dirtree"><button id="folder-1" class="dir-button " onclick="toggle_dir(this.id)"><div class="file-icon"></div>calc</button>
-<div id="folder-container-1" class="dir-container requires_js " path="/OSU-notes/calc">
+                        <div id="left_pane" class="left_pane active">
+    <div id="left_pane_fold_header" class="left_pane_fold_header fold_header">x</div>
+    <div id="left_pane_content" class="left_pane_content">
+            <div id="dirtree"><button id="folder-1" class="dir-button active" onclick="toggle_dir(this.id)"><div class="file-icon"></div>calc</button>
+<div id="folder-container-1" class="dir-container requires_js active" path="/OSU-notes/calc">
 	<ul class="dir-list">
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Concavity.html"  >Concavity</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Derivatives.html"  >Derivatives</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Functions.html"  >Functions</a></li>
-		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Graphing.html"  >Graphing</a></li>
+		<li><div class="file-icon"></div><a class="active current_page_dirtree" href="/OSU-notes/calc/Graphing.html"  >Graphing</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Limits.html"  >Limits</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Logs.html"  >Logs</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Minima And Maxima.html"  >Minima And Maxima</a></li>
@@ -277,18 +278,54 @@
 	<li><div class="file-icon"></div><a class="" href="/OSU-notes/index.html"  >index</a></li>
 </ul>
 </div>
-<div class="graph requires_js hidden">
-    <div id="A101697076085870875547861044280341356031{level}" class="graph_div"></div>
+    </div>
+</div>
+                        <div class="container">
+                                <div class="content"><h1 id="graphing">Graphing</h1>
+<div class="toc">
+<ul>
+<li><a href="#graphing" class="anchor-link">Graphing</a></li>
+</ul>
+</div>
+<hr />
+<ol>
+<li>Supose f has domain (-oo, oo), continiousos on (-oo, oo)   <ol>
+<li>f' &lt; 0 on(-oo, -1), f' &lt; 0 (2, oo)   </li>
+<li>f' &gt;0 on (-1, 2) <br />
+<img alt="" src="/OSU-notes/imgs/COGF.png" />   </li>
+</ol>
+</li>
+<li>f(x) such that    <ol>
+<li>f is continious, odd, domain (-oo, oo)   </li>
+<li>lim f(x) x-&gt; oo = -5   </li>
+<li>f'(x) &gt; 0 on (6, oo)   </li>
+<li>f'(x) &lt; 0 (0, 6)   </li>
+<li>f''(x) &gt; 0 on (0, 2)   </li>
+<li>f''(x) &lt; 0 (12, oo) <br />
+<img alt="" src="/OSU-notes/imgs/COGF2.png" />   </li>
+</ol>
+</li>
+</ol></div>
+<div class="note-footer">
+<div class="backlinks" style="display:none"></div>
 
-    <div class="graph-instructions" id="D101697076085870875547861044280341356031{level}">
+<div class="tags">
+
+</div>
+
+</div>
+<div class="graph requires_js ">
+    <div id="A144031613619199517624739115001126006618{level}" class="graph_div"></div>
+
+    <div class="graph-instructions" id="D144031613619199517624739115001126006618{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B101697076085870875547861044280341356031{level}" level="{level}" note_temp_id="101697076085870875547861044280341356031" onclick="window.ObsHtmlGraph.run(this, '101697076085870875547861044280341356031', 'dirtree');">
+        <button class="graph_button graph_show_button" id="B144031613619199517624739115001126006618{level}" level="{level}" note_temp_id="144031613619199517624739115001126006618" onclick="window.ObsHtmlGraph.run(this, '144031613619199517624739115001126006618', 'graphing');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C101697076085870875547861044280341356031{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C144031613619199517624739115001126006618{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>
@@ -305,11 +342,17 @@
 
 
 
+
                                 <!-- end content -->
                         </div>
                         <div class="container_filler">
                         </div>
-                        
+                        <div id="right_pane" class="right_pane active">
+    <div id="right_pane_fold_header" class="right_pane_fold_header fold_header">x</div>
+    <div id="right_pane_content" class="right_pane_content">
+            
+    </div>
+</div>
                 </div>
         </div>
 
