@@ -1,4 +1,3 @@
-Depends on the mass of the object AND its size and shape.
 Point masses:
 $$ I = mR^2 $$
 With many points:

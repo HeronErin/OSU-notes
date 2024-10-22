@@ -10,6 +10,8 @@ $$ W = \Delta K = \frac 1 2 I \omega ^2 $$
 $$ \tau = r*F $$
 $$ \tau = rFsin\phi $$
 $$ d \omega = \bar \tau \cdot d\bar\theta$$
+$$ L= mrv $$
+$$ L = Rp $$ 
 ![[Pasted image 20241014102932.jpg]]
 ![[Pasted image 20241014103610.jpg]]
 ![[Pasted image 20241014104345.jpg]]
