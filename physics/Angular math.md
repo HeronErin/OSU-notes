@@ -9,6 +9,7 @@ $$ P = \frac W {\Delta t} $$
 $$ W = \Delta K = \frac 1 2 I \omega ^2 $$
 $$ \tau = r*F $$
 $$ \tau = rFsin\phi $$
+$$ \Sigma \tau = \frac {dL}{Dt} = \frac {\Delta L}{\Delta t}$$
 $$ d \omega = \bar \tau \cdot d\bar\theta$$
 $$ L= mrv $$
 $$ L = Rp $$ 
