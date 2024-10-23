@@ -6,7 +6,7 @@ Reasoning:
 
 If f'(a) exists
 $$ \lim_{h \to 0} \frac {f(a+h) - f(a)}h$$
-Need to show f is continous at a MEANING:
+Need to show f is continuous at a MEANING:
 $$ \lim_{x \to a} f(x)=f(a) $$
 Step 1:
 $$ \lim_{h \to 0} (f(a+h)-f(a)) = 0 $$
@@ -110,3 +110,12 @@ and
 $$ a = \pi r^2 $$
 $$ \frac{da}{dt} = \pi 2r\frac {dr}{dt} $$
 $$ \frac{da}{dt} = 48\pi $$
+
+## Mean value theorem
+
+If f'(x) = 0, is it necessary a constant function? 
+**SOMETIMES**
+
+Ex:
+$$ f(x) = \frac x{|x|}$$
+So it is only true of a function on its domain is differentiable and continuous. 

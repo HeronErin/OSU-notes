@@ -117,15 +117,16 @@ $$ g(v)=\frac{1-\frac{3}{v}-\frac{3}{v^{2}}+\frac{2}{v^{3}}}{\frac{4}{v}+\sqrt{\
 $$ g(v)=\frac{1-\frac{3}{v}-\frac{3}{v^{2}}+\frac{2}{v^{3}}}{\frac{4}{v}+\sqrt{\left(1-\frac{4}{v^{3}}+\frac{3}{v^{4}}\right)}+\frac{2}{v^{2}}-\frac{3}{v^{3}}} $$
 Toward infinity resolves to 1/1
 ______________________________________
-## Intermediate value theorm
+## Intermediate value theorem
 if f is a continuous function on \[A, b] and c is between f(a) and f(b)
 There is (at least one) x value between  the two where f(d) = c
 
 aka if f(a) goes to f(b) then it is continuous
 Show that the equation has a solution in (0, pi)
 $$ x^3 = x + sin x + 1$$
-solt $$ x^3 - x - sin  x - 1 = 0 $$
-f(x) is continuos from (0, pi)
+so:
+$$ x^3 - x - sin  x - 1 = 0 $$
+f(x) is continuous from (0, pi)
 f(0) = -1
 f(pi) = pi^3 - pi - 0 - 1
 pi > 3
