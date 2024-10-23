@@ -295,6 +295,23 @@
 <li><a href="#hydraulic-principle" class="anchor-link">Hydraulic principle</a></li>
 </ul>
 </li>
+<li><a href="#barometer" class="anchor-link">Barometer</a></li>
+<li><a href="#buoyancy" class="anchor-link">Buoyancy</a><ul>
+<li><a href="#iceberg" class="anchor-link">Iceberg</a></li>
+<li><a href="#motion" class="anchor-link">Motion</a></li>
+<li><a href="#principle-of-continuity" class="anchor-link">Principle of continuity</a></li>
+<li><a href="#work-done-by-pressure" class="anchor-link">Work done by pressure</a></li>
+<li><a href="#bernoulli-equation" class="anchor-link">Bernoulli Equation</a></li>
+<li><a href="#lift-forces" class="anchor-link">Lift forces</a></li>
+<li><a href="#examples" class="anchor-link">Examples</a><ul>
+<li><a href="#step-1" class="anchor-link">Step 1:</a></li>
+<li><a href="#step-2" class="anchor-link">Step 2:</a></li>
+<li><a href="#step-3" class="anchor-link">Step 3:</a></li>
+<li><a href="#final-expression" class="anchor-link">Final Expression:</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </div>
 <p>Related to <a href="/OSU-notes/physics/Angular%20math.html#step-5-calculate-the-power-input">Angular math</a>   </p>
@@ -303,7 +320,22 @@
  m = pv 
 \]</div>
 <div class="arithmatex">\[
+ F_g = \rho V_g
+\]</div>
+<div class="arithmatex">\[
+ P = P_c+\rho gh
+\]</div>
+<div class="arithmatex">\[
  f = \rho V g 
+\]</div>
+<div class="arithmatex">\[
+ \rho_1 v_1 A_1 = \rho_2 v_2 A_2
+\]</div>
+<div class="arithmatex">\[
+ P_1 + \frac{1}{2} \rho v_1^2 = P_2 + \frac{1}{2} \rho v_2^2 
+\]</div>
+<div class="arithmatex">\[
+ W = F_x\cdot\Delta x
 \]</div>
 <h1 id="fluid">Fluid</h1>
 <p>Randomly moving particles <br />
@@ -366,7 +398,148 @@ Pressure is perpendicular to surface   </p>
 \]</div>
 <div class="arithmatex">\[
  F_1\Delta x_1 = f_2\Delta x_2 
-\]</div></div>
+\]</div>
+<h1 id="barometer">Barometer</h1>
+<p>Tub of mercury   </p>
+<div class="arithmatex">\[
+ P_{atm} = \rho_{hg}gh
+\]</div>
+<div class="arithmatex">\[
+ 1\ atm = \ 0.76\ mHg
+\]</div>
+<h1 id="buoyancy">Buoyancy</h1>
+<p>An upward force of an object immersed in a liquid. Happens when the pressure on an object is less on top than on bottom. <strong>Pressure difference is what matters</strong>1 Buoyancy is the weight of the <strong>displaced fluid</strong>   </p>
+<div class="arithmatex">\[
+ F_b = \rho_\text{fluid} Vg
+\]</div>
+<p>Identifying theses variables are the goal: <br />
+ THE VOLUME IS THE <strong>IMMERSED VOLUME</strong>   </p>
+<h2 id="iceberg">Iceberg</h2>
+<div class="arithmatex">\[
+ \rho_\text{ice} = 0.9\rho_\text{water} 
+\]</div>
+<h2 id="motion">Motion</h2>
+<p>Keep in mind many assumptions (i.e no friction, incompressible etc)   </p>
+<h2 id="principle-of-continuity">Principle of continuity</h2>
+<div class="codehilite"><pre><span></span><code>Fluid in neither created nor detroyed, thus any new liquid is added to the system.
+</code></pre></div>
+
+<p>Equation of continuity   </p>
+<div class="arithmatex">\[
+ \rho_1 v_1 A_1 = \rho_2 v_2 A_2
+\]</div>
+<p>As liquids are incompressible, we can remove rho!   </p>
+<div class="arithmatex">\[
+ v_1 A_1 =v_2 A_2
+\]</div>
+<p>So speed is low when tube is wide.   </p>
+<h2 id="work-done-by-pressure">Work done by pressure</h2>
+<div class="arithmatex">\[
+ W = F_x \cdot \Delta x
+\]</div>
+<div class="arithmatex">\[
+ W = PA\Delta y
+\]</div>
+<div class="arithmatex">\[
+ W = P\Delta V 
+\]</div>
+<div class="arithmatex">\[
+ W = \int pdV 
+\]</div>
+<div class="arithmatex">\[
+ dW = P\ dV
+\]</div>
+<h2 id="bernoulli-equation">Bernoulli Equation</h2>
+<p>Bernoulli IS <strong>conservation of energy</strong>   </p>
+<div class="arithmatex">\[
+ \Delta K + \Delta U = W 
+\]</div>
+<div class="arithmatex">\[
+ W = \frac 1 2 \Delta m(v_2^2-v_2^2) + \Delta mg(y_2-v_1)
+\]</div>
+<div class="arithmatex">\[
+\text{SIMPlIFY}
+\]</div>
+<div class="arithmatex">\[
+ W = (P_1-P_2)V =\frac 1 2m(v_2^2-v_2^2) + mg(y_2-v_1) 
+\]</div>
+<div class="arithmatex">\[
+ P + \frac 1 2 \rho v^2 + \rho gy = \text{constant}
+\]</div>
+<div class="arithmatex">\[
+ \text{Kinetic energy per kg} =  \frac 1 2 \rho v^2  
+\]</div>
+<div class="arithmatex">\[
+ \text{Potential energy per kg} = \rho gy 
+\]</div>
+<h2 id="lift-forces">Lift forces</h2>
+<p>Speed above is greater than the speed bellow the air foil <br />
+Pressure above is &lt; Pressure bellow   </p>
+<hr />
+<h2 id="examples">Examples</h2>
+<p>To find the volume flow rate (<span class="arithmatex">\(Q\)</span>) as a function of the pressure difference (<span class="arithmatex">\(\Delta P\)</span>) between the two sections of the tube, we can use Bernoulli's equation and the continuity equation.   </p>
+<h3 id="step-1">Step 1:</h3>
+<p>Apply Bernoulli's equation   </p>
+<p>Bernoulli’s equation for an ideal, incompressible fluid in steady flow is:   </p>
+<p>$$</p>
+<p>P_1 + \frac{1}{2} \rho v_1^2 = P_2 + \frac{1}{2} \rho v_2^2</p>
+<p>$$   </p>
+<p>Where:   </p>
+<ul>
+<li><span class="arithmatex">\(P_1\)</span> and <span class="arithmatex">\(P_2\)</span> are the pressures in the two tubes   </li>
+<li><span class="arithmatex">\(\rho\)</span> is the density of the fluid (<span class="arithmatex">\(860 \, \text{kg/m}^3\)</span>)   </li>
+<li><span class="arithmatex">\(v_1\)</span> and <span class="arithmatex">\(v_2\)</span> are the fluid velocities in the two tubes   </li>
+</ul>
+<p>The pressure difference is defined as <span class="arithmatex">\(\Delta P = P_1 - P_2\)</span>, so Bernoulli’s equation can be rearranged as:   </p>
+<p>$$</p>
+<p>\Delta P = \frac{1}{2} \rho (v_2^2 - v_1^2)</p>
+<p>$$   </p>
+<h3 id="step-2">Step 2:</h3>
+<p>Apply the continuity equation   </p>
+<p>The continuity equation for incompressible fluid flow is:   </p>
+<p>$$</p>
+<p>A_1 v_1 = A_2 v_2</p>
+<p>$$   </p>
+<p>Where:   </p>
+<ul>
+<li><span class="arithmatex">\(A_1 = \pi r_1^2\)</span> and <span class="arithmatex">\(A_2 = \pi r_2^2\)</span> are the cross-sectional areas of the tubes   </li>
+<li><span class="arithmatex">\(r_1 = 1.60 \, \text{cm} = 0.0160 \, \text{m}\)</span> is the radius of the first tube   </li>
+<li><span class="arithmatex">\(r_2 = 0.800 \, \text{cm} = 0.00800 \, \text{m}\)</span> is the radius of the second tube   </li>
+</ul>
+<p>Solving for <span class="arithmatex">\(v_2\)</span> in terms of <span class="arithmatex">\(v_1\)</span>:   </p>
+<p>$$</p>
+<p>v_2 = \frac{A_1}{A_2} v_1 = \frac{r_1^2}{r_2^2} v_1</p>
+<p>$$   </p>
+<p>Substituting this into Bernoulli’s equation:   </p>
+<p>$$</p>
+<p>\Delta P = \frac{1}{2} \rho \left( \left( \frac{r_1^2}{r_2^2} v_1 \right)^2 - v_1^2 \right)</p>
+<p>$$   </p>
+<p>Simplifying:   </p>
+<p>$$</p>
+<p>\Delta P = \frac{1}{2} \rho v_1^2 \left( \frac{r_1^4}{r_2^4} - 1 \right)</p>
+<p>$$   </p>
+<p>Solving for <span class="arithmatex">\(v_1\)</span>:   </p>
+<p>$$</p>
+<p>v_1^2 = \frac{2 \Delta P}{\rho \left( \frac{r_1^4}{r_2^4} - 1 \right)}</p>
+<p>$$   </p>
+<p>$$</p>
+<p>v_1 = \sqrt{\frac{2 \Delta P}{\rho \left( \frac{r_1^4}{r_2^4} - 1 \right)}}</p>
+<p>$$   </p>
+<h3 id="step-3">Step 3:</h3>
+<p>Find the volume flow rate   </p>
+<p>The volume flow rate is given by:   </p>
+<p>$$</p>
+<p>Q = A_1 v_1 = \pi r_1^2 v_1</p>
+<p>$$   </p>
+<p>Substitute the expression for <span class="arithmatex">\(v_1\)</span>:   </p>
+<p>$$</p>
+<p>Q = \pi r_1^2 \sqrt{\frac{2 \Delta P}{\rho \left( \frac{r_1^4}{r_2^4} - 1 \right)}}</p>
+<p>$$   </p>
+<h3 id="final-expression">Final Expression:</h3>
+<p>$$</p>
+<p>Q = \pi (0.0160)^2 \sqrt{\frac{2 \Delta P}{860 \left( \frac{(0.0160)^4}{(0.00800)^4} - 1 \right)}}</p>
+<p>$$   </p>
+<p>This is the volume flow rate as a function of the pressure difference <span class="arithmatex">\(\Delta P\)</span>.</p></div>
 <div class="note-footer">
 <div class="backlinks" style="display:none"></div>
 
@@ -376,17 +549,17 @@ Pressure is perpendicular to surface   </p>
 
 </div>
 <div class="graph requires_js ">
-    <div id="A199264438718380696525929558231060316554{level}" class="graph_div"></div>
+    <div id="A120739151036774354483250375749527764719{level}" class="graph_div"></div>
 
-    <div class="graph-instructions" id="D199264438718380696525929558231060316554{level}">
+    <div class="graph-instructions" id="D120739151036774354483250375749527764719{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B199264438718380696525929558231060316554{level}" level="{level}" note_temp_id="199264438718380696525929558231060316554" onclick="window.ObsHtmlGraph.run(this, '199264438718380696525929558231060316554', 'fluid dynamics');">
+        <button class="graph_button graph_show_button" id="B120739151036774354483250375749527764719{level}" level="{level}" note_temp_id="120739151036774354483250375749527764719" onclick="window.ObsHtmlGraph.run(this, '120739151036774354483250375749527764719', 'fluid dynamics');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C199264438718380696525929558231060316554{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C120739151036774354483250375749527764719{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>
