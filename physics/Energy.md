@@ -18,7 +18,7 @@ Conservative force: Path independent  (Ex: Gravity, Spring, Electrostatic)
 Non-Conservative force: Path  matters (Ex: friction, Drag, Rockets)
 	Change in [[#"Internal Energy"]]
 __________
-Springs
+### Springs
 
 **Work on spring:**
 Anti derivative of kx is
@@ -27,12 +27,12 @@ $$ F = kx_0 $$
 Where c is final minus initial
 **Work by spring**
 $$ w = -\frac 1 2 k x_0^2 $$
-**conservative**
+### **conservative**
 
 $$ F = - \frac {dU} {Dx} $$
-Gravity:
+### Gravity:
 $$ U = mgy $$
-Friction:
+### Friction:
 $$ Wf_​=−F_f​d $$
 _______________
 ## Conservation of energy
