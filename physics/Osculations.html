@@ -279,6 +279,7 @@
 	</ul>
 </div>
 <ul class="dir-list">
+	<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/Pasted image 20241029104319.jpg"  class="external-link">Pasted image 20241029104319.jpg</a></li>
 	<li><div class="file-icon"></div><a class="" href="/OSU-notes/index.html"  >index</a></li>
 </ul>
 </div>
@@ -290,6 +291,9 @@
 <ul>
 <li><a href="#osculations" class="anchor-link">Osculations</a><ul>
 <li><a href="#spring-mass-system" class="anchor-link">Spring mass system</a></li>
+<li><a href="#energy" class="anchor-link">Energy</a></li>
+<li><a href="#drag" class="anchor-link">Drag</a></li>
+<li><a href="#simple-harmonic-oscillator" class="anchor-link">Simple harmonic oscillator</a></li>
 </ul>
 </li>
 </ul>
@@ -303,10 +307,27 @@
  \omega = \frac {d\theta}{dt}
 \]</div>
 <div class="arithmatex">\[
+ \omega = \sqrt\frac k v
+\]</div>
+<div class="arithmatex">\[
+ w^2 = \frac km
+\]</div>
+<div class="arithmatex">\[
  x = R cos\Theta = R cos(\omega t) 
 \]</div>
 <div class="arithmatex">\[
  y = R sin\Theta 
+\]</div>
+<p>Time to complete a cycle (<strong>PERIOD</strong>) is:   </p>
+<div class="arithmatex">\[
+ T = \frac {2\pi}{\omega} 
+\]</div>
+<p>Cycle Frequency:   </p>
+<div class="arithmatex">\[
+ F = \frac \omega{2\pi} 
+\]</div>
+<div class="arithmatex">\[
+ \phi=\frac{\arcsin\left(\frac{x\left(t\right)}{A}\right)}{wt} 
 \]</div>
 <h2 id="spring-mass-system">Spring mass system</h2>
 <div class="arithmatex">\[
@@ -387,7 +408,39 @@ PHI is the "Phase constant" <br />
 <div class="arithmatex">\[
  x(t) = A\cdot sin(2\pi f t + \phi) 
 \]</div>
-<p>but that complicates things</p></div>
+<p>but that complicates things   </p>
+<h2 id="energy">Energy</h2>
+<div class="arithmatex">\[
+ E_{tot } = \frac 1 2 kA^2 
+\]</div>
+<p><img alt="" src="/OSU-notes/Pasted%20image%2020241029104319.jpg" />   </p>
+<h2 id="drag">Drag</h2>
+<p>Drag force is a negative multiple of velocity   </p>
+<div class="arithmatex">\[
+ F_d = -bv 
+\]</div>
+<p>Newtons 2nd:   </p>
+<div class="arithmatex">\[
+ -kx -bv = ma 
+\]</div>
+<p>AKA   </p>
+<div class="arithmatex">\[
+ -kx-b\frac{dx^{1}}{dt}=m\frac{dx^{2}}{dt} 
+\]</div>
+<p>Rearrange to:   </p>
+<div class="arithmatex">\[
+ b\frac{dx^{1}}{dt}+m\frac{dx^{2}}{dt}+kx=0 
+\]</div>
+<h2 id="simple-harmonic-oscillator">Simple harmonic oscillator</h2>
+<div class="arithmatex">\[
+ \frac{d^2x} {dx^2}  =-\omega^2x \to Asin(\omega t+\phi)
+\]</div>
+<hr />
+<p>Finding phi:   </p>
+<div class="arithmatex">\[
+ \phi=\frac{\arcsin\left(\frac{x\left(t\right)}{A}\right)}{wt} 
+\]</div>
+<p>BUT REMEMBER sine is double sided</p></div>
 <div class="note-footer">
 <div class="backlinks" style="display:none"></div>
 
@@ -397,17 +450,17 @@ PHI is the "Phase constant" <br />
 
 </div>
 <div class="graph requires_js ">
-    <div id="A85146083154963882658037030496522912519{level}" class="graph_div"></div>
+    <div id="A241018602011322515535054653534244709619{level}" class="graph_div"></div>
 
-    <div class="graph-instructions" id="D85146083154963882658037030496522912519{level}">
+    <div class="graph-instructions" id="D241018602011322515535054653534244709619{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B85146083154963882658037030496522912519{level}" level="{level}" note_temp_id="85146083154963882658037030496522912519" onclick="window.ObsHtmlGraph.run(this, '85146083154963882658037030496522912519', 'osculations');">
+        <button class="graph_button graph_show_button" id="B241018602011322515535054653534244709619{level}" level="{level}" note_temp_id="241018602011322515535054653534244709619" onclick="window.ObsHtmlGraph.run(this, '241018602011322515535054653534244709619', 'osculations');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C85146083154963882658037030496522912519{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C241018602011322515535054653534244709619{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>

@@ -279,6 +279,7 @@
 	</ul>
 </div>
 <ul class="dir-list">
+	<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/Pasted image 20241029104319.jpg"  class="external-link">Pasted image 20241029104319.jpg</a></li>
 	<li><div class="file-icon"></div><a class="" href="/OSU-notes/index.html"  >index</a></li>
 </ul>
 </div>
@@ -302,6 +303,7 @@
 <li><a href="#derivatives-of-inverse" class="anchor-link">Derivatives of inverse</a></li>
 <li><a href="#related-rates-of-change" class="anchor-link">Related Rates of change</a></li>
 <li><a href="#mean-value-theorem" class="anchor-link">Mean value theorem</a></li>
+<li><a href="#l-hopital-s-rule" class="anchor-link">L'Hôpital's rule</a></li>
 </ul>
 </li>
 </ul>
@@ -509,13 +511,32 @@ $$   </p>
  \frac{da}{dt} = 48\pi 
 \]</div>
 <h2 id="mean-value-theorem">Mean value theorem</h2>
-<p>If f'(x) = 0, is it necessary a constant function?  <br />
+<p>If f'(x) = 0, it is necessary a constant function?  <br />
 <strong>SOMETIMES</strong>   </p>
 <p>Ex:   </p>
 <div class="arithmatex">\[
  f(x) = \frac x{|x|}
 \]</div>
-<p>So it is only true of a function on its domain is differentiable and continuous. </p></div>
+<p>So it is only true of a function on its domain is differentiable and continuous.    </p>
+<h2 id="l-hopital-s-rule">L'Hôpital's rule</h2>
+<p>If f and g are differentiable near x=a   </p>
+<p>and   </p>
+<div class="arithmatex">\[
+ |\lim_{x\to a}f(x)|= |\lim_{x\to a} g(x)| = 0\ OR\ \infty
+\]</div>
+<p>at  <br />
+$$
+ g'(x) \ne 0 
+$$   </p>
+<p>then    </p>
+<div class="arithmatex">\[
+ \lim_{x\to a} \frac {f(x)}{g(x)} = \lim_{x\to a} \frac {f'(x)}{g'(x)} 
+\]</div>
+<p>The key is just to put it in that form:   </p>
+<p>Ex:   </p>
+<div class="arithmatex">\[
+ f(x)^{g(x)} = e^{g(x)ln(f(x))} =  e^{\frac {g(x)} {\frac 1 {ln(f(x))}}}
+\]</div></div>
 <div class="note-footer">
 <div class="backlinks" style="display:none"></div>
 
@@ -525,17 +546,17 @@ $$   </p>
 
 </div>
 <div class="graph requires_js ">
-    <div id="A198248102733930570926500554985221018363{level}" class="graph_div"></div>
+    <div id="A229721028069955191407616571749029583175{level}" class="graph_div"></div>
 
-    <div class="graph-instructions" id="D198248102733930570926500554985221018363{level}">
+    <div class="graph-instructions" id="D229721028069955191407616571749029583175{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B198248102733930570926500554985221018363{level}" level="{level}" note_temp_id="198248102733930570926500554985221018363" onclick="window.ObsHtmlGraph.run(this, '198248102733930570926500554985221018363', 'derivatives');">
+        <button class="graph_button graph_show_button" id="B229721028069955191407616571749029583175{level}" level="{level}" note_temp_id="229721028069955191407616571749029583175" onclick="window.ObsHtmlGraph.run(this, '229721028069955191407616571749029583175', 'derivatives');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C198248102733930570926500554985221018363{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C229721028069955191407616571749029583175{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>

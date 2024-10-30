@@ -279,6 +279,7 @@
 	</ul>
 </div>
 <ul class="dir-list">
+	<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/Pasted image 20241029104319.jpg"  class="external-link">Pasted image 20241029104319.jpg</a></li>
 	<li><div class="file-icon"></div><a class="" href="/OSU-notes/index.html"  >index</a></li>
 </ul>
 </div>
@@ -306,6 +307,7 @@
 <li><a href="#work-done-by-pressure" class="anchor-link">Work done by pressure</a></li>
 <li><a href="#bernoulli-equation" class="anchor-link">Bernoulli Equation</a></li>
 <li><a href="#lift-forces" class="anchor-link">Lift forces</a></li>
+<li><a href="#flow-rate" class="anchor-link">Flow rate</a></li>
 <li><a href="#examples" class="anchor-link">Examples</a><ul>
 <li><a href="#step-1" class="anchor-link">Step 1:</a></li>
 <li><a href="#step-2" class="anchor-link">Step 2:</a></li>
@@ -415,6 +417,9 @@ Pressure is perpendicular to surface   </p>
 <div class="arithmatex">\[
  F_b = \rho_\text{fluid} Vg
 \]</div>
+<div class="arithmatex">\[
+ V_\text{displaced} = \frac w{\rho_{water}g}
+\]</div>
 <p>Identifying theses variables are the goal: <br />
  THE VOLUME IS THE <strong>IMMERSED VOLUME</strong>   </p>
 <h2 id="iceberg">Iceberg</h2>
@@ -461,10 +466,8 @@ Pressure is perpendicular to surface   </p>
  W = \frac 1 2 \Delta m(v_2^2-v_2^2) + \Delta mg(y_2-v_1)
 \]</div>
 <div class="arithmatex">\[
-\text{SIMPlIFY}
-\]</div>
-<div class="arithmatex">\[
- W = (P_1-P_2)V =\frac 1 2m(v_2^2-v_2^2) + mg(y_2-v_1) 
+ \text{INTO:
+} 
 \]</div>
 <div class="arithmatex">\[
  P + \frac 1 2 \rho v^2 + \rho gy = \text{constant}
@@ -475,9 +478,27 @@ Pressure is perpendicular to surface   </p>
 <div class="arithmatex">\[
  \text{Potential energy per kg} = \rho gy 
 \]</div>
+<p><strong>REMEMBER</strong>: <br />
+ After the liquid leaves the container it is atmoshperic!    </p>
 <h2 id="lift-forces">Lift forces</h2>
 <p>Speed above is greater than the speed bellow the air foil <br />
 Pressure above is &lt; Pressure bellow   </p>
+<h2 id="flow-rate">Flow rate</h2>
+<p>Velocity at depth on hole:   </p>
+<div class="arithmatex">\[
+v=\sqrt{2gh}
+\]</div>
+<p>Flow rate of hole:   </p>
+<div class="arithmatex">\[
+ Q = aV 
+\]</div>
+<div class="arithmatex">\[
+ Q = a\sqrt{2gh}
+\]</div>
+<p>Time to fill volume:   </p>
+<div class="arithmatex">\[
+t = \frac VQ 
+\]</div>
 <hr />
 <h2 id="examples">Examples</h2>
 <p>To find the volume flow rate (<span class="arithmatex">\(Q\)</span>) as a function of the pressure difference (<span class="arithmatex">\(\Delta P\)</span>) between the two sections of the tube, we can use Bernoulli's equation and the continuity equation.   </p>
@@ -552,17 +573,17 @@ Pressure above is &lt; Pressure bellow   </p>
 
 </div>
 <div class="graph requires_js ">
-    <div id="A120739151036774354483250375749527764719{level}" class="graph_div"></div>
+    <div id="A165219114517332995918253420675445980405{level}" class="graph_div"></div>
 
-    <div class="graph-instructions" id="D120739151036774354483250375749527764719{level}">
+    <div class="graph-instructions" id="D165219114517332995918253420675445980405{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B120739151036774354483250375749527764719{level}" level="{level}" note_temp_id="120739151036774354483250375749527764719" onclick="window.ObsHtmlGraph.run(this, '120739151036774354483250375749527764719', 'fluid dynamics');">
+        <button class="graph_button graph_show_button" id="B165219114517332995918253420675445980405{level}" level="{level}" note_temp_id="165219114517332995918253420675445980405" onclick="window.ObsHtmlGraph.run(this, '165219114517332995918253420675445980405', 'fluid dynamics');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C120739151036774354483250375749527764719{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C165219114517332995918253420675445980405{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>
