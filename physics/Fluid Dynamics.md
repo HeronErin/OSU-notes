@@ -56,6 +56,7 @@ $$ 1\ atm = \ 0.76\ mHg$$
 # Buoyancy
 An upward force of an object immersed in a liquid. Happens when the pressure on an object is less on top than on bottom. **Pressure difference is what matters**1 Buoyancy is the weight of the **displaced fluid**
 $$ F_b = \rho_\text{fluid} Vg$$
+$$ V_\text{displaced} = \frac w{\rho_{water}g}$$
 Identifying theses variables are the goal: THE VOLUME IS THE **IMMERSED VOLUME**
 ## Iceberg
 $$ \rho_\text{ice} = 0.9\rho_\text{water} $$
@@ -82,15 +83,22 @@ $$ dW = P\ dV$$
 Bernoulli IS **conservation of energy**
 $$ \Delta K + \Delta U = W $$
 $$ W = \frac 1 2 \Delta m(v_2^2-v_2^2) + \Delta mg(y_2-v_1)$$
-
-$$\text{SIMPlIFY}$$
-$$ W = (P_1-P_2)V =\frac 1 2m(v_2^2-v_2^2) + mg(y_2-v_1) $$
+$$ \text{INTO:} $$
 $$ P + \frac 1 2 \rho v^2 + \rho gy = \text{constant}$$
 $$ \text{Kinetic energy per kg} =  \frac 1 2 \rho v^2  $$
 $$ \text{Potential energy per kg} = \rho gy $$
+**REMEMBER**: After the liquid leaves the container it is atmoshperic! 
 ## Lift forces
 Speed above is greater than the speed bellow the air foil
 Pressure above is < Pressure bellow
+
+## Flow rate
+
+Velocity at depth on hole: $$v=\sqrt{2gh}$$
+Flow rate of hole: $$ Q = aV $$
+$$ Q = a\sqrt{2gh}$$
+Time to fill volume: $$t = \frac VQ $$
+
 
 
 _________________________

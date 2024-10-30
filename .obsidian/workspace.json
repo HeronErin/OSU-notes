@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "37b252bd179da7bc",
+        "id": "d2592a9dce3c0aca",
         "type": "tabs",
         "children": [
           {
-            "id": "8c560c99ef269885",
+            "id": "1ea66ddaa72592c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,6 +19,34 @@
               },
               "icon": "lucide-file",
               "title": "Osculations"
+            }
+          },
+          {
+            "id": "09f374d3dfab7bdf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physics/Stress.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Stress"
+            }
+          },
+          {
+            "id": "0604f76dfc5fa792",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "physics/Defs and notation WK1.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Defs and notation WK1"
             }
           }
         ]
@@ -162,28 +190,29 @@
       "templates:Insert template": false
     }
   },
-  "active": "8c560c99ef269885",
+  "active": "1ea66ddaa72592c5",
   "lastOpenFiles": [
-    "calc/Derivatives.md",
+    "physics/Fluid Dynamics.md",
+    "physics/Stress.md",
+    "physics/Defs and notation WK1.md",
     "physics/Osculations.md",
+    "Pasted image 20241029104319.jpg",
+    "physics/Energy.md",
+    "calc/Concavity.md",
+    "calc/Functions.md",
+    "calc/Derivatives.md",
+    "calc/Limits.md",
+    "physics/Angular math.md",
+    "calc/Approximations.md",
     "README.md",
     "2024-10-28.md",
-    "physics/Angular math.md",
     "physics/Center of Mass.md",
     "physics/Centripetal Acceleration.md",
     "physics/Friction.md",
-    "physics/Energy.md",
-    "physics/Fluid Dynamics.md",
     "calc/Optimization.md",
-    "physics/Stress.md",
     "physics/Forces.md",
     "calc/Minima And Maxima.md",
-    "calc/Approximations.md",
-    "calc/Limits.md",
-    "calc/Concavity.md",
-    "calc/Functions.md",
     "physics/Intertia.md",
-    "physics/Defs and notation WK1.md",
     "physics/Universal Gravity.md",
     "calc/Graphing.md",
     "imgs/COGF2.png",
@@ -197,9 +226,7 @@
     "imgs/11-p-055.gif",
     "physics/Newton.md",
     "imgs/Pasted image 20241014194134.png",
-    "calc/Problem 2.md",
     "imgs/10-table-02.gif",
-    "imgs/Pasted image 20241014104345.jpg",
     "imgs",
     "config.yml",
     "calc",

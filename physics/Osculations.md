@@ -4,10 +4,18 @@ Repetitive motion ([[Energy#Springs]])
 Think of circular momentum ([[Angular math]], [[Centripetal Acceleration]])
 $$ \omega= \frac V R $$
 $$ \omega = \frac {d\theta}{dt}$$
-
+$$ \omega = \sqrt\frac k v$$
+$$ w^2 = \frac km$$
 
 $$ x = R cos\Theta = R cos(\omega t) $$
 $$ y = R sin\Theta $$
+
+Time to complete a cycle (**PERIOD**) is:
+$$ T = \frac {2\pi}{\omega} $$
+
+Cycle Frequency:
+$$ F = \frac \omega{2\pi} $$
+$$ \phi=\frac{\arcsin\left(\frac{x\left(t\right)}{A}\right)}{wt} $$
 ## Spring mass system
 
 $$ F = -kx $$
@@ -64,3 +72,26 @@ $$ x(t) = A\cdot cos(\omega t + \phi) $$
 But engineers do:
 $$ x(t) = A\cdot sin(2\pi f t + \phi) $$
 but that complicates things
+
+## Energy
+
+$$ E_{tot } = \frac 1 2 kA^2 $$
+
+![[Pasted image 20241029104319.jpg]]
+
+## Drag 
+Drag force is a negative multiple of velocity
+$$ F_d = -bv $$
+Newtons 2nd:$$ -kx -bv = ma $$
+AKA
+$$ -kx-b\frac{dx^{1}}{dt}=m\frac{dx^{2}}{dt} $$
+Rearrange to:
+$$ b\frac{dx^{1}}{dt}+m\frac{dx^{2}}{dt}+kx=0 $$
+
+## Simple harmonic oscillator
+
+$$ \frac{d^2x} {dx^2}  =-\omega^2x \to Asin(\omega t+\phi)$$
+________________
+Finding phi:
+$$ \phi=\frac{\arcsin\left(\frac{x\left(t\right)}{A}\right)}{wt} $$
+BUT REMEMBER sine is double sided

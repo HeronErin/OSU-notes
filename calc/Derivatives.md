@@ -113,9 +113,24 @@ $$ \frac{da}{dt} = 48\pi $$
 
 ## Mean value theorem
 
-If f'(x) = 0, is it necessary a constant function? 
+If f'(x) = 0, it is necessary a constant function? 
 **SOMETIMES**
 
 Ex:
 $$ f(x) = \frac x{|x|}$$
 So it is only true of a function on its domain is differentiable and continuous. 
+## L'Hôpital's rule
+
+If f and g are differentiable near x=a
+
+and
+$$ |\lim_{x\to a}f(x)|= |\lim_{x\to a} g(x)| = 0\ OR\ \infty$$
+at $$ g'(x) \ne 0 $$
+then 
+$$ \lim_{x\to a} \frac {f(x)}{g(x)} = \lim_{x\to a} \frac {f'(x)}{g'(x)} $$
+
+
+The key is just to put it in that form:
+Ex:
+
+$$ f(x)^{g(x)} = e^{g(x)ln(f(x))} =  e^{\frac {g(x)} {\frac 1 {ln(f(x))}}}$$
