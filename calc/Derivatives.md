@@ -2,6 +2,10 @@ Differentiable == continuous
 BUT
 Continuous != differentiable
 
+
+See: [[Limits]]
+
+
 Reasoning:
 
 If f'(a) exists

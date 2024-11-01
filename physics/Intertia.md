@@ -1,3 +1,4 @@
+See: [[Angular math]]
 Point masses:
 $$ I = mR^2 $$
 With many points:

@@ -1,5 +1,5 @@
 ## Linear approximations
-Literally just a tangent line
+Literally just a [[Derivatives#Tangent line]]
 
 
 ## Differentials

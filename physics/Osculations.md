@@ -88,10 +88,46 @@ $$ -kx-b\frac{dx^{1}}{dt}=m\frac{dx^{2}}{dt} $$
 Rearrange to:
 $$ b\frac{dx^{1}}{dt}+m\frac{dx^{2}}{dt}+kx=0 $$
 
+Solve with magic that is hidden from us:
+$$ x(t) = e^{\frac {-b}{2m}t} sin(\omega t+\phi)$$
+Damping slows it down so w =
+$$ \omega(t) = \sqrt{w_0^2 - \ (\frac b {em})^2}$$
+Where w_0 is the unhampered frequency
+$$ \omega_0^2 - \frac km$$
+
+So:
+$$ \omega(t) = \sqrt{\frac km - \ (\frac b {em})^2}$$
+However the second term can be negative, so things go imaginary. (But keep in mind this happens in reality, so we need imaginary numbers to exist in reality)
+
+But sine happens to work for imaginary numbers, ![[Screenshot_20241031_103616.png]]
+$$ x(t) = e^{\frac {-b}{2m}t} sin(\omega t+\phi)$$
+![[IMG_20241031_103331215.jpg]]
 ## Simple harmonic oscillator
 
 $$ \frac{d^2x} {dx^2}  =-\omega^2x \to Asin(\omega t+\phi)$$
 ________________
 Finding phi:
 $$ \phi=\frac{\arcsin\left(\frac{x\left(t\right)}{A}\right)}{wt} $$
+
 BUT REMEMBER sine is double sided
+____________________________
+Simple pendulum with SMALL ANGLES aproximation 
+
+$$ \omega^2 = \frac gL $$
+
+
+_______________________
+## Driving force
+
+$$ F_d = F_Csin(\omega_dt+\phi)$$
+where omega d is the driving frequency
+
+Oscillator will eventually converge to the driving frequency. 
+
+$$ A = \frac {F/m}{\sqrt{(\omega_d-\omega)^2 + (\frac b {2m})^2}} $$
+
+| Slow compared to natural frequency   | Matches speed easily                         |
+| ------------------------------------ | -------------------------------------------- |
+| Close to natural frequency           | Accelerates quickly                          |
+| Faster compared to natural frequency | Have a hard time keeping up to driving force |
+Frequencies away from natural have low aplitude![[Pasted image 20241031104614.jpg]]

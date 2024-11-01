@@ -1,3 +1,4 @@
+See: [[Forces]]
 
 Contact force <u>parallel</u> to surfaces.
 	Interaction of surface textures / materials

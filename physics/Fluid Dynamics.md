@@ -1,6 +1,8 @@
 Related to [[Angular math#Step 5 Calculate the power input]]
 
 # Equations
+In general :
+$$ F = PA $$
 $$ m = pv $$
 $$ F_g = \rho V_g$$
 $$ P = P_c+\rho gh$$
