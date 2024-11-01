@@ -21,7 +21,7 @@ __________
 ### Springs
 
 **Work on spring:**
-Anti derivative of kx is
+[[AntiDerivitives]] of kx is
 $$ w = \frac 1 2 kx^2\ (\ +\ C) $$
 $$ F = kx_0 $$
 Where c is final minus initial

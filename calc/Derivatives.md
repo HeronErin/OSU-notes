@@ -22,7 +22,7 @@ $$ \lim_{h \to 0} f(a+h) = f(a) $$
 
 -------------
 ## Product rule
-$$ \frac d{dx}(f(x)f(x)) = f'(x)g(x) + f(x)g'(x) $$
+$$ \frac d{dx}(f(x)g(x)) = f'(x)g(x) + f(x)g'(x) $$
 ## Quotient Rule
 $$ \frac d{dx} \frac {f(x)}{g(x)} = \frac {f'(x)g(x) - f(x)g'(x)}{g(x)^2}$$
 ## Chain rule
