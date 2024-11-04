@@ -73,7 +73,10 @@ As liquids are incompressible, we can remove rho!
 $$ v_1 A_1 =v_2 A_2$$
 So speed is low when tube is wide.
 
+
+
 ## Work done by pressure
+([[Energy#Work]])
 
 $$ W = F_x \cdot \Delta x$$
 $$ W = PA\Delta y$$

@@ -8,7 +8,7 @@ In an inertial frame of reference an object with no force on it has zero acceler
 Must find a coordinate system
 $$ \Sigma F = ma $$
 $$  \Sigma F = \frac {d\bar p}{d t}\ \ ; \ \ \bar p = m\bar v $$
-**The force vector is always the hypotenuse**
+**The [[Forces]] vector is always the hypotenuse** 
 ## Newton III
 The force exherted on one object is exherted inversely to the opposing object. 
 

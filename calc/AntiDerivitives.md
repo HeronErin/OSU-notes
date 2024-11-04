@@ -33,3 +33,7 @@ BUT IF NEGATIVE ONE
 $$ \int f(x)^{-1} dx = ln(abs(x)$$
 
 ![[Screenshot_20241101_135957.png]]
+
+_________________________________
+## Initial value problems
+Given f(n) = x, and f'(x) solve f

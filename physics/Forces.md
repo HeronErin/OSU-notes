@@ -24,7 +24,7 @@ Examples: classroom, car with const speed
 Non examples: Plane taking off, car turning
 
 In an inertial frame of reference an object with no force on it has zero acceleration.
-<center><u>Newton's First Law</u></center>
+[[Newton#Newton I]]
 _____________
 -Force adds component wise
 -Acceleration proportional to sum of forces(net forces)
@@ -32,12 +32,12 @@ _____________
 Vector statement
 $$ a = \frac {F_{net}}m$$
 $$ \Sigma \bar F $$
-Sum of all <u>forces</u>. <u>Newton's Secound law</u> 
+Sum of all <u>forces</u>. [[Newton#Newton II]]
 $$ \Sigma \bar F = M\bar A$$
 Force is that which causes acceleration.
 
 $$ -F_g = mg $$
-<u>Netwon's 3rd law</u> Interacting objects exert an equal and opposite forces on each over.
+[[Newton#Newton III]] Interacting objects exert an equal and opposite forces on each over.
 $$ F_{AB} = -F_{BA} $$
 -------------------
 The white lie: Work = Force "times" distance

@@ -1,12 +1,15 @@
- $$ W = F_{avr}x$$
+## Work
+$$ W = F_{avr}x$$
+ [[Forces]] over distance\*
 ## Potential energy
-The work done by a conservative force corresponds an equal and opposite cchange in potential energy U.
+The work done by a conservative force corresponds an equal and opposite change in potential energy U.
 $$ W_c = -\Delta U$$
 And the change in gravitation potential energy is
 $$ \Delta U =  - (-mgh) = mgh $$
 ## kinetic energy
 
 $$ W = a \Delta x = \frac 1 2 mv^2 $$
+
 
 **This is the kinetic energy of the object**
 Work - Kinetic energy theorem 

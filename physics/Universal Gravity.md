@@ -2,7 +2,7 @@ $$ F_g = -mg$$
 NOT ALWAYS TRUE!!!!!!
 $$ U_g = mgy $$
 $$ F_g = \frac {-dU_3}{dy} $$
-Springs look about the same
+Springs ([[Energy#Springs]]) look about the same
 $$ F_s = -kx $$
 $$ U_s= \frac 1 2 kx^2$$
 $$ F_s = \frac {-dU_s}{dx} $$
@@ -57,7 +57,7 @@ $$ r^3 = \frac {MGT^2}{4\pi^2}$$
 
 $$ r = 42.2 * 10^6 km$$
 _____________________________________
-### Total energy of an orbit
+### Total [[Energy]] of an orbit
 $$ U = \frac {-mMG}r $$
 $$ E = K+U $$
 $$ K= \frac 1 2 mv^2 $$

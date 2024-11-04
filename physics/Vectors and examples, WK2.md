@@ -1,3 +1,6 @@
+*Expanded upon from:[[Defs and notation WK1]]*
+
+
 An airplane flies straight for 640 km/hr. Then changes to 700 km /hr for 50 min. If the average speed is 680 km /hr. What is the duration of the entire trip? 
 
 Treat as two seperate equations. The only useful equations in

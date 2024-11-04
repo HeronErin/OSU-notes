@@ -12,6 +12,6 @@ ____________
 	2. lim f(x) x-> oo = -5
 	3. f'(x) > 0 on (6, oo)
 	4. f'(x) < 0 (0, 6)
-	5. f''(x) > 0 on (0, 2)
-	6. f''(x) < 0 (12, oo)
+	5. f''(x) > 0 on (0, 2) [[Concavity#Concave up]]
+	6. f''(x) < 0 (12, oo) [[Concavity#Concave down]]
 	![[COGF2.png]]

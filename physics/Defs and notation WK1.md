@@ -48,6 +48,7 @@ $$ v_f = v_i + at$$
 
 * **Express gravity as G downwards** so g = 9.8
 	* Can't assign a sign when lacking a coordinate system
+Expanded upon in: [[Universal Gravity]]
 ## With a constant acceleration the following apply:
 
 $$\Delta v = at $$$$ \Delta x = v_it + 0.5 (\Delta t)(a\Delta t) = 0.5 a(\Delta t)^2 +v_i\Delta t$$
