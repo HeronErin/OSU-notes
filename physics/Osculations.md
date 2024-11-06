@@ -131,3 +131,12 @@ $$ A = \frac {F/m}{\sqrt{(\omega_d-\omega)^2 + (\frac b {2m})^2}} $$
 | Close to natural frequency           | Accelerates quickly                          |
 | Faster compared to natural frequency | Have a hard time keeping up to driving force |
 Frequencies away from natural have low aplitude![[Pasted image 20241031104614.jpg]]
+_________________________
+## Forced oscillation
+Driving frequency = natural frequency
+Recall 
+$$ \omega^2 = \frac km $$$$ F = \frac \omega{2\pi} $$
+$$ P = \frac {2\pi}\omega $$
+
+Toddler bed problem
+$$ a_{max} = \omega^2A=-g $$

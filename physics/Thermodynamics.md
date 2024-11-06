@@ -1,4 +1,9 @@
-
+$$ P = \frac FA$$
+$$ dV = -Adx$$
+$$ dW = Fdx = -PdV$$
+$$ W = -\int PdV$$
+$$ dx = \frac{-dV}A$$
+$$ Q = mc\Delta T$$
 ## Ideal gas
 Similar to: [[Fluid Dynamics]]
 
@@ -68,3 +73,34 @@ However water is strange and increases in size as it cools
 ## Foil approximation 
 For x < 1
 $$ (1+x)^3 \approx 1+3x $$
+## Work
+[[Energy#Work]]
+$$ dW = -PdV$$$$ W = -\int PdV$$
+We need to find the area under the graph, this can be hard, or simple. ( [[Approximating the area under a curve]])
+### Constant volume
+Work = 0
+dE<sub>int</sub> = Q
+### Constant pressure
+w = -PdV
+
+
+### Constant temperature
+`Adiabatic process` 
+`Isothermal`
+
+No heat transfer
+dE = w
+![[Screenshot_20241106_102254.png]]
+$$ w = -Q $$
+## Cyclic process
+A process whose starting point is the same as its end
+
+
+## Heat capacity
+
+$$ Q = C\Delta T $$
+where C is the **heat capacity** of the object
+$$ c = \frac C m $$ $$ C = mc $$
+$$ Q = mc\Delta T$$
+$$ Q_m + Q_c = 0 $$
+For no energy leaving the system
