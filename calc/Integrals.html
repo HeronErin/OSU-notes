@@ -5,7 +5,7 @@
         <head>
                 <!-- Page information -->
                 <meta charset="UTF-8" />
-                <meta name="node_id" content="intertia">
+                <meta name="node_id" content="integrals">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="shortcut icon" href="/OSU-notes/favicon.ico" />
 
@@ -57,7 +57,7 @@
 
                 <!-- Onload tweaks -->
                 <script>
-                        const CURRENT_NODE = 'intertia';
+                        const CURRENT_NODE = 'integrals';
                         const HTML_URL_PREFIX = '/OSU-notes';
                         const PAGE_DEPTH = 1;
                 </script>
@@ -181,7 +181,7 @@
             }
         </script>
                                     <div class="graph_header_div requires_js">
-            <a id="graph_link" class="system-link" href="/OSU-notes/obs.html/graph/index.html?node=intertia" title="Open fullpage Graph">
+            <a id="graph_link" class="system-link" href="/OSU-notes/obs.html/graph/index.html?node=integrals" title="Open fullpage Graph">
                     <img class="graph_header_div_svg" src = "/OSU-notes/obs.html/static/graph.svg" alt="Open fullpage Graph" style="margin: 2px; width: 17px;"/>
             </a>
         </div>
@@ -216,8 +216,8 @@
                         <div id="left_pane" class="left_pane active">
     <div id="left_pane_fold_header" class="left_pane_fold_header fold_header">x</div>
     <div id="left_pane_content" class="left_pane_content">
-            <div id="dirtree"><button id="folder-1" class="dir-button " onclick="toggle_dir(this.id)"><div class="file-icon"></div>calc</button>
-<div id="folder-container-1" class="dir-container requires_js " path="/OSU-notes/calc">
+            <div id="dirtree"><button id="folder-1" class="dir-button active" onclick="toggle_dir(this.id)"><div class="file-icon"></div>calc</button>
+<div id="folder-container-1" class="dir-container requires_js active" path="/OSU-notes/calc">
 	<ul class="dir-list">
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/AntiDerivitives.html"  >AntiDerivitives</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Approximating the area under a curve.html"  >Approximating the area under a curve</a></li>
@@ -226,7 +226,7 @@
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Derivatives.html"  >Derivatives</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Functions.html"  >Functions</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Graphing.html"  >Graphing</a></li>
-		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Integrals.html"  >Integrals</a></li>
+		<li><div class="file-icon"></div><a class="active current_page_dirtree" href="/OSU-notes/calc/Integrals.html"  >Integrals</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Limits.html"  >Limits</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Logs.html"  >Logs</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Minima And Maxima.html"  >Minima And Maxima</a></li>
@@ -272,8 +272,8 @@
 		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/torque.png"  class="external-link">torque.png</a></li>
 	</ul>
 </div>
-<button id="folder-3" class="dir-button active" onclick="toggle_dir(this.id)"><div class="file-icon"></div>physics</button>
-<div id="folder-container-3" class="dir-container requires_js active" path="/OSU-notes/physics">
+<button id="folder-3" class="dir-button " onclick="toggle_dir(this.id)"><div class="file-icon"></div>physics</button>
+<div id="folder-container-3" class="dir-container requires_js " path="/OSU-notes/physics">
 	<ul class="dir-list">
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Angular math.html"  >Angular math</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Center of Mass.html"  >Center of Mass</a></li>
@@ -284,7 +284,7 @@
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Fluid Dynamics.html"  >Fluid Dynamics</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Forces.html"  >Forces</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Friction.html"  >Friction</a></li>
-		<li><div class="file-icon"></div><a class="active current_page_dirtree" href="/OSU-notes/physics/Intertia.html"  >Intertia</a></li>
+		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Intertia.html"  >Intertia</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Newton.html"  >Newton</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Osculations.html"  >Osculations</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Stress.html"  >Stress</a></li>
@@ -300,172 +300,23 @@
     </div>
 </div>
                         <div class="container">
-                                <div class="content"><h1 id="intertia">Intertia</h1>
+                                <div class="content"><h1 id="integrals">Integrals</h1>
 <div class="toc">
 <ul>
-<li><a href="#intertia" class="anchor-link">Intertia</a><ul>
-<li><a href="#parallel-axis-theorem" class="anchor-link">Parallel Axis theorem</a></li>
-<li><a href="#examples" class="anchor-link">Examples</a></li>
-<li><a href="#newton" class="anchor-link">Newton</a></li>
+<li><a href="#integrals" class="anchor-link">Integrals</a><ul>
+<li><a href="#indefinite-integral" class="anchor-link">Indefinite Integral</a></li>
+<li><a href="#definite-integral" class="anchor-link">Definite Integral</a></li>
 </ul>
 </li>
 </ul>
 </div>
-<p>See: <br />
-<a href="/OSU-notes/physics/Angular%20math.html">Angular math</a> <br />
-Point masses:   </p>
-<div class="arithmatex">\[
- I = mR^2 
-\]</div>
-<p>With many points:   </p>
-<div class="arithmatex">\[
- I = \int R^2dm 
-\]</div>
-<p>But this is hard, and we need to look it up in a book.  <br />
-However these axis are through the center of mass. <br />
-<strong>So be careful to look up the right one</strong> <br />
-But rotation does not need to be through the center of mass   </p>
-<h2 id="parallel-axis-theorem">Parallel Axis theorem</h2>
-<div class="arithmatex">\[
- I = I_cm  + mD^2 
-\]</div>
-<p>D goes from axis to center of mass   </p>
-<h2 id="examples">Examples</h2>
-<p><img alt="" src="/OSU-notes/imgs/10-table-02.gif" />   </p>
-<p>Ex:   </p>
-<p>Sphere:   </p>
-<div class="arithmatex">\[
- I_{cm} = \frac 3 5 m R ^2 
-\]</div>
-<p><img alt="" src="/OSU-notes/imgs/cmROT.png" />   </p>
-<p>Ex: <br />
- rod <br />
-AXIS-=-=-=-=-=-=-=-=-=cm-=-=-=-=-=-=-=-=-=-   </p>
-<div class="arithmatex">\[
- I_{cm}= \frac 1 {12} ml^2
-\]</div>
-<div class="arithmatex">\[
- I = \frac 1 {12} ml^2 + m (\frac l 2)^2 = \frac 1 {12} ml^2 + \frac 1 4 ml^2 = \frac 1 3 ml^2
-\]</div>
-<p>Ex: <br />
- lolly with massive stick (moment around end)   </p>
-<div class="arithmatex">\[
- I = I_cm  + mD^2 
-\]</div>
-<div class="arithmatex">\[
- I_{tot} = I_{ROD} + I_{sph} 
-\]</div>
-<p>USING FROM LAST PROBLEM:   </p>
-<div class="arithmatex">\[
- I_{ROD} = \frac 1 3 ml^2 
-\]</div>
-<p>m_1 = rod len <br />
-l = rod len <br />
-M = sphere len <br />
-R = sphere rad   </p>
-<div class="arithmatex">\[
- I_{sph} = \frac 2 5 MR^2 + M(R + l)^2 
-\]</div>
-<div class="arithmatex">\[
- I_{tot} = \frac 1 3 ml^2 + \frac 2 5 MR^2 + M(l + R)^2 
-\]</div>
-<h2 id="newton">Newton</h2>
-<p>Transactional:   </p>
-<div class="arithmatex">\[
- \Sigma \bar F = M\bar a 
-\]</div>
-<div class="arithmatex">\[
- \Sigma \bar F = m \frac {d\bar v}{dt} = \frac d{dt}(m\bar V) 
-\]</div>
-<div class="arithmatex">\[
- \Sigma\bar F = \frac{d\bar p}{dt} 
-\]</div>
-<div class="arithmatex">\[
- \bar p = m\bar v 
-\]</div>
-<div class="arithmatex">\[
- KE = \frac 1 2 I W^2 
-\]</div>
-<ul>
-<li>Momentum is concerved   </li>
-</ul>
-<p>Rotational:   </p>
-<div class="arithmatex">\[
- \Sigma \bar \tau  = I\bar\alpha
-\]</div>
-<div class="arithmatex">\[
- \bar\alpha = \frac {d\bar \omega}{dt} 
-\]</div>
-<div class="arithmatex">\[
- \Sigma \bar \tau  = I\frac {d\bar \omega}{dt} = \frac{d}{dt}(I\bar \omega) 
-\]</div>
-<div class="arithmatex">\[
- \Sigma \bar \tau = \frac {d\bar L}{dt}
-\]</div>
-<ul>
-<li>WITH:   </li>
-</ul>
-<div class="arithmatex">\[
- \bar L = I\bar\omega 
-\]</div>
-<ul>
-<li>Only way to change angular momenturm is to apply torque,   </li>
-</ul>
-<p>As such it is concerved   </p>
-<hr />
-<p>To find the moment of inertia of the rolling wheel, we can use the relationship between the rotational kinetic energy, moment of inertia, and angular velocity. The total kinetic energy of the rolling wheel consists of both translational and rotational kinetic energy.    </p>
-<ol>
-<li><strong>Translational Kinetic Energy (TKE)</strong>:   </li>
-</ol>
-<p>$$</p>
-<p>\text{TKE} = \frac{1}{2} m v^2</p>
-<p>$$   </p>
-<p>where <span class="arithmatex">\(m\)</span> is the mass of the wheel and <span class="arithmatex">\(v\)</span> is the center of mass speed (0.13 m/s).   </p>
-<ol>
-<li><strong>Rotational Kinetic Energy (RKE)</strong>:   </li>
-</ol>
-<p>$$</p>
-<p>\text{RKE} = \frac{1}{2} I \omega^2</p>
-<p>$$   </p>
-<p>where <span class="arithmatex">\(I\)</span> is the moment of inertia and <span class="arithmatex">\(\omega\)</span> is the angular velocity.   </p>
-<ol>
-<li><strong>Relation between Linear and Angular Velocity</strong>:   </li>
-</ol>
-<p>The angular velocity <span class="arithmatex">\(\omega\)</span> can be expressed in terms of the linear speed <span class="arithmatex">\(v\)</span> and the radius <span class="arithmatex">\(r\)</span>:   </p>
-<p>$$</p>
-<p>\omega = \frac{v}{r}</p>
-<p>$$   </p>
-<p>Substituting <span class="arithmatex">\(v = 0.13\)</span> m/s and <span class="arithmatex">\(r = 0.2\)</span> m:   </p>
-<p>$$</p>
-<p>\omega = \frac{0.13 \, \text{m/s}}{0.2 \, \text{m}} = 0.65 \, \text{rad/s}</p>
-<p>$$   </p>
-<ol>
-<li><strong>Substituting <span class="arithmatex">\(\omega\)</span> into the RKE equation</strong>:   </li>
-</ol>
-<p>The rotational kinetic energy is given as 35 J:   </p>
-<p>$$</p>
-<p>35 = \frac{1}{2} I (0.65)^2</p>
-<p>$$   </p>
-<p>$$</p>
-<p>35 = \frac{1}{2} I (0.4225)</p>
-<p>$$   </p>
-<p>$$</p>
-<p>35 = 0.21125 I</p>
-<p>$$   </p>
-<ol>
-<li><strong>Solving for <span class="arithmatex">\(I\)</span></strong>:   </li>
-</ol>
-<p>$$</p>
-<p>I = \frac{35}{0.21125} \approx 165.4 \, \text{kg} \cdot \text{m}^2</p>
-<p>$$   </p>
-<p>Thus, the moment of inertia of the rolling wheel is approximately <strong>165.4 kg·m²</strong>.   </p></div>
+<h2 id="indefinite-integral">Indefinite Integral</h2>
+<p>Same as <a href="/OSU-notes/calc/AntiDerivitives.html">AntiDerivitives</a>   </p>
+<h2 id="definite-integral">Definite Integral</h2>
+<p><a href="/OSU-notes/calc/Approximating%20the%20area%20under%20a%20curve.html#riemann-sum">Approximating the area under a curve</a>   </p>
+<p>TODO   </p></div>
 <div class="note-footer">
-<div class="backlinks">
-<h2>Backlinks</h2>
-<ul>
-	<li><a class="backlink" href="/OSU-notes/physics/Angular math.html">angular math</a></li>
-</ul>
-</div>
+<div class="backlinks" style="display:none"></div>
 
 <div class="tags">
 
@@ -473,17 +324,17 @@ R = sphere rad   </p>
 
 </div>
 <div class="graph requires_js ">
-    <div id="A24090960542415808200932757330340319162{level}" class="graph_div"></div>
+    <div id="A2085132156165431194741698960280899141{level}" class="graph_div"></div>
 
-    <div class="graph-instructions" id="D24090960542415808200932757330340319162{level}">
+    <div class="graph-instructions" id="D2085132156165431194741698960280899141{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B24090960542415808200932757330340319162{level}" level="{level}" note_temp_id="24090960542415808200932757330340319162" onclick="window.ObsHtmlGraph.run(this, '24090960542415808200932757330340319162', 'intertia');">
+        <button class="graph_button graph_show_button" id="B2085132156165431194741698960280899141{level}" level="{level}" note_temp_id="2085132156165431194741698960280899141" onclick="window.ObsHtmlGraph.run(this, '2085132156165431194741698960280899141', 'integrals');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C24090960542415808200932757330340319162{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C2085132156165431194741698960280899141{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>
