@@ -5,7 +5,7 @@
         <head>
                 <!-- Page information -->
                 <meta charset="UTF-8" />
-                <meta name="node_id" content="energy">
+                <meta name="node_id" content="summation">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="shortcut icon" href="/OSU-notes/favicon.ico" />
 
@@ -57,7 +57,7 @@
 
                 <!-- Onload tweaks -->
                 <script>
-                        const CURRENT_NODE = 'energy';
+                        const CURRENT_NODE = 'summation';
                         const HTML_URL_PREFIX = '/OSU-notes';
                         const PAGE_DEPTH = 1;
                 </script>
@@ -181,7 +181,7 @@
             }
         </script>
                                     <div class="graph_header_div requires_js">
-            <a id="graph_link" class="system-link" href="/OSU-notes/obs.html/graph/index.html?node=energy" title="Open fullpage Graph">
+            <a id="graph_link" class="system-link" href="/OSU-notes/obs.html/graph/index.html?node=summation" title="Open fullpage Graph">
                     <img class="graph_header_div_svg" src = "/OSU-notes/obs.html/static/graph.svg" alt="Open fullpage Graph" style="margin: 2px; width: 17px;"/>
             </a>
         </div>
@@ -216,8 +216,8 @@
                         <div id="left_pane" class="left_pane active">
     <div id="left_pane_fold_header" class="left_pane_fold_header fold_header">x</div>
     <div id="left_pane_content" class="left_pane_content">
-            <div id="dirtree"><button id="folder-1" class="dir-button " onclick="toggle_dir(this.id)"><div class="file-icon"></div>calc</button>
-<div id="folder-container-1" class="dir-container requires_js " path="/OSU-notes/calc">
+            <div id="dirtree"><button id="folder-1" class="dir-button active" onclick="toggle_dir(this.id)"><div class="file-icon"></div>calc</button>
+<div id="folder-container-1" class="dir-container requires_js active" path="/OSU-notes/calc">
 	<ul class="dir-list">
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/AntiDerivitives.html"  >AntiDerivitives</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Approximating the area under a curve.html"  >Approximating the area under a curve</a></li>
@@ -231,7 +231,7 @@
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Logs.html"  >Logs</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Minima And Maxima.html"  >Minima And Maxima</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Optimization.html"  >Optimization</a></li>
-		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Summation.html"  >Summation</a></li>
+		<li><div class="file-icon"></div><a class="active current_page_dirtree" href="/OSU-notes/calc/Summation.html"  >Summation</a></li>
 	</ul>
 </div>
 <button id="folder-2" class="dir-button " onclick="toggle_dir(this.id)"><div class="file-icon"></div>imgs</button>
@@ -282,15 +282,15 @@
 		<li><div class="file-icon non-md-file"></div><a class="" href="/OSU-notes/imgs/torque.png"  class="external-link">torque.png</a></li>
 	</ul>
 </div>
-<button id="folder-3" class="dir-button active" onclick="toggle_dir(this.id)"><div class="file-icon"></div>physics</button>
-<div id="folder-container-3" class="dir-container requires_js active" path="/OSU-notes/physics">
+<button id="folder-3" class="dir-button " onclick="toggle_dir(this.id)"><div class="file-icon"></div>physics</button>
+<div id="folder-container-3" class="dir-container requires_js " path="/OSU-notes/physics">
 	<ul class="dir-list">
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Angular math.html"  >Angular math</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Center of Mass.html"  >Center of Mass</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Centripetal Acceleration.html"  >Centripetal Acceleration</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Collisions.html"  >Collisions</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Defs and notation WK1.html"  >Defs and notation WK1</a></li>
-		<li><div class="file-icon"></div><a class="active current_page_dirtree" href="/OSU-notes/physics/Energy.html"  >Energy</a></li>
+		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Energy.html"  >Energy</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Fluid Dynamics.html"  >Fluid Dynamics</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Forces.html"  >Forces</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/physics/Friction.html"  >Friction</a></li>
@@ -311,268 +311,26 @@
     </div>
 </div>
                         <div class="container">
-                                <div class="content"><h1 id="energy">Energy</h1>
+                                <div class="content"><h1 id="summation">Summation</h1>
 <div class="toc">
 <ul>
-<li><a href="#energy" class="anchor-link">Energy</a><ul>
-<li><a href="#work" class="anchor-link">Work</a></li>
-<li><a href="#potential-energy" class="anchor-link" class="anchor-link">Potential energy</a></li>
-<li><a href="#kinetic-energy" class="anchor-link">kinetic energy</a><ul>
-<li><a href="#springs" class="anchor-link">Springs</a></li>
-<li><a href="#conservative" class="anchor-link">conservative</a></li>
-<li><a href="#gravity" class="anchor-link">Gravity:</a></li>
-<li><a href="#friction" class="anchor-link">Friction:</a></li>
-</ul>
-</li>
-<li><a href="#conservation-of-energy" class="anchor-link">Conservation of energy</a></li>
-</ul>
-</li>
-<li><a href="#internal-energy" class="anchor-link" class="anchor-link">"Internal Energy"</a></li>
-<li><a href="#momentum" class="anchor-link">Momentum</a><ul>
-<li><a href="#isolated-system" class="anchor-link">Isolated system</a></li>
+<li><a href="#summation" class="anchor-link">Summation</a><ul>
+<li><a href="#rules" class="anchor-link">Rules:</a></li>
 </ul>
 </li>
 </ul>
 </div>
-<h2 id="work">Work</h2>
-<div class="arithmatex">\[
- W = F_{avr}x
-\]</div>
-<p><a href="/OSU-notes/physics/Forces.html">Forces</a> over distance*   </p>
-<h2 id="potential-energy">Potential energy</h2>
-<p>The work done by a conservative force corresponds an equal and opposite change in potential energy U.   </p>
-<div class="arithmatex">\[
- W_c = -\Delta U
-\]</div>
-<p>And the change in gravitation potential energy is   </p>
-<div class="arithmatex">\[
- \Delta U =  - (-mgh) = mgh 
-\]</div>
-<h2 id="kinetic-energy">kinetic energy</h2>
-<div class="arithmatex">\[
- W = a \Delta x = \frac 1 2 mv^2 
-\]</div>
-<p><strong>This is the kinetic energy of the object</strong> <br />
-Work - Kinetic energy theorem    </p>
-<div class="arithmatex">\[
- W_{total}​=ΔKE=ΔPE+W_f​ 
-\]</div>
-<p>Conservative force: <br />
- Path independent  (Ex: <br />
- Gravity, Spring, Electrostatic) <br />
-        Change in <a href="#potential-energy" class="anchor-link" class="anchor-link">Potential energy</a> <br />
-Non-Conservative force: <br />
- Path  matters (Ex: <br />
- friction, Drag, Rockets) <br />
-    Change in <a href="#internal-energy" class="anchor-link" class="anchor-link">"Internal Energy"</a>   </p>
-<hr />
-<h3 id="springs">Springs</h3>
-<p><strong>Work on spring: <br />
-</strong> <br />
-<a href="/OSU-notes/calc/AntiDerivitives.html">AntiDerivitives</a> of kx is   </p>
-<div class="arithmatex">\[
- w = \frac 1 2 kx^2\ (\ +\ C) 
-\]</div>
-<div class="arithmatex">\[
- F = kx_0 
-\]</div>
-<p>Where c is final minus initial <br />
-<strong>Work by spring</strong>   </p>
-<div class="arithmatex">\[
- w = -\frac 1 2 k x_0^2 
-\]</div>
-<h3 id="conservative"><strong>conservative</strong></h3>
-<div class="arithmatex">\[
- F = - \frac {dU} {Dx} 
-\]</div>
-<h3 id="gravity">Gravity:</h3>
-<div class="arithmatex">\[
- U = mgy 
-\]</div>
-<h3 id="friction">Friction:</h3>
-<div class="arithmatex">\[
- Wf_​=−F_f​d 
-\]</div>
-<hr />
-<h2 id="conservation-of-energy">Conservation of energy</h2>
-<p>Energy is not created or destroyed   </p>
-<ul>
-<li>Can change form   </li>
-<li>Can enter or leave a system   </li>
-</ul>
-<p>System: <br />
- A collection of objects of interest   </p>
-<div class="arithmatex">\[
- W_C = - \Delta U
-\]</div>
-<div class="arithmatex">\[
- E_{TOTAL} = K + U - E_{int} 
-\]</div>
-<div class="arithmatex">\[
- E_{TOT} = TRANSFERS\ in\ or\ out\ of\ system
-\]</div>
-<p>Get in the habit of writing:   </p>
-<div class="arithmatex">\[
- \Delta K + \Delta U + \Delta E_{INT} = W + Q + T_o
-\]</div>
-<p>where U is potential energy within a system <br />
-where Q is heat transfer <br />
-where T_0 is other <br />
-where W is the force <strong>added</strong> into the system!!!!!!!!!!!!!!   </p>
-<h1 id="internal-energy">"Internal Energy"</h1>
-<p><strong>New category of energy</strong>   </p>
-<ul>
-<li>Kinetic  and potential Energy of the internal molecules!   </li>
-<li>Exists without measurable displacement   </li>
-</ul>
-<div class="arithmatex">\[
- W_{NC} = -\Delta E_{inc}
-\]</div>
-<ul>
-<li>Within a system   </li>
-</ul>
-<hr />
-<h1 id="momentum">Momentum</h1>
-<p>A <strong>vector</strong> quantity! And also conserved! (We can't step out of the universe and apply forces to it)   </p>
-<div class="arithmatex">\[
- \bar P = m\bar v 
-\]</div>
-<div class="arithmatex">\[
- \Sigma \bar F = \frac {d\bar p}{dt}
-\]</div>
-<div class="arithmatex">\[
- d\bar p = \Sigma \bar f dt\ -&gt; constant\ force\ -&gt; \Delta \bar p = \Sigma \bar F\Delta t
-\]</div>
-<p>Impulse = force over time   </p>
-<div class="arithmatex">\[
- \Delta \bar p = \bar F \Delta t 
-\]</div>
-<p>But also:   </p>
-<div class="arithmatex">\[
- F = VM 
-\]</div>
-<p>Where the force is COMPLETELY OPPOSING THE MOMENTUM!   </p>
-<hr />
-<div class="arithmatex">\[
- m\bar v = \Sigma \bar F \Delta t 
-\]</div>
-<hr />
-<h2 id="isolated-system">Isolated system</h2>
-<p>Nothing going in or out of a system   </p>
-<div class="arithmatex">\[
- \Delta k + \Delta U = \Delta E_{int} = 0 
-\]</div>
-<div class="arithmatex">\[
- \Delta p = \Sigma \bar F \Delta t = 0 
-\]</div>
-<p>Unlike energy it <strong>only includes</strong> movement. So only force matters   </p>
-<hr />
-<p>EX:   </p>
-<p>Object in free fall NO FRICTION <br />
-dK + dU + <strike>dE<sub>int</sub></strike> = <strike>W</strike> + <strike>Q</strike> + <strike>T</strike> <br />
-No non conservatives = no e <br />
-The earth is in the system so NO WORK   </p>
-<div class="arithmatex">\[
- \Delta K + \Delta U = 0
-\]</div>
-<div class="arithmatex">\[
- K_f - K_i + U_f - U_i = 0 
-\]</div>
-<div class="arithmatex">\[
- \frac 1 2 mv_f^2 - 0 + 0 -mgh = 0 
-\]</div>
-<div class="arithmatex">\[
- \frac 1 2 v_f^2 -gh = 0 
-\]</div>
-<div class="arithmatex">\[
- \frac 1 2 v_f^2  = gh 
-\]</div>
-<div class="arithmatex">\[
- v_f  = \sqrt{2gh} 
-\]</div>
-<p>Ex2:   </p>
-<p>Two children stand on a platform at the top of a curving slide next to a backyard swimming pool. At the same moment the smaller child hops off to jump straight down into the pool, the bigger child releases herself at the top of the frictionless slide.   </p>
-<p>In a system containing the earth the slide and the kid   </p>
-<p>dK + dU + <strike>dE </strike>= <strike>W + Q+ T</strike> <br />
-dk + dU = 0   </p>
-<div class="arithmatex">\[
- K_f - K_i + U_f - U_i = 0
-\]</div>
-<div class="arithmatex">\[
- 0.5mv_f^2 - 0 + 0 - mgh = 0
-\]</div>
-<div class="arithmatex">\[
- v_f  = \sqrt{2gh} 
-\]</div>
-<p>Ex3:   </p>
-<p>Object falls onto the spring, where does it momentarly come to rest? <br />
-At what X is v=0?   </p>
-<p>Coordinate system: <br />
- Top of spring! <br />
-System: <br />
- Block, earth, spring   </p>
-<p>Spring is conservative, so is gravity <br />
-Final kenetic energy is zero <br />
-Final <strong>potential energy</strong> is the hardest to find   </p>
-<div class="arithmatex">\[
- U_f = \frac 1 2 mx_0^2 + mgx_0 
-\]</div>
-<div class="arithmatex">\[
- \Delta K + \Delta U = 0 
-\]</div>
-<div class="arithmatex">\[
- U_f - U_i = \frac 1 2 mx_0^2 + mgx_0 - mgh = 0 
-\]</div>
-<div class="arithmatex">\[
- x = \frac {-b +- \sqrt{b^2 - 4ac}}{2a} 
-\]</div>
-<div class="arithmatex">\[
- U_f - U_i = \frac 1 2 mx_0^2 + mgx_0 - mgh = 0 
-\]</div>
-<div class="arithmatex">\[
- x_0 = \frac {-mg +- \sqrt{(mg)^2 - 4 \frac 1 2 m(-mgh)}}{2 \frac 1 2 m} 
-\]</div>
-<p>a=0  <br />
-Ex 3:   </p>
-<div class="arithmatex">\[
- dW = \bar F * \bar{dr} = Ndr\ cos90 = 0 
-\]</div>
-<p>Q 13:   </p>
-<div class="arithmatex">\[
- w = mgh 
-\]</div>
-<div class="arithmatex">\[
- P = \frac {dw}{dt} = \frac w {\Delta t} 
-\]</div>
-<p>Q 9: <br />
-\   </p>
-<div class="arithmatex">\[
- W_c = - \Delta U 
-\]</div>
-<div class="arithmatex">\[
- W_{NC} = - \Delta E_{int} 
-\]</div>
-<div class="arithmatex">\[
- \Delta E_{int} -W_{NC} = -W_f = -(-fd)  = fd
-\]</div>
-<div class="arithmatex">\[
- k_{f}-k_{i}+u_{f}-u_{i} + fd=0 
-\]</div>
-<div class="arithmatex">\[
- 0-\frac 1 2 mv_i^2 +\frac 1 2 kd^2-0 + fd=0 
-\]</div>
-<p>SOLVE FOR d</p></div>
+<h2 id="rules">Rules:</h2>
+<p><img alt="" src="/OSU-notes/imgs/Screenshot_20241106_133840.png" /> <br />
+<img alt="" src="/OSU-notes/imgs/Screenshot_20241106_133935.png" /> <br />
+<img alt="" src="/OSU-notes/imgs/Screenshot_20241106_134046.png" /> <br />
+<img alt="" src="/OSU-notes/imgs/Screenshot_20241106_134112.png" /> <br />
+<img alt="" src="/OSU-notes/imgs/Screenshot_20241106_134148%201.png" /> <br />
+<img alt="" src="/OSU-notes/imgs/Screenshot_20241106_134016.png" /> <br />
+<img alt="" src="/OSU-notes/imgs/Screenshot_20241106_133957.png" /> <br />
+<img alt="" src="/OSU-notes/imgs/Screenshot_20241106_133758.png" /></p></div>
 <div class="note-footer">
-<div class="backlinks">
-<h2>Backlinks</h2>
-<ul>
-	<li><a class="backlink" href="/OSU-notes/physics/Collisions.html">collisions</a></li>
-	<li><a class="backlink" href="/OSU-notes/physics/Universal Gravity.html">universal gravity</a></li>
-	<li><a class="backlink" href="/OSU-notes/physics/Fluid Dynamics.html">fluid dynamics</a></li>
-	<li><a class="backlink" href="/OSU-notes/physics/Osculations.html">osculations</a></li>
-	<li><a class="backlink" href="/OSU-notes/physics/Thermodynamics.html">thermodynamics</a></li>
-</ul>
-</div>
+<div class="backlinks" style="display:none"></div>
 
 <div class="tags">
 
@@ -580,17 +338,17 @@ Ex 3:   </p>
 
 </div>
 <div class="graph requires_js ">
-    <div id="A164669753550352705776089160545348910754{level}" class="graph_div"></div>
+    <div id="A84266170001674533282672052315087324635{level}" class="graph_div"></div>
 
-    <div class="graph-instructions" id="D164669753550352705776089160545348910754{level}">
+    <div class="graph-instructions" id="D84266170001674533282672052315087324635{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B164669753550352705776089160545348910754{level}" level="{level}" note_temp_id="164669753550352705776089160545348910754" onclick="window.ObsHtmlGraph.run(this, '164669753550352705776089160545348910754', 'energy');">
+        <button class="graph_button graph_show_button" id="B84266170001674533282672052315087324635{level}" level="{level}" note_temp_id="84266170001674533282672052315087324635" onclick="window.ObsHtmlGraph.run(this, '84266170001674533282672052315087324635', 'summation');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C164669753550352705776089160545348910754{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C84266170001674533282672052315087324635{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>
