@@ -104,3 +104,18 @@ $$ c = \frac C m $$ $$ C = mc $$
 $$ Q = mc\Delta T$$
 $$ Q_m + Q_c = 0 $$
 For no energy leaving the system
+## Phase changes of matter
+Solid <--> Liquid   // Melting
+Liquid <--> Gas     // Boiling
+
+Solid <--> Gas       // Sublimation
+![[hidden energy.png]]
+
+
+__________________
+Random heat transfer problem
+![[IMG_20241107_103506891.jpg]]
+___________
+
+
+

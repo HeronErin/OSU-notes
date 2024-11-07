@@ -9,6 +9,8 @@ $$ w^2 = \frac km$$
 
 $$ x = R cos\Theta = R cos(\omega t) $$
 $$ y = R sin\Theta $$
+$$ a = -\omega^2x$$
+$$ k = m\omega^2$$
 
 Time to complete a cycle (**PERIOD**) is:
 $$ T = \frac {2\pi}{\omega} $$
@@ -114,7 +116,8 @@ ____________________________
 Simple pendulum with SMALL ANGLES aproximation 
 
 $$ \omega^2 = \frac gL $$
-
+$$U(θ)=mgh=mgl(1−cos(θ))$$
+$$ h=l(1−cos(θ)) $$
 
 _______________________
 ## Driving force
