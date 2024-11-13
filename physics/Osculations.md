@@ -113,7 +113,7 @@ $$ \phi=\frac{\arcsin\left(\frac{x\left(t\right)}{A}\right)}{wt} $$
 
 BUT REMEMBER sine is double sided
 ____________________________
-Simple pendulum with SMALL ANGLES aproximation 
+Simple pendulum with SMALL ANGLES approximation 
 
 $$ \omega^2 = \frac gL $$
 $$U(θ)=mgh=mgl(1−cos(θ))$$

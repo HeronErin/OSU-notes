@@ -26,7 +26,7 @@ Types:
 	- corn
 # Density
 Mass per unit volume
-$$ p = \frac m V $$
+$$ \rho = \frac m V $$
 Gas is about 10<sup>-3</sup>
 Metals are about 10<sup>1</sup> water
 Rocks are about 10<sup>1</sup> water

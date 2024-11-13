@@ -17,6 +17,15 @@ $$ PV = nRT $$
 	R is the constant (8.314 J/mole)
 	Sometimes written as $$ PV=NkT $$
 	Where N is amount of and k is Boltzmann constant
+### Ideal gas specific heat
+$$ \Delta E_{int} = Q = nC_r\Delta T $$
+$$ C_r = \text{Molar specific heat at constant volume} $$
+Constant pressure:
+$$ \Delta E = Q+w $$
+$$ w = -P\Delta V$$
+$$ Q = nC_p\Delta T$$
+$$ C_p = \text {Molar specific heat at constant pressure}$$
+![[Screenshot_20241112_104419.png]]
 ## Thermodynamic work
 $$ dW = Pdv$$
 $$\Delta E_{int} =W+Q $$
@@ -104,18 +113,45 @@ $$ c = \frac C m $$ $$ C = mc $$
 $$ Q = mc\Delta T$$
 $$ Q_m + Q_c = 0 $$
 For no energy leaving the system
+## Calorimetry 
+The science of how heat changes (See [[#Heat capacity]])
+
 ## Phase changes of matter
 Solid <--> Liquid   // Melting
 Liquid <--> Gas     // Boiling
 
 Solid <--> Gas       // Sublimation
 ![[hidden energy.png]]
+![[Screenshot_20241112_103052.png]]
+## Latent heat
+Energy needed to melt a unit of liquid
+
+$$ Q=mL$$
+$$ L_f = \text{Heat of fusion}$$$$ L_v = \text{Heat of vaporization}$$$$ L_s =   \text{Heat of sublimation}$$
 
 
 __________________
 Random heat transfer problem
 ![[IMG_20241107_103506891.jpg]]
 ___________
+1 . The mass of a hot-air balloon and its cargo (not including the air inside) is 120 kg. The air outside is at 10.0°C and 101 kPa. The volume of the balloon is 510 m3. To what temperature must the air in the balloon be warmed before the balloon will lift off? (Air density at 10.0°C is 1.244 kg/m3.)
+
+HOTTER AIR = MORE DENSE
+$$ F_b - F_g = 0 $$
+$$ \rho_{cold} Vg - \rho_{hot} Vg - mg = 0 $$
+$$ \rho = \frac mV$$
+$$ \rho = \frac {nM}V$$
+$$ M = \text{Molar mass} $$
+
+2.An open cylinder of air has a radius of 36.0 cm and a height of 50.0 cm, as shown in figure (a).
+
+![[19-p-062.gif]]
+The air pressure is 1.00 atm and the temperature is 14.5°C. A 25.0 kg piston is then lowered onto the cylinder, forming an airtight seal, as shown in figure (b). The air inside is compressed **until the piston reaches equilibrium** (mechanical and thermal), and at this point the piston is a height _h__i_ from the bottom of the cylinder. Lastly, a 30.0 kg dog steps onto the piston, and the air in the cylinder again compresses, as show in figure (c). After reaching equilibrium, the air inside is again at 14.5°C, and the height of the piston decreases a distance Δ_h_ as shown.
+
+**NO CHANGE IN TEMP**
+$$ PV=nRT $$
+$$ P_B = P_{atm} + P_{piston} $$
+$$ P_C = P_{atm} + P_{piston} + P_{dog} $$
 
 
-
+ 
