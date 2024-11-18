@@ -5,7 +5,7 @@
         <head>
                 <!-- Page information -->
                 <meta charset="UTF-8" />
-                <meta name="node_id" content="approximations">
+                <meta name="node_id" content="fundamental theorems">
                 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
                 <link rel="shortcut icon" href="/OSU-notes/favicon.ico" />
 
@@ -57,7 +57,7 @@
 
                 <!-- Onload tweaks -->
                 <script>
-                        const CURRENT_NODE = 'approximations';
+                        const CURRENT_NODE = 'fundamental theorems';
                         const HTML_URL_PREFIX = '/OSU-notes';
                         const PAGE_DEPTH = 1;
                 </script>
@@ -181,7 +181,7 @@
             }
         </script>
                                     <div class="graph_header_div requires_js">
-            <a id="graph_link" class="system-link" href="/OSU-notes/obs.html/graph/index.html?node=approximations" title="Open fullpage Graph">
+            <a id="graph_link" class="system-link" href="/OSU-notes/obs.html/graph/index.html?node=fundamental theorems" title="Open fullpage Graph">
                     <img class="graph_header_div_svg" src = "/OSU-notes/obs.html/static/graph.svg" alt="Open fullpage Graph" style="margin: 2px; width: 17px;"/>
             </a>
         </div>
@@ -221,11 +221,11 @@
 	<ul class="dir-list">
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/AntiDerivitives.html"  >AntiDerivitives</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Approximating the area under a curve.html"  >Approximating the area under a curve</a></li>
-		<li><div class="file-icon"></div><a class="active current_page_dirtree" href="/OSU-notes/calc/Approximations.html"  >Approximations</a></li>
+		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Approximations.html"  >Approximations</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Concavity.html"  >Concavity</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Derivatives.html"  >Derivatives</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Functions.html"  >Functions</a></li>
-		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Fundamental theorems.html"  >Fundamental theorems</a></li>
+		<li><div class="file-icon"></div><a class="active current_page_dirtree" href="/OSU-notes/calc/Fundamental theorems.html"  >Fundamental theorems</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Graphing.html"  >Graphing</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Integrals.html"  >Integrals</a></li>
 		<li><div class="file-icon"></div><a class="" href="/OSU-notes/calc/Limits.html"  >Limits</a></li>
@@ -316,40 +316,27 @@
     </div>
 </div>
                         <div class="container">
-                                <div class="content"><h1 id="approximations">Approximations</h1>
+                                <div class="content"><h1 id="fundamental-theorems">Fundamental theorems</h1>
 <div class="toc">
 <ul>
-<li><a href="#approximations" class="anchor-link">Approximations</a><ul>
-<li><a href="#linear-approximations" class="anchor-link">Linear approximations</a></li>
-<li><a href="#differentials" class="anchor-link">Differentials</a></li>
+<li><a href="#fundamental-theorems" class="anchor-link">Fundamental theorems</a><ul>
+<li><a href="#what-an-integral-is" class="anchor-link">What an integral is</a></li>
+<li><a href="#first" class="anchor-link">First</a></li>
 </ul>
 </li>
 </ul>
 </div>
-<h2 id="linear-approximations">Linear approximations</h2>
-<p>Literally just a <a href="/OSU-notes/calc/Derivatives.html#tangent-line">Derivatives</a>   </p>
-<h2 id="differentials">Differentials</h2>
-<p>The differential of f at point x=a coresponds to a change in x, dx is delta x   </p>
+<h2 id="what-an-integral-is">What an integral is</h2>
 <div class="arithmatex">\[
- df = f'(a)dx 
+ \int^F_IV(t)dt =  X(F) - X(I)
 \]</div>
-<p>Idea:   </p>
+<h2 id="first">First</h2>
 <div class="arithmatex">\[
- L(x) = f(a) + f'(a)(x-a) 
+ \frac d{dt}(\int^t_aV(z)dz) =  X(F) - X(I) = X'(F) - 0 = v(t) 
 \]</div>
-<p>Suppose x change from x=a to a+dx   </p>
-<div class="arithmatex">\[
- \Delta f = f(a+dx) - f(a)
-\]</div>
-<div class="arithmatex">\[
- \Delta f ~=L_a(a+dx)-f(a) 
-\]</div>
-<div class="arithmatex">\[
- \Delta f ~= f'(a)dt
-\]</div>
-<div class="arithmatex">\[
- \Delta f ~= df 
-\]</div></div>
+<p>INTEGRAL STARTING AT A FIXED VALUE IS AN ANTI DERIVATIVE   </p>
+<p>Theorem: <br />
+ If you define a function with the argument being the upper limit of an integral, the derivative of this function IS the thing being integrated.</p></div>
 <div class="note-footer">
 <div class="backlinks" style="display:none"></div>
 
@@ -359,17 +346,17 @@
 
 </div>
 <div class="graph requires_js ">
-    <div id="A49822232626976728393836576494983259011{level}" class="graph_div"></div>
+    <div id="A9169084937682740619129335859823776738{level}" class="graph_div"></div>
 
-    <div class="graph-instructions" id="D49822232626976728393836576494983259011{level}">
+    <div class="graph-instructions" id="D9169084937682740619129335859823776738{level}">
         Left-click: follow link, Right-click: select node, Scroll: zoom
     </div>
     
     <div class="graph-button-row" style="display:flex;">
-        <button class="graph_button graph_show_button" id="B49822232626976728393836576494983259011{level}" level="{level}" note_temp_id="49822232626976728393836576494983259011" onclick="window.ObsHtmlGraph.run(this, '49822232626976728393836576494983259011', 'approximations');">
+        <button class="graph_button graph_show_button" id="B9169084937682740619129335859823776738{level}" level="{level}" note_temp_id="9169084937682740619129335859823776738" onclick="window.ObsHtmlGraph.run(this, '9169084937682740619129335859823776738', 'fundamental theorems');">
             Show Graph
         </button>
-        <button class="graph_button graph_type_button" id="C49822232626976728393836576494983259011{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
+        <button class="graph_button graph_type_button" id="C9169084937682740619129335859823776738{level}" style="flex:1" onclick="window.ObsHtmlGraph.switch_graph_type(this);">
             2D
         </button>
     </div>
