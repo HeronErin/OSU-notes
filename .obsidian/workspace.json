@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics/Thermodynamics.md",
+                "file": "physics/Entropy.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Thermodynamics"
+              "title": "Entropy"
             }
           },
           {
@@ -27,16 +27,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics/Fluid Dynamics.md",
+                "file": "calc/Summation.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Fluid Dynamics"
+              "title": "Summation"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -177,11 +176,20 @@
       "templates:Insert template": false
     }
   },
-  "active": "f3bbaaaf8f220beb",
+  "active": "13a2f1d042246965",
   "lastOpenFiles": [
-    "physics/Thermodynamics.md",
-    "physics/Fluid Dynamics.md",
+    "physics/Angular math.md",
+    "physics/Entropy.md",
+    "physics/Center of Mass.md",
     "calc/Derivatives.md",
+    "calc/Fundamental theorems.md",
+    "calc/Integrals.md",
+    "calc/AntiDerivitives.md",
+    "calc/Summation.md",
+    "physics/Thermodynamics.md",
+    "imgs/19-p-062.gif",
+    "physics/Fluid Dynamics.md",
+    "calc/Approximating the area under a curve.md",
     "calc/Concavity.md",
     "calc/Functions.md",
     "calc/Graphing.md",
@@ -189,12 +197,8 @@
     "calc/Optimization.md",
     "calc/Logs.md",
     "calc/Limits.md",
-    "calc/Approximating the area under a curve.md",
-    "calc/Summation.md",
-    "19-p-062.gif",
     "imgs/Screenshot_20241112_104419.png",
     "imgs/Screenshot_20241112_103052.png",
-    "calc/Integrals.md",
     "physics/Osculations.md",
     "imgs/hidden energy.png",
     "imgs/IMG_20241107_103506891.jpg",
@@ -203,7 +207,6 @@
     "imgs/Screenshot_20241106_134112.png",
     "imgs/Screenshot_20241106_134046.png",
     "imgs/Screenshot_20241106_134016.png",
-    "calc/AntiDerivitives.md",
     "physics/Defs and notation WK1.md",
     "README.md",
     "physics/Forces.md",
@@ -211,11 +214,7 @@
     "physics/Stress.md",
     "physics/Vectors and examples, WK2.md",
     "physics/Universal Gravity.md",
-    "physics/Newton.md",
     "Untitled.canvas",
-    "physics/Intertia.md",
-    "physics/Class info.md",
-    "physics/Friction.md",
     "imgs",
     "config.yml",
     "calc",
