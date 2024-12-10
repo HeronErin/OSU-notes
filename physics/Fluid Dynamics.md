@@ -66,7 +66,7 @@ $$ \rho_\text{ice} = 0.9\rho_\text{water} $$
 Keep in mind many assumptions (i.e no friction, incompressible etc)
 
 ## Principle of continuity
-	Fluid in neither created nor detroyed, thus any new liquid is added to the system.
+	Fluid is neither created nor detroyed, thus any new liquid is added to the system.
 Equation of continuity
 $$ \rho_1 v_1 A_1 = \rho_2 v_2 A_2$$
 As liquids are incompressible, we can remove rho!

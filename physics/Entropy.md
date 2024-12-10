@@ -29,4 +29,3 @@ A spacecraft with a proper length of 350 m passes by an observer on the Earth.
 
 $$ \frac{L_0}\gamma = v\Delta t $$
 $$ \frac{L_{0}^{2}}{dt^{2}+\frac{L_{0}^{2}}{c^{2}}}=v^{2} $$
-![[IMG_20241125_103728853.jpg]]

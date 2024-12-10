@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics/Friction.md",
+                "file": "physics/Center of Mass.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Friction"
+              "title": "Center of Mass"
             }
           }
         ]
@@ -164,17 +164,22 @@
   },
   "active": "1d65353500a38c5e",
   "lastOpenFiles": [
+    "physics/Centripetal Acceleration.md",
+    "physics/Center of Mass.md",
+    "physics/Relativity.md",
+    "physics/Entropy.md",
+    "physics/Fluid Dynamics.md",
+    "physics/Forces.md",
+    "physics/Friction.md",
     "physics/Intertia.md",
     "physics/Osculations.md",
     "physics/Stress.md",
-    "physics/Relativity.md",
     "physics/Angular math.md",
     "calc/Derivatives.md",
     "calc/AntiDerivitives.md",
     "calc/Logs.md",
     "calc/Limits.md",
     "physics/Energy.md",
-    "physics/Centripetal Acceleration.md",
     "calc/Approximating the area under a curve.md",
     "calc/Fundamental theorems.md",
     "calc/Concavity.md",
@@ -182,7 +187,6 @@
     "calc/Integrals.md",
     "imgs/Screenshot_20241202_112852.png",
     "calc/Summation.md",
-    "physics/Entropy.md",
     "imgs/IMG_20241125_103728853.jpg",
     "physics/Thermodynamics.md",
     "calc/Approximations.md",
@@ -190,15 +194,11 @@
     "imgs/IMG_20241122_132956456.jpg",
     "calc/Graphing.md",
     "imgs/IMG_20241119_104016277_HDR.jpg",
-    "physics/Defs and notation WK1.md",
-    "physics/Fluid Dynamics.md",
-    "calc/Functions.md",
     "imgs/Screenshot_20241118_130429.png",
     "imgs/Screenshot_20241118_104228.png",
     "imgs/Screenshot_20241118_103859.png",
     "imgs/Pasted image 20241118103524.png",
     "imgs/Screenshot_20241118_103444.png",
-    "physics/Center of Mass.md",
     "imgs/19-p-062.gif",
     "Untitled.canvas",
     "imgs",
