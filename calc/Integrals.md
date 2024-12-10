@@ -3,6 +3,7 @@
 Same as [[AntiDerivitives]]
 ## Definite Integral
 [[Approximating the area under a curve#Riemann sum]]
+Continuous version of [[Summation]]
 
 Finding the area under the curve, BUT WITH NEGATIVE HEIGHTS. And is just a fancy wrapper around a Riemann sum with infinite N
 

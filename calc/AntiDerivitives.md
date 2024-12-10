@@ -21,7 +21,7 @@ $$ \int f(x)dx$$
 | $$sec(x)tan(x)$$   | $$sec(x)$$                                                             |
 | $$csc^2(x)$$       | $$-cot(x)$$                                                            |
 | $$ csc(x)cot(x) $$ | $$ -csc(x) $$                                                          |
-|                    |                                                                        |
+
 Rules:
 Sum rules:
 $$ \int(f(x) \pm g(x))dx = \int f(x)dx \pm \int g(x)dx$$
@@ -37,3 +37,12 @@ $$ \int f(x)^{-1} dx = ln(abs(x)$$
 _________________________________
 ## Initial value problems
 Given f(n) = x, and f'(x) solve f
+
+
+## Substitution
+Like chain rule, but also no
+
+
+$$ {\displaystyle \int _{a}^{b}f(g(x))\cdot g'(x)\,dx=\int _{g(a)}^{g(b)}f(u)\ du.} $$
+$$ \frac{d}{dx}(f(g(x))) = f'(g(x))g'(x) $$
+![[IMG_20241122_132956456.jpg]]

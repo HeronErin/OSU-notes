@@ -4,35 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c86c7d393cf68990",
+        "id": "349492f65819f8c4",
         "type": "tabs",
         "children": [
           {
-            "id": "13a2f1d042246965",
+            "id": "1d65353500a38c5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "physics/Entropy.md",
+                "file": "physics/Friction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Entropy"
-            }
-          },
-          {
-            "id": "f3bbaaaf8f220beb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "calc/Summation.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "Summation"
+              "title": "Friction"
             }
           }
         ]
@@ -176,44 +162,44 @@
       "templates:Insert template": false
     }
   },
-  "active": "13a2f1d042246965",
+  "active": "1d65353500a38c5e",
   "lastOpenFiles": [
+    "physics/Intertia.md",
+    "physics/Osculations.md",
+    "physics/Stress.md",
+    "physics/Relativity.md",
     "physics/Angular math.md",
-    "physics/Entropy.md",
-    "physics/Center of Mass.md",
     "calc/Derivatives.md",
-    "calc/Fundamental theorems.md",
-    "calc/Integrals.md",
     "calc/AntiDerivitives.md",
-    "calc/Summation.md",
-    "physics/Thermodynamics.md",
-    "imgs/19-p-062.gif",
-    "physics/Fluid Dynamics.md",
-    "calc/Approximating the area under a curve.md",
-    "calc/Concavity.md",
-    "calc/Functions.md",
-    "calc/Graphing.md",
-    "calc/Minima And Maxima.md",
-    "calc/Optimization.md",
     "calc/Logs.md",
     "calc/Limits.md",
-    "imgs/Screenshot_20241112_104419.png",
-    "imgs/Screenshot_20241112_103052.png",
-    "physics/Osculations.md",
-    "imgs/hidden energy.png",
-    "imgs/IMG_20241107_103506891.jpg",
-    "imgs/Screenshot_20241106_134148.png",
-    "imgs/Screenshot_20241106_134148 1.png",
-    "imgs/Screenshot_20241106_134112.png",
-    "imgs/Screenshot_20241106_134046.png",
-    "imgs/Screenshot_20241106_134016.png",
-    "physics/Defs and notation WK1.md",
-    "README.md",
-    "physics/Forces.md",
     "physics/Energy.md",
-    "physics/Stress.md",
-    "physics/Vectors and examples, WK2.md",
+    "physics/Centripetal Acceleration.md",
+    "calc/Approximating the area under a curve.md",
+    "calc/Fundamental theorems.md",
+    "calc/Concavity.md",
+    "physics/E=MC.md",
+    "calc/Integrals.md",
+    "imgs/Screenshot_20241202_112852.png",
+    "calc/Summation.md",
+    "physics/Entropy.md",
+    "imgs/IMG_20241125_103728853.jpg",
+    "physics/Thermodynamics.md",
+    "calc/Approximations.md",
     "physics/Universal Gravity.md",
+    "imgs/IMG_20241122_132956456.jpg",
+    "calc/Graphing.md",
+    "imgs/IMG_20241119_104016277_HDR.jpg",
+    "physics/Defs and notation WK1.md",
+    "physics/Fluid Dynamics.md",
+    "calc/Functions.md",
+    "imgs/Screenshot_20241118_130429.png",
+    "imgs/Screenshot_20241118_104228.png",
+    "imgs/Screenshot_20241118_103859.png",
+    "imgs/Pasted image 20241118103524.png",
+    "imgs/Screenshot_20241118_103444.png",
+    "physics/Center of Mass.md",
+    "imgs/19-p-062.gif",
     "Untitled.canvas",
     "imgs",
     "config.yml",

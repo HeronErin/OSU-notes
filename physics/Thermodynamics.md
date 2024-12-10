@@ -4,6 +4,7 @@ $$ dW = Fdx = -PdV$$
 $$ W = -\int PdV$$
 $$ dx = \frac{-dV}A$$
 $$ Q = mc\Delta T$$
+$$ \text{Power} = \frac{\text{Work per cycle}}{\text{time per cycle}} $$
 ## Ideal gas
 Similar to: [[Fluid Dynamics]]
 
@@ -137,7 +138,10 @@ $$ \frac 1 2 m \bar {v^2} = \frac 3 2 K_bT$$
 
 ## Cyclic process
 A process whose starting point is the same as its end
-
+Work is done to the outside world. **Heat turns into work**
+![[Screenshot_20241118_104228.png]]
+Efficiency: 
+$$ e = \frac {W_{tot}}{Q_{in}} $$
 
 ## Heat capacity
 
@@ -201,4 +205,5 @@ $$ P_B = P_{atm} + P_{piston} $$
 $$ P_C = P_{atm} + P_{piston} + P_{dog} $$
 
 
- 
+ ________________________
+ ![[IMG_20241119_104016277_HDR.jpg]]

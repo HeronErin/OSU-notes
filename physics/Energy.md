@@ -65,7 +65,7 @@ _______________
 A **vector** quantity! And also conserved! (We can't step out of the universe and apply forces to it)
 $$ \bar P = m\bar v $$
 $$ \Sigma \bar F = \frac {d\bar p}{dt}$$
-$$ d\bar p = \Sigma \bar f dt\ -> constant\ force\ -> \Delta \bar p = \Sigma \bar F\Delta t$$
+$$ d\bar p = \Sigma \bar f dt\ \to constant\ force\ \to \Delta \bar p = \Sigma \bar F\Delta t$$
 Impulse = force over time
 $$ \Delta \bar p = \bar F \Delta t $$
 
